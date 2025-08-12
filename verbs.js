@@ -323,7 +323,7 @@ function showAnswer(isPositive) {
     let responseSubject, responseConjugation;
     
     // Determine response based on question type
-    if (currentSubject.pronoun === 'tú') {
+    if (currentSubject.pronoun === 'tú' || currentSubject.pronoun === 'usted') {
         responseSubject = 'yo';
         responseConjugation = currentVerb.conjugations.yo;
     } else if (currentSubject.pronoun === 'ustedes') {
@@ -385,5 +385,6 @@ document.addEventListener('DOMContentLoaded', function() {
 window.selectCategory = selectCategory;
 window.showAnswer = showAnswer;
 window.nextQuestion = nextQuestion;
+
 
 console.log('=== VERBS.JS LOADED SUCCESSFULLY ===');
