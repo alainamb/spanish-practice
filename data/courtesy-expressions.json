@@ -1,0 +1,56 @@
+{
+    "scenarios": [
+        {
+            "scenario": "You’d like another slice of dessert.",
+            "responses": "Sí por favor | Con permiso"
+        },
+        {
+            "scenario": "You’ve been offered a cup of tea that you’d like.",
+            "responses": "Sí por favor"
+        },
+        {
+            "scenario": "Someone thanks you",
+            "responses": "De nada | No hay de que"
+        },
+        {
+            "scenario": "You’ve been offered a cup of coffee but you don’t want it.",
+            "responses": "No gracias"
+        },
+        {
+            "scenario": "You need to get around someone.",
+            "responses": "Perdón | Con permiso"
+        },
+        {
+            "scenario": "You accidentally elbowed someone.",
+            "responses": "Lo siento | Perdón"
+        },
+        {
+            "scenario": "Someone gave you a gift.",
+            "responses": "Gracias | Muchas gracias"
+        },
+        {
+            "scenario": "You need help.",
+            "responses": "Por favor | Perdón "
+        },
+        {
+            "scenario": "You received help.",
+            "responses": "Gracias | Muchas gracias"
+        },
+        {
+            "scenario": "You stepped on someone’s toes.",
+            "responses": "Lo siento | Perdón"
+        },
+        {
+            "scenario": "You’ve hurt someone’s feelings badly.",
+            "responses": "Lo siento | Perdóname"
+        },
+        {
+            "scenario": "You’d like a second helping of dinner.",
+            "responses": "Por favor | Con permiso"
+        },
+        {
+            "scenario": "Someone helps you with the dishes.",
+            "responses": "Gracias | Muchas gracias"
+        }
+    ]
+}

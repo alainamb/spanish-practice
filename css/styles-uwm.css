@@ -410,6 +410,7 @@ th, td {
 th {
     background-color: #f4f4f4;
     font-weight: bold;
+    width: 50%;
 }
 
 tr:nth-child(even) {
