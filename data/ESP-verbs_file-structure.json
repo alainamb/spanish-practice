@@ -1,0 +1,58 @@
+{
+  "categories": [
+    "important verbs",
+    "regular ar verbs",
+    "regular er verbs",
+    "regular ir verbs",
+    "stem changers: e:ie",
+    "stem changers: o:ue",
+    "stem changers: e:i",
+    "irregular yo",
+    "to be or to be",
+    "to know or to know"
+  ],
+  "verbs": [
+    {
+      "infinitive": "conocer",
+      "english": "to know (people/places)",
+      "categories": ["to know or to know", "irregular yo"],
+      "conjugations": {
+        "yo": "conozco",
+        "tú": "conoces",
+        "él": "conoce",
+        "ella": "conoce",
+        "elle": "conoce",
+        "usted": "conoce",
+        "nosotros": "conocemos",
+        "nosotras": "conocemos",
+        "vosotros": "conocéis",
+        "vosotras": "conocéis",
+        "ellos": "conocen",
+        "ellas": "conocen",
+        "elles": "conocen",
+        "ustedes": "conocen"
+      }
+    },
+    {
+      "infinitive": "conseguir",
+      "english": "to get/obtain",
+      "categories": ["stem changers: e:i"],
+      "conjugations": {
+        "yo": "consigo",
+        "tú": "consigues",
+        "él": "consigue",
+        "ella": "consigue",
+        "elle": "consigue",
+        "usted": "consigue",
+        "nosotros": "conseguimos",
+        "nosotras": "conseguimos",
+        "vosotros": "conseguís",
+        "vosotras": "conseguís",
+        "ellos": "consiguen",
+        "ellas": "consiguen",
+        "elles": "consiguen",
+        "ustedes": "consiguen"
+      }
+    }
+  ]
+}

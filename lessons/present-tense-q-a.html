@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Practice - Present Tense Q&A</title>
+    <link href="../css/styles-uwm.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-title-section">
+                <h1 class="nav-title">Spanish Practice</h1>
+                <p class="nav-tagline">Improve your Spanish with practice activities</p>
+            </div>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Home</a>
+                <a href="../lessons.html" class="nav-item">Lessons</a>
+                <a href="../elements-of-culture.html" class="nav-item">Elements of Culture</a>
+                <a href="../resources.html" class="nav-item">Helpful Resources</a>
+                <a href="../about.html" class="nav-item">About</a>
+                <a href="../contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <div id="home" class="page active">
+                <div class="activity-container">
+                    <h2>Present Tense Verbs - Q&A Conjugation Practice</h2>
+
+                    <h3>Introduction</h3>
+                    <div class="introduction-section">
+                        <p>Welcome to the Spanish Verb Conjugation Practice! To be able to answer questions quickly in Spanish, you need to know when to re-conjugate the verb for a new subject pronoun, and when you can keep the verb conjugation the same as it was in the question asked. This activity gives you practice identifying the correct verb form when answering questions.</p>
+                    </div>
+
+                    <h3>Instructions</h3>
+                    <div class="instructions-section">
+                        <p>Select a category of verbs to practice. Then respond to the questions with both affirmative and negative responses.</p>
+                        <p></p>
+                        <p>Remember:</p>
+                        <ul>
+                            <li>Respond in the first person to questions directed <strong>to you</strong>, whether the you is singular (tú/usted) or plural (ustedes/vosotros). You’ll need to select the correct first person pronoun and conjugation from between <strong>yo</strong> and <strong>nosotros or nosotras</strong> when responding.</li>
+                            <li>Respond in the third person (él/ella/elle/ellos/ellas/elles) for questions that are <strong>about another person or group of people</strong>.</li>
+                        </ul>
+                        <p>For example:</p>
+                        <ul>
+                            <li>Question: <strong>¿Bailas...?</strong> → Response: <em>Sí, bailo...</em> or <em>No, no bailo...</em></li>
+                            <li>Question: <strong>¿Ella baila...?</strong> → Response: <em>Sí, ella baila...</em> or <em>No, ella no baila...</em></li>
+                        </ul>
+                        <p>You’re welcome to imagine how someone might fill in the question!</p>
+                        <p>For example:</p>
+                        <ul>
+                            <li>Question: <strong>¿Bailas la salsa...?</strong>
+                    </div>
+
+                    <h3>Verb Categories</h3>
+                    <div class="category-buttons">
+                        <button class="category-btn" onclick="selectCategory('all')">All verbs</button>
+                        <button class="category-btn" onclick="selectCategory('important verbs')">Important verbs</button>
+                        <button class="category-btn" onclick="selectCategory('regular ar verbs')">Regular AR verbs</button>
+                        <button class="category-btn" onclick="selectCategory('regular er verbs')">Regular ER verbs</button>
+                        <button class="category-btn" onclick="selectCategory('regular ir verbs')">Regular IR verbs</button>
+                        <button class="category-btn" onclick="selectCategory('stem changers: e:ie')">Stem changers: e→ie</button>
+                        <button class="category-btn" onclick="selectCategory('stem changers: o:ue')">Stem changers: o→ue</button>
+                        <button class="category-btn" onclick="selectCategory('stem changers: e:i')">Stem changers: e→i</button>
+                        <button class="category-btn" onclick="selectCategory('irregular yo')">Irregular yo</button>
+                        <button class="category-btn" onclick="selectCategory('to be or to be')">Ser vs Estar</button>
+                        <button class="category-btn" onclick="selectCategory('to know or to know')">Saber vs Conocer</button>
+                    </div>
+
+                    <h3>Practice Question</h3>
+                    <div class="question-section">
+                        <div class="question-box" id="questionBox">
+                            <p class="placeholder-text">Once you pick a category, your first question will appear here.</p>
+                        </div>
+                        
+                        <div class="response-buttons">
+                            <button class="btn btn-positive" onclick="showAnswer(true)">Positive Response</button>
+                            <button class="btn btn-negative" onclick="showAnswer(false)">Negative Response</button>
+                        </div>
+                    </div>
+
+                    <h3>Answer Key</h3>
+                    <div class="answer-section">
+                        <div class="answer-box" id="answerBox">
+                            <p class="placeholder-text">Once you click the positive or negative response buttons, the answer will appear here.</p>
+                        </div>
+                        
+                        <div class="next-question-section" id="nextQuestionSection">
+                            <button class="btn btn-primary" onclick="nextQuestion()">Next Question</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Developed for the Spanish courses taught at UW-Milwaukee’s School of Continuing Education by Alaina Brandt</p>
+        </div>
+    </footer>
+
+    <script src="../js/verbs.js"></script>
+</body>
+</html>
