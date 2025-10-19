@@ -1,0 +1,111 @@
+{
+    "elements": [
+        {
+            "questions": [
+                "¿Cómo estás?",
+                "¿Cómo está (usted)?", 
+                "¿Cómo están (ustedes)?",
+                "¿Cómo te va?", 
+                "¿Cómo vas?",
+                "¿Cómo le va?",
+                "¿Cómo va?",
+                "¿Qué onda?",
+                "¿Qué hay de nuevo?"
+            ]
+        },
+        {
+            "answers": [
+                "Bien",
+                "¡Muy bien!",
+                "¡Todo bien!",
+                "Regular",
+                "No estoy bien",
+                "Nada",
+                "Todo en ordén"
+            ]
+        },
+        {
+            "throwbacks": [
+                "¿Y tú?",
+                "¿Y usted?",
+                "¿Y ustedes?",
+                "¿Y contigo?",
+                "¿Y en tu caso?",
+                "¿Y tú qué tal?",
+                "¿Y usted qué tal?",
+                "¿Y de tu parte?",
+                "¿Y por tu lado?", 
+                "¿Qué hay de ti?"
+            ]
+        },
+        {
+            "throwback-answers": [
+                "Yo también",
+                "Yo tampoco"
+            ]
+        }
+    ],
+    "inappropriate-combinations": [
+        {
+            "questions": [
+                "¿Cómo estás?",
+                "¿Cómo está usted?",
+                "¿Cómo están ustedes?",
+                "¿Cómo te va?", 
+                "¿Cómo vas?"  
+            ],
+            "answers": [
+                "Nada"
+            ],
+            "throwbacks": [
+                "¿Y contigo?"
+            ]
+        },
+        {
+            "questions": [
+                "¿Qué hay de nuevo?",
+                "¿Qué onda?"
+            ],
+            "answers": [
+                "Bien",
+                "¡Muy bien!",
+                "Regular"
+            ],
+            "throwbacks": [
+                "¿Y tú?",
+                "¿Y usted?",
+                "¿Y ustedes?"
+            ]
+        },
+        {
+            "questions": [
+                "¿Cómo le va?", 
+                "¿Cómo va?"           
+            ],
+            "answers": [
+                "Nada"
+            ]
+        },
+        {
+            "answers": [
+                "No estoy bien",
+                "Nada"    
+            ],
+            "throwback-answers": [
+                "Yo también"
+            ]
+        },
+        {
+            "answers": [
+                "Bien",
+                "¡Muy bien!",
+                "¡Todo bien!",
+                "Regular",
+                "Todo en ordén"  
+            ],
+            "throwback-answers": [
+                "Yo tampoco"
+            ]
+        }
+    ]
+}
