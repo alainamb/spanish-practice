@@ -1,0 +1,119 @@
+/* Mexico States Map - Specific Styling */
+
+/* Map container */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    background-color: var(--uwm-bg-gray);
+    border: 2px solid var(--uwm-border);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+#mexico-map {
+    max-width: 100%;
+    height: auto;
+}
+
+/* State path styling for the new SVG map */
+path[id^="MX"], circle[id^="MX"] {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+path[id^="MX"]:hover, circle[id^="MX"]:hover {
+    fill: var(--uwm-gold-light);
+    stroke-width: 2;
+}
+
+path[id^="MX"].correct, circle[id^="MX"].correct {
+    fill: #16a34a !important;
+    stroke-width: 2;
+}
+
+path[id^="MX"].incorrect, circle[id^="MX"].incorrect {
+    fill: #dc2626 !important;
+    stroke-width: 2;
+}
+
+path[id^="MX"].completed, circle[id^="MX"].completed {
+    fill: #86efac !important;
+    cursor: default;
+}
+
+/* Question section styling */
+.question-section {
+    margin-bottom: 1rem;
+}
+
+.question-box {
+    background-color: var(--uwm-bg-gray);
+    border: 2px solid var(--uwm-border);
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-box .question-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--uwm-text);
+    margin: 0;
+}
+
+/* Feedback messages inside question box */
+.question-box .feedback-message {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.question-box .feedback-message.correct {
+    color: #16a34a;
+}
+
+.question-box .feedback-message.incorrect {
+    color: #dc2626;
+}
+
+/* Button container for Next and Restart buttons */
+.button-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .map-container {
+        padding: 1rem;
+    }
+    
+    path[id^="MX"], circle[id^="MX"] {
+        stroke-width: 0.5;
+    }
+    
+    path[id^="MX"]:hover, circle[id^="MX"]:hover,
+    path[id^="MX"].correct, circle[id^="MX"].correct,
+    path[id^="MX"].incorrect, circle[id^="MX"].incorrect {
+        stroke-width: 1.5;
+    }
+    
+    .question-box {
+        padding: 1.5rem;
+        min-height: 100px;
+    }
+    
+    .question-box .question-text {
+        font-size: 1.25rem;
+    }
+}

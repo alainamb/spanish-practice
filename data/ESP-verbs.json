@@ -16,7 +16,7 @@
       "infinitive": "abrir",
       "english": "to open",
       "categories": ["regular ir verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "abro",
         "tú": "abres",
         "él": "abre",
@@ -31,13 +31,29 @@
         "ellas": "abren",
         "elles": "abren",
         "ustedes": "abren"
+      },
+      "conjugationsPreterite": {
+        "yo": "abrí",
+        "tú": "abriste",
+        "él": "abrió",
+        "ella": "abrió",
+        "elle": "abrió",
+        "usted": "abrió",
+        "nosotros": "abrimos",
+        "nosotras": "abrimos",
+        "vosotros": "abristeis",
+        "vosotras": "abristeis",
+        "ellos": "abrieron",
+        "ellas": "abrieron",
+        "elles": "abrieron",
+        "ustedes": "abrieron"
       }
     },
     {
       "infinitive": "almorzar",
       "english": "to have lunch",
       "categories": ["stem changers: o:ue"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "almuerzo",
         "tú": "almuerzas",
         "él": "almuerza",
@@ -52,13 +68,29 @@
         "ellas": "almuerzan",
         "elles": "almuerzan",
         "ustedes": "almuerzan"
+      },
+      "conjugationsPreterite": {
+        "yo": "almorcé",
+        "tú": "almorzaste",
+        "él": "almorzó",
+        "ella": "almorzó",
+        "elle": "almorzó",
+        "usted": "almorzó",
+        "nosotros": "almorzamos",
+        "nosotras": "almorzamos",
+        "vosotros": "almorzasteis",
+        "vosotras": "almorzasteis",
+        "ellos": "almorzaron",
+        "ellas": "almorzaron",
+        "elles": "almorzaron",
+        "ustedes": "almorzaron"
       }
     },
     {
       "infinitive": "aprender",
       "english": "to learn",
       "categories": ["regular er verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "aprendo",
         "tú": "aprendes",
         "él": "aprende",
@@ -73,13 +105,29 @@
         "ellas": "aprenden",
         "elles": "aprenden",
         "ustedes": "aprenden"
+      },
+      "conjugationsPreterite": {
+        "yo": "aprendí",
+        "tú": "aprendiste",
+        "él": "aprendió",
+        "ella": "aprendió",
+        "elle": "aprendió",
+        "usted": "aprendió",
+        "nosotros": "aprendimos",
+        "nosotras": "aprendimos",
+        "vosotros": "aprendisteis",
+        "vosotras": "aprendisteis",
+        "ellos": "aprendieron",
+        "ellas": "aprendieron",
+        "elles": "aprendieron",
+        "ustedes": "aprendieron"
       }
     },
     {
       "infinitive": "asistir",
       "english": "to attend",
       "categories": ["regular ir verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "asisto",
         "tú": "asistes",
         "él": "asiste",
@@ -94,13 +142,29 @@
         "ellas": "asisten",
         "elles": "asisten",
         "ustedes": "asisten"
+      },
+      "conjugationsPreterite": {
+        "yo": "asistí",
+        "tú": "asististe",
+        "él": "asistió",
+        "ella": "asistió",
+        "elle": "asistió",
+        "usted": "asistió",
+        "nosotros": "asistimos",
+        "nosotras": "asistimos",
+        "vosotros": "asististeis",
+        "vosotras": "asististeis",
+        "ellos": "asistieron",
+        "ellas": "asistieron",
+        "elles": "asistieron",
+        "ustedes": "asistieron"
       }
     },
     {
       "infinitive": "bailar",
       "english": "to dance",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "bailo",
         "tú": "bailas",
         "él": "baila",
@@ -115,13 +179,29 @@
         "ellas": "bailan",
         "elles": "bailan",
         "ustedes": "bailan"
+      },
+      "conjugationsPreterite": {
+        "yo": "bailé",
+        "tú": "bailaste",
+        "él": "bailó",
+        "ella": "bailó",
+        "elle": "bailó",
+        "usted": "bailó",
+        "nosotros": "bailamos",
+        "nosotras": "bailamos",
+        "vosotros": "bailasteis",
+        "vosotras": "bailasteis",
+        "ellos": "bailaron",
+        "ellas": "bailaron",
+        "elles": "bailaron",
+        "ustedes": "bailaron"
       }
     },
     {
       "infinitive": "beber",
       "english": "to drink",
       "categories": ["regular er verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "bebo",
         "tú": "bebes",
         "él": "bebe",
@@ -136,13 +216,29 @@
         "ellas": "beben",
         "elles": "beben",
         "ustedes": "beben"
-      }
+      },
+      "conjugationsPreterite": {
+        "yo": "bebí",
+        "tú": "bebiste",
+        "él": "bebió",
+        "ella": "bebió",
+        "elle": "bebió",
+        "usted": "bebió",
+        "nosotros": "bebimos",
+        "nosotras": "bebimos",
+        "vosotros": "bebisteis",
+        "vosotras": "bebisteis",
+        "ellos": "bebieron",
+        "ellas": "bebieron",
+        "elles": "bebieron",
+        "ustedes": "bebieron"
+    }
     },
     {
       "infinitive": "caminar",
       "english": "to walk",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "camino",
         "tú": "caminas",
         "él": "camina",
@@ -157,13 +253,29 @@
         "ellas": "caminan",
         "elles": "caminan",
         "ustedes": "caminan"
+      },
+      "conjugationsPreterite": {
+        "yo": "caminé",
+        "tú": "caminaste",
+        "él": "caminó",
+        "ella": "caminó",
+        "elle": "caminó",
+        "usted": "caminó",
+        "nosotros": "caminamos",
+        "nosotras": "caminamos",
+        "vosotros": "caminasteis",
+        "vosotras": "caminasteis",
+        "ellos": "caminaron",
+        "ellas": "caminaron",
+        "elles": "caminaron",
+        "ustedes": "caminaron"
       }
     },
     {
       "infinitive": "cantar",
       "english": "to sing",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "canto",
         "tú": "cantas",
         "él": "canta",
@@ -178,13 +290,29 @@
         "ellas": "cantan",
         "elles": "cantan",
         "ustedes": "cantan"
+      },
+      "conjugationsPreterite": {
+        "yo": "canté",
+        "tú": "cantaste",
+        "él": "cantó",
+        "ella": "cantó",
+        "elle": "cantó",
+        "usted": "cantó",
+        "nosotros": "cantamos",
+        "nosotras": "cantamos",
+        "vosotros": "cantasteis",
+        "vosotras": "cantasteis",
+        "ellos": "cantaron",
+        "ellas": "cantaron",
+        "elles": "cantaron",
+        "ustedes": "cantaron"
       }
     },
     {
       "infinitive": "cenar",
       "english": "to have dinner",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "ceno",
         "tú": "cenas",
         "él": "cena",
@@ -199,13 +327,29 @@
         "ellas": "cenan",
         "elles": "cenan",
         "ustedes": "cenan"
+      },
+      "conjugationsPreterite": {
+        "yo": "cené",
+        "tú": "cenaste",
+        "él": "cenó",
+        "ella": "cenó",
+        "elle": "cenó",
+        "usted": "cenó",
+        "nosotros": "cenamos",
+        "nosotras": "cenamos",
+        "vosotros": "cenasteis",
+        "vosotras": "cenasteis",
+        "ellos": "cenaron",
+        "ellas": "cenaron",
+        "elles": "cenaron",
+        "ustedes": "cenaron"
       }
     },
     {
       "infinitive": "cerrar",
       "english": "to close",
       "categories": ["stem changers: e:ie"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "cierro",
         "tú": "cierras",
         "él": "cierra",
@@ -220,13 +364,29 @@
         "ellas": "cierran",
         "elles": "cierran",
         "ustedes": "cierran"
+      },
+      "conjugationsPreterite": {
+        "yo": "cerré",
+        "tú": "cerraste",
+        "él": "cerró",
+        "ella": "cerró",
+        "elle": "cerró",
+        "usted": "cerró",
+        "nosotros": "cerramos",
+        "nosotras": "cerramos",
+        "vosotros": "cerrasteis",
+        "vosotras": "cerrasteis",
+        "ellos": "cerraron",
+        "ellas": "cerraron",
+        "elles": "cerraron",
+        "ustedes": "cerraron"
       }
     },
     {
       "infinitive": "comer",
       "english": "to eat",
       "categories": ["regular er verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "como",
         "tú": "comes",
         "él": "come",
@@ -241,13 +401,29 @@
         "ellas": "comen",
         "elles": "comen",
         "ustedes": "comen"
+      },
+      "conjugationsPreterite": {
+        "yo": "comí",
+        "tú": "comiste",
+        "él": "comió",
+        "ella": "comió",
+        "elle": "comió",
+        "usted": "comió",
+        "nosotros": "comimos",
+        "nosotras": "comimos",
+        "vosotros": "comisteis",
+        "vosotras": "comisteis",
+        "ellos": "comieron",
+        "ellas": "comieron",
+        "elles": "comieron",
+        "ustedes": "comieron"
       }
     },
     {
       "infinitive": "comenzar",
       "english": "to begin",
       "categories": ["stem changers: e:ie"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "comienzo",
         "tú": "comienzas",
         "él": "comienza",
@@ -262,13 +438,29 @@
         "ellas": "comienzan",
         "elles": "comienzan",
         "ustedes": "comienzan"
+      },
+      "conjugationsPreterite": {
+        "yo": "comencé",
+        "tú": "comenzaste",
+        "él": "comenzó",
+        "ella": "comenzó",
+        "elle": "comenzó",
+        "usted": "comenzó",
+        "nosotros": "comenzamos",
+        "nosotras": "comenzamos",
+        "vosotros": "comenzasteis",
+        "vosotras": "comenzasteis",
+        "ellos": "comenzaron",
+        "ellas": "comenzaron",
+        "elles": "comenzaron",
+        "ustedes": "comenzaron"
       }
     },
     {
       "infinitive": "compartir",
       "english": "to share",
       "categories": ["regular ir verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "comparto",
         "tú": "compartes",
         "él": "comparte",
@@ -283,13 +475,29 @@
         "ellas": "comparten",
         "elles": "comparten",
         "ustedes": "comparten"
+      },
+      "conjugationsPreterite": {
+        "yo": "compartí",
+        "tú": "compartiste",
+        "él": "compartió",
+        "ella": "compartió",
+        "elle": "compartió",
+        "usted": "compartió",
+        "nosotros": "compartimos",
+        "nosotras": "compartimos",
+        "vosotros": "compartisteis",
+        "vosotras": "compartisteis",
+        "ellos": "compartieron",
+        "ellas": "compartieron",
+        "elles": "compartieron",
+        "ustedes": "compartieron"
       }
     },
     {
       "infinitive": "comprar",
       "english": "to buy",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "compro",
         "tú": "compras",
         "él": "compra",
@@ -304,13 +512,29 @@
         "ellas": "compran",
         "elles": "compran",
         "ustedes": "compran"
+      },
+      "conjugationsPreterite": {
+        "yo": "compré",
+        "tú": "compraste",
+        "él": "compró",
+        "ella": "compró",
+        "elle": "compró",
+        "usted": "compró",
+        "nosotros": "compramos",
+        "nosotras": "compramos",
+        "vosotros": "comprasteis",
+        "vosotras": "comprasteis",
+        "ellos": "compraron",
+        "ellas": "compraron",
+        "elles": "compraron",
+        "ustedes": "compraron"
       }
     },
     {
       "infinitive": "comprender",
       "english": "to understand",
       "categories": ["regular er verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "comprendo",
         "tú": "comprendes",
         "él": "comprende",
@@ -325,13 +549,29 @@
         "ellas": "comprenden",
         "elles": "comprenden",
         "ustedes": "comprenden"
+      },
+      "conjugationsPreterite": {
+        "yo": "comprendí",
+        "tú": "comprendiste",
+        "él": "comprendió",
+        "ella": "comprendió",
+        "elle": "comprendió",
+        "usted": "comprendió",
+        "nosotros": "comprendimos",
+        "nosotras": "comprendimos",
+        "vosotros": "comprendisteis",
+        "vosotras": "comprendisteis",
+        "ellos": "comprendieron",
+        "ellas": "comprendieron",
+        "elles": "comprendieron",
+        "ustedes": "comprendieron"
       }
     },
     {
       "infinitive": "conocer",
       "english": "to know (people/places)",
       "categories": ["to know or to know", "irregular yo"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "conozco",
         "tú": "conoces",
         "él": "conoce",
@@ -346,13 +586,29 @@
         "ellas": "conocen",
         "elles": "conocen",
         "ustedes": "conocen"
+      },
+      "conjugationsPreterite": {
+        "yo": "conocí",
+        "tú": "conociste",
+        "él": "conoció",
+        "ella": "conoció",
+        "elle": "conoció",
+        "usted": "conoció",
+        "nosotros": "conocimos",
+        "nosotras": "conocimos",
+        "vosotros": "conocisteis",
+        "vosotras": "conocisteis",
+        "ellos": "conocieron",
+        "ellas": "conocieron",
+        "elles": "conocieron",
+        "ustedes": "conocieron"
       }
     },
     {
       "infinitive": "conseguir",
       "english": "to get/obtain",
       "categories": ["stem changers: e:i"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "consigo",
         "tú": "consigues",
         "él": "consigue",
@@ -367,13 +623,29 @@
         "ellas": "consiguen",
         "elles": "consiguen",
         "ustedes": "consiguen"
+      },
+      "conjugationsPreterite": {
+        "yo": "conseguí",
+        "tú": "conseguiste",
+        "él": "consiguió",
+        "ella": "consiguió",
+        "elle": "consiguió",
+        "usted": "consiguió",
+        "nosotros": "conseguimos",
+        "nosotras": "conseguimos",
+        "vosotros": "conseguisteis",
+        "vosotras": "conseguisteis",
+        "ellos": "consiguieron",
+        "ellas": "consiguieron",
+        "elles": "consiguieron",
+        "ustedes": "consiguieron"
       }
     },
     {
       "infinitive": "contar",
       "english": "to count/tell",
       "categories": ["stem changers: o:ue"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "cuento",
         "tú": "cuentas",
         "él": "cuenta",
@@ -388,13 +660,29 @@
         "ellas": "cuentan",
         "elles": "cuentan",
         "ustedes": "cuentan"
+      },
+      "conjugationsPreterite": {
+        "yo": "conté",
+        "tú": "contaste",
+        "él": "contó",
+        "ella": "contó",
+        "elle": "contó",
+        "usted": "contó",
+        "nosotros": "contamos",
+        "nosotras": "contamos",
+        "vosotros": "contasteis",
+        "vosotras": "contasteis",
+        "ellos": "contaron",
+        "ellas": "contaron",
+        "elles": "contaron",
+        "ustedes": "contaron"
       }
     },
     {
       "infinitive": "contestar",
       "english": "to answer",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "contesto",
         "tú": "contestas",
         "él": "contesta",
@@ -409,13 +697,29 @@
         "ellas": "contestan",
         "elles": "contestan",
         "ustedes": "contestan"
+      },
+      "conjugationsPreterite": {
+        "yo": "contesté",
+        "tú": "contestaste",
+        "él": "contestó",
+        "ella": "contestó",
+        "elle": "contestó",
+        "usted": "contestó",
+        "nosotros": "contestamos",
+        "nosotras": "contestamos",
+        "vosotros": "contestasteis",
+        "vosotras": "contestasteis",
+        "ellos": "contestaron",
+        "ellas": "contestaron",
+        "elles": "contestaron",
+        "ustedes": "contestaron"
       }
     },
     {
       "infinitive": "conversar",
       "english": "to converse",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "converso",
         "tú": "conversas",
         "él": "conversa",
@@ -430,13 +734,29 @@
         "ellas": "conversan",
         "elles": "conversan",
         "ustedes": "conversan"
+      },
+      "conjugationsPreterite": {
+        "yo": "conversé",
+        "tú": "conversaste",
+        "él": "conversó",
+        "ella": "conversó",
+        "elle": "conversó",
+        "usted": "conversó",
+        "nosotros": "conversamos",
+        "nosotras": "conversamos",
+        "vosotros": "conversasteis",
+        "vosotras": "conversasteis",
+        "ellos": "conversaron",
+        "ellas": "conversaron",
+        "elles": "conversaron",
+        "ustedes": "conversaron"
       }
     },
     {
       "infinitive": "correr",
       "english": "to run",
       "categories": ["regular er verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "corro",
         "tú": "corres",
         "él": "corre",
@@ -451,13 +771,29 @@
         "ellas": "corren",
         "elles": "corren",
         "ustedes": "corren"
+      },
+      "conjugationsPreterite": {
+        "yo": "corrí",
+        "tú": "corriste",
+        "él": "corrió",
+        "ella": "corrió",
+        "elle": "corrió",
+        "usted": "corrió",
+        "nosotros": "corrimos",
+        "nosotras": "corrimos",
+        "vosotros": "corristeis",
+        "vosotras": "corristeis",
+        "ellos": "corrieron",
+        "ellas": "corrieron",
+        "elles": "corrieron",
+        "ustedes": "corrieron"
       }
     },
     {
       "infinitive": "deber",
       "english": "to owe/should",
       "categories": ["regular er verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "debo",
         "tú": "debes",
         "él": "debe",
@@ -472,13 +808,29 @@
         "ellas": "deben",
         "elles": "deben",
         "ustedes": "deben"
+      },
+      "conjugationsPreterite": {
+        "yo": "debí",
+        "tú": "debiste",
+        "él": "debió",
+        "ella": "debió",
+        "elle": "debió",
+        "usted": "debió",
+        "nosotros": "debimos",
+        "nosotras": "debimos",
+        "vosotros": "debisteis",
+        "vosotras": "debisteis",
+        "ellos": "debieron",
+        "ellas": "debieron",
+        "elles": "debieron",
+        "ustedes": "debieron"
       }
     },
     {
       "infinitive": "decidir",
       "english": "to decide",
       "categories": ["regular ir verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "decido",
         "tú": "decides",
         "él": "decide",
@@ -493,13 +845,29 @@
         "ellas": "deciden",
         "elles": "deciden",
         "ustedes": "deciden"
+      },
+      "conjugationsPreterite": {
+        "yo": "decidí",
+        "tú": "decidiste",
+        "él": "decidió",
+        "ella": "decidió",
+        "elle": "decidió",
+        "usted": "decidió",
+        "nosotros": "decidimos",
+        "nosotras": "decidimos",
+        "vosotros": "decidisteis",
+        "vosotras": "decidisteis",
+        "ellos": "decidieron",
+        "ellas": "decidieron",
+        "elles": "decidieron",
+        "ustedes": "decidieron"
       }
     },
     {
       "infinitive": "decir",
       "english": "to say/tell",
       "categories": ["stem changers: e:i", "irregular yo"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "digo",
         "tú": "dices",
         "él": "dice",
@@ -514,13 +882,29 @@
         "ellas": "dicen",
         "elles": "dicen",
         "ustedes": "dicen"
+      },
+      "conjugationsPreterite": {
+        "yo": "dije",
+        "tú": "dijiste",
+        "él": "dijo",
+        "ella": "dijo",
+        "elle": "dijo",
+        "usted": "dijo",
+        "nosotros": "dijimos",
+        "nosotras": "dijimos",
+        "vosotros": "dijisteis",
+        "vosotras": "dijisteis",
+        "ellos": "dijeron",
+        "ellas": "dijeron",
+        "elles": "dijeron",
+        "ustedes": "dijeron"
       }
     },
     {
       "infinitive": "desayunar",
       "english": "to have breakfast",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "desayuno",
         "tú": "desayunas",
         "él": "desayuna",
@@ -535,13 +919,29 @@
         "ellas": "desayunan",
         "elles": "desayunan",
         "ustedes": "desayunan"
+      },
+      "conjugationsPreterite": {
+        "yo": "desayuné",
+        "tú": "desayunaste",
+        "él": "desayunó",
+        "ella": "desayunó",
+        "elle": "desayunó",
+        "usted": "desayunó",
+        "nosotros": "desayunamos",
+        "nosotras": "desayunamos",
+        "vosotros": "desayunasteis",
+        "vosotras": "desayunasteis",
+        "ellos": "desayunaron",
+        "ellas": "desayunaron",
+        "elles": "desayunaron",
+        "ustedes": "desayunaron"
       }
     },
     {
       "infinitive": "descansar",
       "english": "to rest",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "descanso",
         "tú": "descansas",
         "él": "descansa",
@@ -556,13 +956,29 @@
         "ellas": "descansan",
         "elles": "descansan",
         "ustedes": "descansan"
+      },
+      "conjugationsPreterite": {
+        "yo": "descansé",
+        "tú": "descansaste",
+        "él": "descansó",
+        "ella": "descansó",
+        "elle": "descansó",
+        "usted": "descansó",
+        "nosotros": "descansamos",
+        "nosotras": "descansamos",
+        "vosotros": "descansasteis",
+        "vosotras": "descansasteis",
+        "ellos": "descansaron",
+        "ellas": "descansaron",
+        "elles": "descansaron",
+        "ustedes": "descansaron"
       }
     },
     {
       "infinitive": "describir",
       "english": "to describe",
       "categories": ["regular ir verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "describo",
         "tú": "describes",
         "él": "describe",
@@ -577,13 +993,29 @@
         "ellas": "describen",
         "elles": "describen",
         "ustedes": "describen"
+      },
+      "conjugationsPreterite": {
+        "yo": "describí",
+        "tú": "describiste",
+        "él": "describió",
+        "ella": "describió",
+        "elle": "describió",
+        "usted": "describió",
+        "nosotros": "describimos",
+        "nosotras": "describimos",
+        "vosotros": "describisteis",
+        "vosotras": "describisteis",
+        "ellos": "describieron",
+        "ellas": "describieron",
+        "elles": "describieron",
+        "ustedes": "describieron"
       }
     },
     {
       "infinitive": "desear",
       "english": "to desire/wish",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "deseo",
         "tú": "deseas",
         "él": "desea",
@@ -598,13 +1030,29 @@
         "ellas": "desean",
         "elles": "desean",
         "ustedes": "desean"
+      },
+      "conjugationsPreterite": {
+        "yo": "deseé",
+        "tú": "deseaste",
+        "él": "deseó",
+        "ella": "deseó",
+        "elle": "deseó",
+        "usted": "deseó",
+        "nosotros": "deseamos",
+        "nosotras": "deseamos",
+        "vosotros": "deseasteis",
+        "vosotras": "deseasteis",
+        "ellos": "desearon",
+        "ellas": "desearon",
+        "elles": "desearon",
+        "ustedes": "desearon"
       }
     },
     {
       "infinitive": "dibujar",
       "english": "to draw",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "dibujo",
         "tú": "dibujas",
         "él": "dibuja",
@@ -619,13 +1067,29 @@
         "ellas": "dibujan",
         "elles": "dibujan",
         "ustedes": "dibujan"
+      },
+      "conjugationsPreterite": {
+        "yo": "dibujé",
+        "tú": "dibujaste",
+        "él": "dibujó",
+        "ella": "dibujó",
+        "elle": "dibujó",
+        "usted": "dibujó",
+        "nosotros": "dibujamos",
+        "nosotras": "dibujamos",
+        "vosotros": "dibujasteis",
+        "vosotras": "dibujasteis",
+        "ellos": "dibujaron",
+        "ellas": "dibujaron",
+        "elles": "dibujaron",
+        "ustedes": "dibujaron"
       }
     },
     {
       "infinitive": "dormir",
       "english": "to sleep",
       "categories": ["stem changers: o:ue"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "duermo",
         "tú": "duermes",
         "él": "duerme",
@@ -640,13 +1104,29 @@
         "ellas": "duermen",
         "elles": "duermen",
         "ustedes": "duermen"
+      },
+      "conjugationsPreterite": {
+        "yo": "dormí",
+        "tú": "dormiste",
+        "él": "durmió",
+        "ella": "durmió",
+        "elle": "durmió",
+        "usted": "durmió",
+        "nosotros": "dormimos",
+        "nosotras": "dormimos",
+        "vosotros": "dormisteis",
+        "vosotras": "dormisteis",
+        "ellos": "durmieron",
+        "ellas": "durmieron",
+        "elles": "durmieron",
+        "ustedes": "durmieron"
       }
     },
     {
       "infinitive": "elegir",
       "english": "to choose",
       "categories": ["stem changers: e:i"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "elijo",
         "tú": "eliges",
         "él": "elige",
@@ -661,13 +1141,29 @@
         "ellas": "eligen",
         "elles": "eligen",
         "ustedes": "eligen"
+      },
+      "conjugationsPreterite": {
+        "yo": "elegí",
+        "tú": "elegiste",
+        "él": "eligió",
+        "ella": "eligió",
+        "elle": "eligió",
+        "usted": "eligió",
+        "nosotros": "elegimos",
+        "nosotras": "elegimos",
+        "vosotros": "elegisteis",
+        "vosotras": "elegisteis",
+        "ellos": "eligieron",
+        "ellas": "eligieron",
+        "elles": "eligieron",
+        "ustedes": "eligieron"
       }
     },
     {
       "infinitive": "empezar",
       "english": "to begin",
       "categories": ["stem changers: e:ie"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "empiezo",
         "tú": "empiezas",
         "él": "empieza",
@@ -682,13 +1178,29 @@
         "ellas": "empiezan",
         "elles": "empiezan",
         "ustedes": "empiezan"
+      },
+      "conjugationsPreterite": {
+        "yo": "empecé",
+        "tú": "empezaste",
+        "él": "empezó",
+        "ella": "empezó",
+        "elle": "empezó",
+        "usted": "empezó",
+        "nosotros": "empezamos",
+        "nosotras": "empezamos",
+        "vosotros": "empezasteis",
+        "vosotras": "empezasteis",
+        "ellos": "empezaron",
+        "ellas": "empezaron",
+        "elles": "empezaron",
+        "ustedes": "empezaron"
       }
     },
     {
       "infinitive": "encontrar",
       "english": "to find",
       "categories": ["stem changers: o:ue"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "encuentro",
         "tú": "encuentras",
         "él": "encuentra",
@@ -703,13 +1215,29 @@
         "ellas": "encuentran",
         "elles": "encuentran",
         "ustedes": "encuentran"
+      },
+      "conjugationsPreterite": {
+        "yo": "encontré",
+        "tú": "encontraste",
+        "él": "encontró",
+        "ella": "encontró",
+        "elle": "encontró",
+        "usted": "encontró",
+        "nosotros": "encontramos",
+        "nosotras": "encontramos",
+        "vosotros": "encontrasteis",
+        "vosotras": "encontrasteis",
+        "ellos": "encontraron",
+        "ellas": "encontraron",
+        "elles": "encontraron",
+        "ustedes": "encontraron"
       }
     },
     {
       "infinitive": "enseñar",
       "english": "to teach",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "enseño",
         "tú": "enseñas",
         "él": "enseña",
@@ -724,13 +1252,29 @@
         "ellas": "enseñan",
         "elles": "enseñan",
         "ustedes": "enseñan"
+      },
+      "conjugationsPreterite": {
+        "yo": "encontré",
+        "tú": "encontraste",
+        "él": "encontró",
+        "ella": "encontró",
+        "elle": "encontró",
+        "usted": "encontró",
+        "nosotros": "encontramos",
+        "nosotras": "encontramos",
+        "vosotros": "encontrasteis",
+        "vosotras": "encontrasteis",
+        "ellos": "encontraron",
+        "ellas": "encontraron",
+        "elles": "encontraron",
+        "ustedes": "encontraron"
       }
     },
     {
       "infinitive": "entender",
       "english": "to understand",
       "categories": ["stem changers: e:ie"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "entiendo",
         "tú": "entiendes",
         "él": "entiende",
@@ -745,13 +1289,29 @@
         "ellas": "entienden",
         "elles": "entienden",
         "ustedes": "entienden"
+      },
+      "conjugationsPreterite": {
+        "yo": "entendí",
+        "tú": "entendiste",
+        "él": "entendió",
+        "ella": "entendió",
+        "elle": "entendió",
+        "usted": "entendió",
+        "nosotros": "entendimos",
+        "nosotras": "entendimos",
+        "vosotros": "entendisteis",
+        "vosotras": "entendisteis",
+        "ellos": "entendieron",
+        "ellas": "entendieron",
+        "elles": "entendieron",
+        "ustedes": "entendieron"
       }
     },
     {
       "infinitive": "escribir",
       "english": "to write",
       "categories": ["regular ir verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "escribo",
         "tú": "escribes",
         "él": "escribe",
@@ -766,13 +1326,29 @@
         "ellas": "escriben",
         "elles": "escriben",
         "ustedes": "escriben"
+      },
+      "conjugationsPreterite": {
+        "yo": "escribí",
+        "tú": "escribiste",
+        "él": "escribió",
+        "ella": "escribió",
+        "elle": "escribió",
+        "usted": "escribió",
+        "nosotros": "escribimos",
+        "nosotras": "escribimos",
+        "vosotros": "escribisteis",
+        "vosotras": "escribisteis",
+        "ellos": "escribieron",
+        "ellas": "escribieron",
+        "elles": "escribieron",
+        "ustedes": "escribieron"
       }
     },
     {
       "infinitive": "escuchar",
       "english": "to listen",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "escucho",
         "tú": "escuchas",
         "él": "escucha",
@@ -787,13 +1363,29 @@
         "ellas": "escuchan",
         "elles": "escuchan",
         "ustedes": "escuchan"
+      },
+      "conjugationsPreterite": {
+        "yo": "escuché",
+        "tú": "escuchaste",
+        "él": "escuchó",
+        "ella": "escuchó",
+        "elle": "escuchó",
+        "usted": "escuchó",
+        "nosotros": "escuchamos",
+        "nosotras": "escuchamos",
+        "vosotros": "escuchasteis",
+        "vosotras": "escuchasteis",
+        "ellos": "escucharon",
+        "ellas": "escucharon",
+        "elles": "escucharon",
+        "ustedes": "escucharon"
       }
     },
     {
       "infinitive": "esperar",
       "english": "to wait/hope",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "espero",
         "tú": "esperas",
         "él": "espera",
@@ -808,13 +1400,29 @@
         "ellas": "esperan",
         "elles": "esperan",
         "ustedes": "esperan"
+      },
+      "conjugationsPreterite": {
+        "yo": "esperé",
+        "tú": "esperaste",
+        "él": "esperó",
+        "ella": "esperó",
+        "elle": "esperó",
+        "usted": "esperó",
+        "nosotros": "esperamos",
+        "nosotras": "esperamos",
+        "vosotros": "esperasteis",
+        "vosotras": "esperasteis",
+        "ellos": "esperaron",
+        "ellas": "esperaron",
+        "elles": "esperaron",
+        "ustedes": "esperaron"
       }
     },
     {
       "infinitive": "estar",
       "english": "to be",
       "categories": ["to be or to be", "important verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "estoy",
         "tú": "estás",
         "él": "está",
@@ -829,13 +1437,29 @@
         "ellas": "están",
         "elles": "están",
         "ustedes": "están"
+      },
+      "conjugationsPreterite": {
+        "yo": "estuve",
+        "tú": "estuviste",
+        "él": "estuvo",
+        "ella": "estuvo",
+        "elle": "estuvo",
+        "usted": "estuvo",
+        "nosotros": "estuvimos",
+        "nosotras": "estuvimos",
+        "vosotros": "estuvisteis",
+        "vosotras": "estuvisteis",
+        "ellos": "estuvieron",
+        "ellas": "estuvieron",
+        "elles": "estuvieron",
+        "ustedes": "estuvieron"
       }
     },
     {
       "infinitive": "estudiar",
       "english": "to study",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "estudio",
         "tú": "estudias",
         "él": "estudia",
@@ -850,13 +1474,29 @@
         "ellas": "estudian",
         "elles": "estudian",
         "ustedes": "estudian"
+      },
+      "conjugationsPreterite": {
+        "yo": "estudié",
+        "tú": "estudiaste",
+        "él": "estudió",
+        "ella": "estudió",
+        "elle": "estudió",
+        "usted": "estudió",
+        "nosotros": "estudiamos",
+        "nosotras": "estudiamos",
+        "vosotros": "estudiasteis",
+        "vosotras": "estudiasteis",
+        "ellos": "estudiaron",
+        "ellas": "estudiaron",
+        "elles": "estudiaron",
+        "ustedes": "estudiaron"
       }
     },
     {
       "infinitive": "explicar",
       "english": "to explain",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "explico",
         "tú": "explicas",
         "él": "explica",
@@ -871,13 +1511,29 @@
         "ellas": "explican",
         "elles": "explican",
         "ustedes": "explican"
+      },
+      "conjugationsPreterite": {
+        "yo": "expliqué",
+        "tú": "explicaste",
+        "él": "explicó",
+        "ella": "explicó",
+        "elle": "explicó",
+        "usted": "explicó",
+        "nosotros": "explicamos",
+        "nosotras": "explicamos",
+        "vosotros": "explicasteis",
+        "vosotras": "explicasteis",
+        "ellos": "explicaron",
+        "ellas": "explicaron",
+        "elles": "explicaron",
+        "ustedes": "explicaron"
       }
     },
     {
       "infinitive": "hablar",
       "english": "to speak/talk",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "hablo",
         "tú": "hablas",
         "él": "habla",
@@ -892,13 +1548,29 @@
         "ellas": "hablan",
         "elles": "hablan",
         "ustedes": "hablan"
+      },
+      "conjugationsPreterite": {
+        "yo": "hablé",
+        "tú": "hablaste",
+        "él": "habló",
+        "ella": "habló",
+        "elle": "habló",
+        "usted": "habló",
+        "nosotros": "hablamos",
+        "nosotras": "hablamos",
+        "vosotros": "hablasteis",
+        "vosotras": "hablasteis",
+        "ellos": "hablaron",
+        "ellas": "hablaron",
+        "elles": "hablaron",
+        "ustedes": "hablaron"
       }
     },
     {
       "infinitive": "hacer",
       "english": "to do/make",
       "categories": ["important verbs", "irregular yo"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "hago",
         "tú": "haces",
         "él": "hace",
@@ -913,13 +1585,29 @@
         "ellas": "hacen",
         "elles": "hacen",
         "ustedes": "hacen"
+      },
+      "conjugationsPreterite": {
+        "yo": "hice",
+        "tú": "hiciste",
+        "él": "hizo",
+        "ella": "hizo",
+        "elle": "hizo",
+        "usted": "hizo",
+        "nosotros": "hicimos",
+        "nosotras": "hicimos",
+        "vosotros": "hicisteis",
+        "vosotras": "hicisteis",
+        "ellos": "hicieron",
+        "ellas": "hicieron",
+        "elles": "hicieron",
+        "ustedes": "hicieron"
       }
     },
     {
       "infinitive": "impedir",
       "english": "to impede/prevent",
       "categories": ["stem changers: e:i"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "impido",
         "tú": "impides",
         "él": "impide",
@@ -934,13 +1622,29 @@
         "ellas": "impiden",
         "elles": "impiden",
         "ustedes": "impiden"
+      },
+      "conjugationsPreterite": {
+        "yo": "impedí",
+        "tú": "impediste",
+        "él": "impidió",
+        "ella": "impidió",
+        "elle": "impidió",
+        "usted": "impidió",
+        "nosotros": "impedimos",
+        "nosotras": "impedimos",
+        "vosotros": "impedisteis",
+        "vosotras": "impedisteis",
+        "ellos": "impidieron",
+        "ellas": "impidieron",
+        "elles": "impidieron",
+        "ustedes": "impidieron"
       }
     },
     {
       "infinitive": "ir",
       "english": "to go",
       "categories": ["important verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "voy",
         "tú": "vas",
         "él": "va",
@@ -955,13 +1659,29 @@
         "ellas": "van",
         "elles": "van",
         "ustedes": "van"
+      },
+      "conjugationsPreterite": {
+        "yo": "fui",
+        "tú": "fuiste",
+        "él": "fue",
+        "ella": "fue",
+        "elle": "fue",
+        "usted": "fue",
+        "nosotros": "fuimos",
+        "nosotras": "fuimos",
+        "vosotros": "fuisteis",
+        "vosotras": "fuisteis",
+        "ellos": "fueron",
+        "ellas": "fueron",
+        "elles": "fueron",
+        "ustedes": "fueron"
       }
     },
     {
       "infinitive": "leer",
       "english": "to read",
       "categories": ["regular er verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "leo",
         "tú": "lees",
         "él": "lee",
@@ -976,13 +1696,29 @@
         "ellas": "leen",
         "elles": "leen",
         "ustedes": "leen"
+      },
+      "conjugationsPreterite": {
+        "yo": "leí",
+        "tú": "leíste",
+        "él": "leyó",
+        "ella": "leyó",
+        "elle": "leyó",
+        "usted": "leyó",
+        "nosotros": "leímos",
+        "nosotras": "leímos",
+        "vosotros": "leísteis",
+        "vosotras": "leísteis",
+        "ellos": "leyeron",
+        "ellas": "leyeron",
+        "elles": "leyeron",
+        "ustedes": "leyeron"
       }
     },
     {
       "infinitive": "llegar",
       "english": "to arrive",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "llego",
         "tú": "llegas",
         "él": "llega",
@@ -997,13 +1733,29 @@
         "ellas": "llegan",
         "elles": "llegan",
         "ustedes": "llegan"
+      },
+      "conjugationsPreterite": {
+        "yo": "llegué",
+        "tú": "llegaste",
+        "él": "llegó",
+        "ella": "llegó",
+        "elle": "llegó",
+        "usted": "llegó",
+        "nosotros": "llegamos",
+        "nosotras": "llegamos",
+        "vosotros": "llegasteis",
+        "vosotras": "llegasteis",
+        "ellos": "llegaron",
+        "ellas": "llegaron",
+        "elles": "llegaron",
+        "ustedes": "llegaron"
       }
     },
     {
       "infinitive": "llevar",
       "english": "to carry/wear",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "llevo",
         "tú": "llevas",
         "él": "lleva",
@@ -1018,13 +1770,29 @@
         "ellas": "llevan",
         "elles": "llevan",
         "ustedes": "llevan"
+      },
+      "conjugationsPreterite": {
+        "yo": "llevé",
+        "tú": "llevaste",
+        "él": "llevó",
+        "ella": "llevó",
+        "elle": "llevó",
+        "usted": "llevó",
+        "nosotros": "llevamos",
+        "nosotras": "llevamos",
+        "vosotros": "llevasteis",
+        "vosotras": "llevasteis",
+        "ellos": "llevaron",
+        "ellas": "llevaron",
+        "elles": "llevaron",
+        "ustedes": "llevaron"
       }
     },
     {
       "infinitive": "mirar",
       "english": "to look at/watch",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "miro",
         "tú": "miras",
         "él": "mira",
@@ -1039,13 +1807,29 @@
         "ellas": "miran",
         "elles": "miran",
         "ustedes": "miran"
+      },
+      "conjugationsPreterite": {
+        "yo": "miré",
+        "tú": "miraste",
+        "él": "miró",
+        "ella": "miró",
+        "elle": "miró",
+        "usted": "miró",
+        "nosotros": "miramos",
+        "nosotras": "miramos",
+        "vosotros": "mirasteis",
+        "vosotras": "mirasteis",
+        "ellos": "miraron",
+        "ellas": "miraron",
+        "elles": "miraron",
+        "ustedes": "miraron"
       }
     },
     {
       "infinitive": "mostrar",
       "english": "to show",
       "categories": ["stem changers: o:ue"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "muestro",
         "tú": "muestras",
         "él": "muestra",
@@ -1060,13 +1844,29 @@
         "ellas": "muestran",
         "elles": "muestran",
         "ustedes": "muestran"
+      },
+      "conjugationsPreterite": {
+        "yo": "mostré",
+        "tú": "mostraste",
+        "él": "mostró",
+        "ella": "mostró",
+        "elle": "mostró",
+        "usted": "mostró",
+        "nosotros": "mostramos",
+        "nosotras": "mostramos",
+        "vosotros": "mostrasteis",
+        "vosotras": "mostrasteis",
+        "ellos": "mostraron",
+        "ellas": "mostraron",
+        "elles": "mostraron",
+        "ustedes": "mostraron"
       }
     },
     {
       "infinitive": "necesitar",
       "english": "to need",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "necesito",
         "tú": "necesitas",
         "él": "necesita",
@@ -1081,13 +1881,29 @@
         "ellas": "necesitan",
         "elles": "necesitan",
         "ustedes": "necesitan"
+      },
+      "conjugationsPreterite": {
+        "yo": "necesité",
+        "tú": "necesitaste",
+        "él": "necesitó",
+        "ella": "necesitó",
+        "elle": "necesitó",
+        "usted": "necesitó",
+        "nosotros": "necesitamos",
+        "nosotras": "necesitamos",
+        "vosotros": "necesitasteis",
+        "vosotras": "necesitasteis",
+        "ellos": "necesitaron",
+        "ellas": "necesitaron",
+        "elles": "necesitaron",
+        "ustedes": "necesitaron"
       }
     },
     {
       "infinitive": "oír",
       "english": "to hear",
       "categories": ["irregular yo"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "oigo",
         "tú": "oyes",
         "él": "oye",
@@ -1102,13 +1918,29 @@
         "ellas": "oyen",
         "elles": "oyen",
         "ustedes": "oyen"
+      },
+      "conjugationsPreterite": {
+        "yo": "oí",
+        "tú": "oíste",
+        "él": "oyó",
+        "ella": "oyó",
+        "elle": "oyó",
+        "usted": "oyó",
+        "nosotros": "oímos",
+        "nosotras": "oímos",
+        "vosotros": "oísteis",
+        "vosotras": "oísteis",
+        "ellos": "oyeron",
+        "ellas": "oyeron",
+        "elles": "oyeron",
+        "ustedes": "oyeron"
       }
     },
     {
       "infinitive": "pedir",
       "english": "to ask for/order",
       "categories": ["stem changers: e:i"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "pido",
         "tú": "pides",
         "él": "pide",
@@ -1123,13 +1955,29 @@
         "ellas": "piden",
         "elles": "piden",
         "ustedes": "piden"
+      },
+      "conjugationsPreterite": {
+        "yo": "pedí",
+        "tú": "pediste",
+        "él": "pidió",
+        "ella": "pidió",
+        "elle": "pidió",
+        "usted": "pidió",
+        "nosotros": "pedimos",
+        "nosotras": "pedimos",
+        "vosotros": "pedisteis",
+        "vosotras": "pedisteis",
+        "ellos": "pidieron",
+        "ellas": "pidieron",
+        "elles": "pidieron",
+        "ustedes": "pidieron"
       }
     },
     {
       "infinitive": "pensar",
       "english": "to think",
       "categories": ["stem changers: e:ie"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "pienso",
         "tú": "piensas",
         "él": "piensa",
@@ -1144,13 +1992,29 @@
         "ellas": "piensan",
         "elles": "piensan",
         "ustedes": "piensan"
+      },
+      "conjugationsPreterite": {
+        "yo": "pensé",
+        "tú": "pensaste",
+        "él": "pensó",
+        "ella": "pensó",
+        "elle": "pensó",
+        "usted": "pensó",
+        "nosotros": "pensamos",
+        "nosotras": "pensamos",
+        "vosotros": "pensasteis",
+        "vosotras": "pensasteis",
+        "ellos": "pensaron",
+        "ellas": "pensaron",
+        "elles": "pensaron",
+        "ustedes": "pensaron"
       }
     },
     {
       "infinitive": "perder",
       "english": "to lose",
       "categories": ["stem changers: e:ie"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "pierdo",
         "tú": "pierdes",
         "él": "pierde",
@@ -1165,13 +2029,29 @@
         "ellas": "pierden",
         "elles": "pierden",
         "ustedes": "pierden"
+      },
+      "conjugationsPreterite": {
+        "yo": "perdí",
+        "tú": "perdiste",
+        "él": "perdió",
+        "ella": "perdió",
+        "elle": "perdió",
+        "usted": "perdió",
+        "nosotros": "perdimos",
+        "nosotras": "perdimos",
+        "vosotros": "perdisteis",
+        "vosotras": "perdisteis",
+        "ellos": "perdieron",
+        "ellas": "perdieron",
+        "elles": "perdieron",
+        "ustedes": "perdieron"
       }
     },
     {
       "infinitive": "poder",
       "english": "to be able/can",
       "categories": ["important verbs", "stem changers: o:ue"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "puedo",
         "tú": "puedes",
         "él": "puede",
@@ -1186,13 +2066,29 @@
         "ellas": "pueden",
         "elles": "pueden",
         "ustedes": "pueden"
+      },
+      "conjugationsPreterite": {
+        "yo": "pude",
+        "tú": "pudiste",
+        "él": "pudo",
+        "ella": "pudo",
+        "elle": "pudo",
+        "usted": "pudo",
+        "nosotros": "pudimos",
+        "nosotras": "pudimos",
+        "vosotros": "pudisteis",
+        "vosotras": "pudisteis",
+        "ellos": "pudieron",
+        "ellas": "pudieron",
+        "elles": "pudieron",
+        "ustedes": "pudieron"
       }
     },
     {
       "infinitive": "poner",
       "english": "to put",
       "categories": ["irregular yo"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "pongo",
         "tú": "pones",
         "él": "pone",
@@ -1207,13 +2103,29 @@
         "ellas": "ponen",
         "elles": "ponen",
         "ustedes": "ponen"
+      },
+      "conjugationsPreterite": {
+        "yo": "puse",
+        "tú": "pusiste",
+        "él": "puso",
+        "ella": "puso",
+        "elle": "puso",
+        "usted": "puso",
+        "nosotros": "pusimos",
+        "nosotras": "pusimos",
+        "vosotros": "pusisteis",
+        "vosotras": "pusisteis",
+        "ellos": "pusieron",
+        "ellas": "pusieron",
+        "elles": "pusieron",
+        "ustedes": "pusieron"
       }
     },
     {
       "infinitive": "practicar",
       "english": "to practice",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "practico",
         "tú": "practicas",
         "él": "practica",
@@ -1228,13 +2140,29 @@
         "ellas": "practican",
         "elles": "practican",
         "ustedes": "practican"
+      },
+      "conjugationsPreterite": {
+        "yo": "practiqué",
+        "tú": "practicaste",
+        "él": "practicó",
+        "ella": "practicó",
+        "elle": "practicó",
+        "usted": "practicó",
+        "nosotros": "practicamos",
+        "nosotras": "practicamos",
+        "vosotros": "practicasteis",
+        "vosotras": "practicasteis",
+        "ellos": "practicaron",
+        "ellas": "practicaron",
+        "elles": "practicaron",
+        "ustedes": "practicaron"
       }
     },
     {
       "infinitive": "preferir",
       "english": "to prefer",
       "categories": ["stem changers: e:ie"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "prefiero",
         "tú": "prefieres",
         "él": "prefiere",
@@ -1249,13 +2177,29 @@
         "ellas": "prefieren",
         "elles": "prefieren",
         "ustedes": "prefieren"
+      },
+      "conjugationsPreterite": {
+        "yo": "preferí",
+        "tú": "preferiste",
+        "él": "prefirió",
+        "ella": "prefirió",
+        "elle": "prefirió",
+        "usted": "prefirió",
+        "nosotros": "preferimos",
+        "nosotras": "preferimos",
+        "vosotros": "preferisteis",
+        "vosotras": "preferisteis",
+        "ellos": "prefirieron",
+        "ellas": "prefirieron",
+        "elles": "prefirieron",
+        "ustedes": "prefirieron"
       }
     },
     {
       "infinitive": "preguntar",
       "english": "to ask",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "pregunto",
         "tú": "preguntas",
         "él": "pregunta",
@@ -1270,13 +2214,29 @@
         "ellas": "preguntan",
         "elles": "preguntan",
         "ustedes": "preguntan"
+      },
+      "conjugationsPreterite": {
+        "yo": "pregunté",
+        "tú": "preguntaste",
+        "él": "preguntó",
+        "ella": "preguntó",
+        "elle": "preguntó",
+        "usted": "preguntó",
+        "nosotros": "preguntamos",
+        "nosotras": "preguntamos",
+        "vosotros": "preguntasteis",
+        "vosotras": "preguntasteis",
+        "ellos": "preguntaron",
+        "ellas": "preguntaron",
+        "elles": "preguntaron",
+        "ustedes": "preguntaron"
       }
     },
     {
       "infinitive": "preparar",
       "english": "to prepare",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "preparo",
         "tú": "preparas",
         "él": "prepara",
@@ -1291,13 +2251,29 @@
         "ellas": "preparan",
         "elles": "preparan",
         "ustedes": "preparan"
+      },
+      "conjugationsPreterite": {
+        "yo": "preparé",
+        "tú": "preparaste",
+        "él": "preparó",
+        "ella": "preparó",
+        "elle": "preparó",
+        "usted": "preparó",
+        "nosotros": "preparamos",
+        "nosotras": "preparamos",
+        "vosotros": "preparasteis",
+        "vosotras": "preparasteis",
+        "ellos": "prepararon",
+        "ellas": "prepararon",
+        "elles": "prepararon",
+        "ustedes": "prepararon"
       }
     },
     {
       "infinitive": "querer",
       "english": "to want/love",
       "categories": ["important verbs", "stem changers: e:ie"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "quiero",
         "tú": "quieres",
         "él": "quiere",
@@ -1312,13 +2288,29 @@
         "ellas": "quieren",
         "elles": "quieren",
         "ustedes": "quieren"
+      },
+      "conjugationsPreterite": {
+        "yo": "quise",
+        "tú": "quisiste",
+        "él": "quiso",
+        "ella": "quiso",
+        "elle": "quiso",
+        "usted": "quiso",
+        "nosotros": "quisimos",
+        "nosotras": "quisimos",
+        "vosotros": "quisisteis",
+        "vosotras": "quisisteis",
+        "ellos": "quisieron",
+        "ellas": "quisieron",
+        "elles": "quisieron",
+        "ustedes": "quisieron"
       }
     },
     {
       "infinitive": "recibir",
       "english": "to receive",
       "categories": ["regular ir verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "recibo",
         "tú": "recibes",
         "él": "recibe",
@@ -1333,13 +2325,29 @@
         "ellas": "reciben",
         "elles": "reciben",
         "ustedes": "reciben"
+      },
+      "conjugationsPreterite": {
+        "yo": "recibí",
+        "tú": "recibiste",
+        "él": "recibió",
+        "ella": "recibió",
+        "elle": "recibió",
+        "usted": "recibió",
+        "nosotros": "recibimos",
+        "nosotras": "recibimos",
+        "vosotros": "recibisteis",
+        "vosotras": "recibisteis",
+        "ellos": "recibieron",
+        "ellas": "recibieron",
+        "elles": "recibieron",
+        "ustedes": "recibieron"
       }
     },
     {
       "infinitive": "recordar",
       "english": "to remember",
       "categories": ["stem changers: o:ue"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "recuerdo",
         "tú": "recuerdas",
         "él": "recuerda",
@@ -1354,13 +2362,29 @@
         "ellas": "recuerdan",
         "elles": "recuerdan",
         "ustedes": "recuerdan"
+      },
+      "conjugationsPreterite": {
+        "yo": "recordé",
+        "tú": "recordaste",
+        "él": "recordó",
+        "ella": "recordó",
+        "elle": "recordó",
+        "usted": "recordó",
+        "nosotros": "recordamos",
+        "nosotras": "recordamos",
+        "vosotros": "recordasteis",
+        "vosotras": "recordasteis",
+        "ellos": "recordaron",
+        "ellas": "recordaron",
+        "elles": "recordaron",
+        "ustedes": "recordaron"
       }
     },
     {
       "infinitive": "regresar",
       "english": "to return",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "regreso",
         "tú": "regresas",
         "él": "regresa",
@@ -1375,13 +2399,29 @@
         "ellas": "regresan",
         "elles": "regresan",
         "ustedes": "regresan"
+      },
+      "conjugationsPreterite": {
+        "yo": "regresé",
+        "tú": "regresaste",
+        "él": "regresó",
+        "ella": "regresó",
+        "elle": "regresó",
+        "usted": "regresó",
+        "nosotros": "regresamos",
+        "nosotras": "regresamos",
+        "vosotros": "regresasteis",
+        "vosotras": "regresasteis",
+        "ellos": "regresaron",
+        "ellas": "regresaron",
+        "elles": "regresaron",
+        "ustedes": "regresaron"
       }
     },
     {
       "infinitive": "reír",
       "english": "to laugh",
       "categories": ["stem changers: e:i"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "río",
         "tú": "ríes",
         "él": "ríe",
@@ -1396,13 +2436,29 @@
         "ellas": "ríen",
         "elles": "ríen",
         "ustedes": "ríen"
+      },
+      "conjugationsPreterite": {
+        "yo": "reí",
+        "tú": "reíste",
+        "él": "rió",
+        "ella": "rió",
+        "elle": "rió",
+        "usted": "rió",
+        "nosotros": "reímos",
+        "nosotras": "reímos",
+        "vosotros": "reísteis",
+        "vosotras": "reísteis",
+        "ellos": "rieron",
+        "ellas": "rieron",
+        "elles": "rieron",
+        "ustedes": "rieron"
       }
     },
     {
       "infinitive": "repetir",
       "english": "to repeat",
       "categories": ["stem changers: e:i"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "repito",
         "tú": "repites",
         "él": "repite",
@@ -1417,13 +2473,29 @@
         "ellas": "repiten",
         "elles": "repiten",
         "ustedes": "repiten"
+      },
+      "conjugationsPreterite": {
+        "yo": "repetí",
+        "tú": "repetiste",
+        "él": "repitió",
+        "ella": "repitió",
+        "elle": "repitió",
+        "usted": "repitió",
+        "nosotros": "repetimos",
+        "nosotras": "repetimos",
+        "vosotros": "repetisteis",
+        "vosotras": "repetisteis",
+        "ellos": "repitieron",
+        "ellas": "repitieron",
+        "elles": "repitieron",
+        "ustedes": "repitieron"
       }
     },
     {
       "infinitive": "saber",
       "english": "to know (facts/how to)",
       "categories": ["to know or to know", "irregular yo"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "sé",
         "tú": "sabes",
         "él": "sabe",
@@ -1438,13 +2510,29 @@
         "ellas": "saben",
         "elles": "saben",
         "ustedes": "saben"
+      },
+      "conjugationsPreterite": {
+        "yo": "supe",
+        "tú": "supiste",
+        "él": "supo",
+        "ella": "supo",
+        "elle": "supo",
+        "usted": "supo",
+        "nosotros": "supimos",
+        "nosotras": "supimos",
+        "vosotros": "supisteis",
+        "vosotras": "supisteis",
+        "ellos": "supieron",
+        "ellas": "supieron",
+        "elles": "supieron",
+        "ustedes": "supieron"
       }
     },
     {
       "infinitive": "salir",
       "english": "to leave/go out",
       "categories": ["irregular yo"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "salgo",
         "tú": "sales",
         "él": "sale",
@@ -1459,13 +2547,29 @@
         "ellas": "salen",
         "elles": "salen",
         "ustedes": "salen"
+      },
+      "conjugationsPreterite": {
+        "yo": "salí",
+        "tú": "saliste",
+        "él": "salió",
+        "ella": "salió",
+        "elle": "salió",
+        "usted": "salió",
+        "nosotros": "salimos",
+        "nosotras": "salimos",
+        "vosotros": "salisteis",
+        "vosotras": "salisteis",
+        "ellos": "salieron",
+        "ellas": "salieron",
+        "elles": "salieron",
+        "ustedes": "salieron"
       }
     },
     {
       "infinitive": "seguir",
       "english": "to follow",
       "categories": ["stem changers: e:i"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "sigo",
         "tú": "sigues",
         "él": "sigue",
@@ -1480,13 +2584,29 @@
         "ellas": "siguen",
         "elles": "siguen",
         "ustedes": "siguen"
+      },
+      "conjugationsPreterite": {
+        "yo": "seguí",
+        "tú": "seguiste",
+        "él": "siguió",
+        "ella": "siguió",
+        "elle": "siguió",
+        "usted": "siguió",
+        "nosotros": "seguimos",
+        "nosotras": "seguimos",
+        "vosotros": "seguisteis",
+        "vosotras": "seguisteis",
+        "ellos": "siguieron",
+        "ellas": "siguieron",
+        "elles": "siguieron",
+        "ustedes": "siguieron"
       }
     },
     {
       "infinitive": "ser",
       "english": "to be",
       "categories": ["to be or to be", "important verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "soy",
         "tú": "eres",
         "él": "es",
@@ -1501,13 +2621,29 @@
         "ellas": "son",
         "elles": "son",
         "ustedes": "son"
+      },
+      "conjugationsPreterite": {
+        "yo": "fui",
+        "tú": "fuiste",
+        "él": "fue",
+        "ella": "fue",
+        "elle": "fue",
+        "usted": "fue",
+        "nosotros": "fuimos",
+        "nosotras": "fuimos",
+        "vosotros": "fuisteis",
+        "vosotras": "fuisteis",
+        "ellos": "fueron",
+        "ellas": "fueron",
+        "elles": "fueron",
+        "ustedes": "fueron"
       }
     },
     {
       "infinitive": "sonreír",
       "english": "to smile",
       "categories": ["stem changers: e:i"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "sonrío",
         "tú": "sonríes",
         "él": "sonríe",
@@ -1522,13 +2658,29 @@
         "ellas": "sonríen",
         "elles": "sonríen",
         "ustedes": "sonríen"
+      },
+      "conjugationsPreterite": {
+        "yo": "sonreí",
+        "tú": "sonreíste",
+        "él": "sonrió",
+        "ella": "sonrió",
+        "elle": "sonrió",
+        "usted": "sonrió",
+        "nosotros": "sonreímos",
+        "nosotras": "sonreímos",
+        "vosotros": "sonreísteis",
+        "vosotras": "sonreísteis",
+        "ellos": "sonrieron",
+        "ellas": "sonrieron",
+        "elles": "sonrieron",
+        "ustedes": "sonrieron"
       }
     },
     {
       "infinitive": "suponer",
       "english": "to suppose",
       "categories": ["irregular yo"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "supongo",
         "tú": "supones",
         "él": "supone",
@@ -1543,13 +2695,29 @@
         "ellas": "suponen",
         "elles": "suponen",
         "ustedes": "suponen"
+      },
+      "conjugationsPreterite": {
+        "yo": "supuse",
+        "tú": "supusiste",
+        "él": "supuso",
+        "ella": "supuso",
+        "elle": "supuso",
+        "usted": "supuso",
+        "nosotros": "supusimos",
+        "nosotras": "supusimos",
+        "vosotros": "supusisteis",
+        "vosotras": "supusisteis",
+        "ellos": "supusieron",
+        "ellas": "supusieron",
+        "elles": "supusieron",
+        "ustedes": "supusieron"
       }
     },
     {
       "infinitive": "tener",
       "english": "to have",
       "categories": ["important verbs", "stem changers: e:ie", "irregular yo"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "tengo",
         "tú": "tienes",
         "él": "tiene",
@@ -1564,13 +2732,29 @@
         "ellas": "tienen",
         "elles": "tienen",
         "ustedes": "tienen"
+      },
+      "conjugationsPreterite": {
+        "yo": "tuve",
+        "tú": "tuviste",
+        "él": "tuvo",
+        "ella": "tuvo",
+        "elle": "tuvo",
+        "usted": "tuvo",
+        "nosotros": "tuvimos",
+        "nosotras": "tuvimos",
+        "vosotros": "tuvisteis",
+        "vosotras": "tuvisteis",
+        "ellos": "tuvieron",
+        "ellas": "tuvieron",
+        "elles": "tuvieron",
+        "ustedes": "tuvieron"
       }
     },
     {
       "infinitive": "terminar",
       "english": "to finish",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "termino",
         "tú": "terminas",
         "él": "termina",
@@ -1585,13 +2769,29 @@
         "ellas": "terminan",
         "elles": "terminan",
         "ustedes": "terminan"
+      },
+      "conjugationsPreterite": {
+        "yo": "terminé",
+        "tú": "terminaste",
+        "él": "terminó",
+        "ella": "terminó",
+        "elle": "terminó",
+        "usted": "terminó",
+        "nosotros": "terminamos",
+        "nosotras": "terminamos",
+        "vosotros": "terminasteis",
+        "vosotras": "terminasteis",
+        "ellos": "terminaron",
+        "ellas": "terminaron",
+        "elles": "terminaron",
+        "ustedes": "terminaron"
       }
     },
     {
       "infinitive": "tomar",
       "english": "to take/drink",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "tomo",
         "tú": "tomas",
         "él": "toma",
@@ -1606,13 +2806,29 @@
         "ellas": "toman",
         "elles": "toman",
         "ustedes": "toman"
+      },
+      "conjugationsPreterite": {
+        "yo": "tomé",
+        "tú": "tomaste",
+        "él": "tomó",
+        "ella": "tomó",
+        "elle": "tomó",
+        "usted": "tomó",
+        "nosotros": "tomamos",
+        "nosotras": "tomamos",
+        "vosotros": "tomasteis",
+        "vosotras": "tomasteis",
+        "ellos": "tomaron",
+        "ellas": "tomaron",
+        "elles": "tomaron",
+        "ustedes": "tomaron"
       }
     },
     {
       "infinitive": "trabajar",
       "english": "to work",
       "categories": ["regular ar verbs"],
-      "conjugations": {
+      "conjugationsPresent": {
         "yo": "trabajo",
         "tú": "trabajas",
         "él": "trabaja",
@@ -1627,13 +2843,29 @@
         "ellas": "trabajan",
         "elles": "trabajan",
         "ustedes": "trabajan"
+      },
+      "conjugationsPreterite": {
+        "yo": "trabajé",
+        "tú": "trabajaste",
+        "él": "trabajó",
+        "ella": "trabajó",
+        "elle": "trabajó",
+        "usted": "trabajó",
+        "nosotros": "trabajamos",
+        "nosotras": "trabajamos",
+        "vosotros": "trabajasteis",
+        "vosotras": "trabajasteis",
+        "ellos": "trabajaron",
+        "ellas": "trabajaron",
+        "elles": "trabajaron",
+        "ustedes": "trabajaron"
       }
     },
     {
     "infinitive": "traer",
     "english": "to bring",
     "categories": ["irregular yo"],
-    "conjugations": {
+    "conjugationsPresent": {
       "yo": "traigo",
       "tú": "traes",
       "él": "trae",
@@ -1648,13 +2880,29 @@
       "ellas": "traen",
       "elles": "traen",
       "ustedes": "traen"
-    }
+    },
+      "conjugationsPreterite": {
+        "yo": "traje",
+        "tú": "trajiste",
+        "él": "trajo",
+        "ella": "trajo",
+        "elle": "trajo",
+        "usted": "trajo",
+        "nosotros": "trajimos",
+        "nosotras": "trajimos",
+        "vosotros": "trajisteis",
+        "vosotras": "trajisteis",
+        "ellos": "trajeron",
+        "ellas": "trajeron",
+        "elles": "trajeron",
+        "ustedes": "trajeron"
+      }
   },
   {
     "infinitive": "ver",
     "english": "to see",
     "categories": ["important verbs", "irregular yo"],
-    "conjugations": {
+    "conjugationsPresent": {
       "yo": "veo",
       "tú": "ves",
       "él": "ve",
@@ -1669,13 +2917,29 @@
       "ellas": "ven",
       "elles": "ven",
       "ustedes": "ven"
-    }
+    },
+      "conjugationsPreterite": {
+        "yo": "vi",
+        "tú": "viste",
+        "él": "vio",
+        "ella": "vio",
+        "elle": "vio",
+        "usted": "vio",
+        "nosotros": "vimos",
+        "nosotras": "vimos",
+        "vosotros": "visteis",
+        "vosotras": "visteis",
+        "ellos": "vieron",
+        "ellas": "vieron",
+        "elles": "vieron",
+        "ustedes": "vieron"
+      }
   },
   {
     "infinitive": "venir",
     "english": "to come",
     "categories": ["stem changers: e:ie", "irregular yo"],
-    "conjugations": {
+    "conjugationsPresent": {
       "yo": "vengo",
       "tú": "vienes",
       "él": "viene",
@@ -1690,13 +2954,29 @@
       "ellas": "vienen",
       "elles": "vienen",
       "ustedes": "vienen"
-    }
+    },
+      "conjugationsPreterite": {
+        "yo": "vine",
+        "tú": "viniste",
+        "él": "vino",
+        "ella": "vino",
+        "elle": "vino",
+        "usted": "vino",
+        "nosotros": "vinimos",
+        "nosotras": "vinimos",
+        "vosotros": "vinisteis",
+        "vosotras": "vinisteis",
+        "ellos": "vinieron",
+        "ellas": "vinieron",
+        "elles": "vinieron",
+        "ustedes": "vinieron"
+      }
   },
   {
     "infinitive": "viajar",
     "english": "to travel",
     "categories": ["regular ar verbs"],
-    "conjugations": {
+    "conjugationsPresent": {
       "yo": "viajo",
       "tú": "viajas",
       "él": "viaja",
@@ -1711,13 +2991,29 @@
       "ellas": "viajan",
       "elles": "viajan",
       "ustedes": "viajan"
-    }
+    },
+      "conjugationsPreterite": {
+        "yo": "viajé",
+        "tú": "viajaste",
+        "él": "viajó",
+        "ella": "viajó",
+        "elle": "viajó",
+        "usted": "viajó",
+        "nosotros": "viajamos",
+        "nosotras": "viajamos",
+        "vosotros": "viajasteis",
+        "vosotras": "viajasteis",
+        "ellos": "viajaron",
+        "ellas": "viajaron",
+        "elles": "viajaron",
+        "ustedes": "viajaron"
+      }
   },
   {
     "infinitive": "vivir",
     "english": "to live",
     "categories": ["regular ir verbs"],
-    "conjugations": {
+    "conjugationsPresent": {
       "yo": "vivo",
       "tú": "vives",
       "él": "vive",
@@ -1732,13 +3028,29 @@
       "ellas": "viven",
       "elles": "viven",
       "ustedes": "viven"
-    }
+    },
+      "conjugationsPreterite": {
+        "yo": "viví",
+        "tú": "viviste",
+        "él": "vivió",
+        "ella": "vivió",
+        "elle": "vivió",
+        "usted": "vivió",
+        "nosotros": "vivimos",
+        "nosotras": "vivimos",
+        "vosotros": "vivisteis",
+        "vosotras": "vivisteis",
+        "ellos": "vivieron",
+        "ellas": "vivieron",
+        "elles": "vivieron",
+        "ustedes": "vivieron"
+      }
   },
   {
     "infinitive": "volver",
     "english": "to return",
     "categories": ["stem changers: o:ue"],
-    "conjugations": {
+    "conjugationsPresent": {
       "yo": "vuelvo",
       "tú": "vuelves",
       "él": "vuelve",
@@ -1753,7 +3065,23 @@
       "ellas": "vuelven",
       "elles": "vuelven",
       "ustedes": "vuelven"
-    }
+    },
+      "conjugationsPreterite": {
+        "yo": "volví",
+        "tú": "volviste",
+        "él": "volvió",
+        "ella": "volvió",
+        "elle": "volvió",
+        "usted": "volvió",
+        "nosotros": "volvimos",
+        "nosotras": "volvimos",
+        "vosotros": "volvisteis",
+        "vosotras": "volvisteis",
+        "ellos": "volvieron",
+        "ellas": "volvieron",
+        "elles": "volvieron",
+        "ustedes": "volvieron"
+      }
   }
 ]
 }

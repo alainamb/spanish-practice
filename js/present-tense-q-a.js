@@ -1,5 +1,4 @@
-// Spanish Verb Conjugation Practice App
-console.log('=== VERBS.JS LOADING ===');
+// Spanish Verb Conjugation Practice - Present Tense Q&A
 
 // Global variables
 let currentVerb = null;
@@ -31,15 +30,10 @@ async function loadVerbData() {
         verbsData = data.verbs;
         categoriesData = data.categories;
         
-        console.log('Loaded verbs:', verbsData.length);
-        console.log('Loaded categories:', categoriesData);
-        
         // Initialize the app after data is loaded
         initializeApp();
         
     } catch (error) {
-        console.error('Error loading verb data:', error);
-        console.log('JSON file not found or invalid, using fallback data');
         // Fallback to sample data if JSON fails to load
         useFallbackData();
         initializeApp();
@@ -48,7 +42,6 @@ async function loadVerbData() {
 
 // Fallback data in case JSON doesn't load
 function useFallbackData() {
-    console.log('Using fallback verb data');
     
     categoriesData = [
         "important verbs",
@@ -68,7 +61,7 @@ function useFallbackData() {
             infinitive: "bailar",
             english: "to dance",
             categories: ["regular ar verbs"],
-            conjugations: {
+            conjugationsPresent: {
                 yo: "bailo",
                 tú: "bailas",
                 él: "baila",
@@ -87,7 +80,7 @@ function useFallbackData() {
             infinitive: "conocer",
             english: "to know (people/places)",
             categories: ["to know or to know", "irregular yo"],
-            conjugations: {
+            conjugationsPresent: {
                 yo: "conozco",
                 tú: "conoces",
                 él: "conoce",
@@ -110,12 +103,11 @@ function ensureBailarExists() {
     const bailarExists = verbsData.some(verb => verb.infinitive === "bailar");
     
     if (!bailarExists) {
-        console.log('Adding bailar as fallback verb');
         verbsData.unshift({
             infinitive: "bailar",
             english: "to dance",
             categories: ["regular ar verbs"],
-            conjugations: {
+            conjugationsPresent: {
                 yo: "bailo",
                 tú: "bailas",
                 él: "baila",
@@ -135,7 +127,6 @@ function ensureBailarExists() {
 
 // Initialize the app
 function initializeApp() {
-    console.log('=== INITIALIZING APP ===');
     
     // Ensure bailar exists in the verb data
     ensureBailarExists();
@@ -144,18 +135,15 @@ function initializeApp() {
     const allVerbsButton = document.querySelector('button[onclick="selectCategory(\'all\')"]');
     if (allVerbsButton) {
         allVerbsButton.classList.add('selected');
-        console.log('All verbs button marked as selected');
     }
     
     // Set up the default question: "¿Bailas?"
     setupDefaultQuestion();
-    
-    console.log('=== APP INITIALIZED ===');
+
 }
 
 // Set up the default question and answer
 function setupDefaultQuestion() {
-    console.log('=== SETTING UP DEFAULT QUESTION ===');
     
     // Ensure we find "bailar" verb - it should definitely exist now
     currentVerb = verbsData.find(verb => verb.infinitive === "bailar");
@@ -163,16 +151,11 @@ function setupDefaultQuestion() {
     // Set subject to "tú" for "¿Bailas?"
     currentSubject = subjects.find(subject => subject.pronoun === "tú");
     
-    console.log('Default verb:', currentVerb);
-    console.log('Default subject:', currentSubject);
-    
     if (!currentVerb) {
-        console.error('Bailar verb not found! Available verbs:', verbsData.map(v => v.infinitive));
         return;
     }
     
     if (!currentSubject) {
-        console.error('Tú subject not found!');
         return;
     }
     
@@ -182,7 +165,6 @@ function setupDefaultQuestion() {
     const questionBox = document.getElementById('questionBox');
     if (questionBox) {
         questionBox.innerHTML = `<p class="question-text">${questionText}</p>`;
-        console.log('Default question displayed:', questionText);
     }
     
     // Show the default positive answer
@@ -191,8 +173,6 @@ function setupDefaultQuestion() {
 
 // Select category function
 function selectCategory(category) {
-    console.log('=== SELECT CATEGORY CALLED ===');
-    console.log('Category selected:', category);
     
     selectedCategory = category;
     
@@ -215,11 +195,8 @@ function selectCategory(category) {
 
 // Generate a random question
 function generateQuestion() {
-    console.log('=== GENERATE QUESTION CALLED ===');
-    console.log('Selected category:', selectedCategory);
     
     if (!selectedCategory) {
-        console.log('No category selected, returning');
         return;
     }
     
@@ -227,7 +204,6 @@ function generateQuestion() {
     let availableVerbs;
     if (selectedCategory === 'all') {
         availableVerbs = verbsData;
-        console.log('Using all verbs:', availableVerbs.length);
     } else {
         // Map HTML button categories to JSON categories
         let jsonCategory = selectedCategory;
@@ -251,23 +227,14 @@ function generateQuestion() {
             jsonCategory = categoryMappings[selectedCategory];
         }
         
-        console.log('HTML category:', selectedCategory);
-        console.log('JSON category to search for:', jsonCategory);
-        console.log('Available categories in data:', [...new Set(verbsData.map(verb => verb.categories).flat())]);
-        
         availableVerbs = verbsData.filter(verb => {
             const hasCategory = verb.categories && verb.categories.includes(jsonCategory);
-            console.log(`Verb ${verb.infinitive} categories:`, verb.categories, 'matches:', hasCategory);
             return hasCategory;
         });
         
-        console.log('Filtered verbs for category:', jsonCategory, 'Found:', availableVerbs.length);
-        console.log('Available verbs:', availableVerbs.map(v => v.infinitive));
     }
     
     if (availableVerbs.length === 0) {
-        console.log('No verbs found for category:', selectedCategory);
-        console.log('All available verbs:', verbsData.map(v => `${v.infinitive} (${v.categories?.join(', ') || 'no categories'})`));
         availableVerbs = verbsData; // Fallback to all verbs
     }
     
@@ -275,12 +242,9 @@ function generateQuestion() {
     currentVerb = availableVerbs[Math.floor(Math.random() * availableVerbs.length)];
     currentSubject = subjects[Math.floor(Math.random() * subjects.length)];
     
-    console.log('Current verb set to:', currentVerb);
-    console.log('Current subject set to:', currentSubject);
-    
     // Create question text
     let questionText;
-    const conjugation = currentVerb.conjugations[currentSubject.pronoun];
+    const conjugation = currentVerb.conjugationsPresent[currentSubject.pronoun];
     
     if (currentSubject.needsSubject) {
         // Capitalize the subject pronoun
@@ -292,13 +256,10 @@ function generateQuestion() {
         questionText = `¿${capitalizedVerb}...?`;
     }
     
-    console.log('Question text:', questionText);
-    
     // Display question
     const questionBox = document.getElementById('questionBox');
     if (questionBox) {
         questionBox.innerHTML = `<p class="question-text">${questionText}</p>`;
-        console.log('Question displayed successfully');
     }
     
     // Reset answer section to placeholder
@@ -310,13 +271,8 @@ function generateQuestion() {
 
 // Show answer function
 function showAnswer(isPositive) {
-    console.log('=== SHOW ANSWER CALLED ===');
-    console.log('Is positive:', isPositive);
-    console.log('Current verb:', currentVerb);
-    console.log('Current subject:', currentSubject);
     
     if (!currentVerb || !currentSubject) {
-        console.log('Missing verb or subject, cannot show answer');
         return;
     }
     
@@ -325,17 +281,15 @@ function showAnswer(isPositive) {
     // Determine response based on question type
     if (currentSubject.pronoun === 'tú' || currentSubject.pronoun === 'usted') {
         responseSubject = 'yo';
-        responseConjugation = currentVerb.conjugations.yo;
+        responseConjugation = currentVerb.conjugationsPresent.yo;
     } else if (currentSubject.pronoun === 'ustedes') {
         responseSubject = 'nosotros';
-        responseConjugation = currentVerb.conjugations.nosotros;
+        responseConjugation = currentVerb.conjugationsPresent.nosotros;
     } else {
         // Third person or nosotros/nosotras - mirror the question
         responseSubject = currentSubject.pronoun;
-        responseConjugation = currentVerb.conjugations[currentSubject.pronoun];
+        responseConjugation = currentVerb.conjugationsPresent[currentSubject.pronoun];
     }
-    
-    console.log('Response will be:', responseSubject, responseConjugation);
     
     // Format answer
     let answerText;
@@ -353,8 +307,6 @@ function showAnswer(isPositive) {
         }
     }
     
-    console.log('Answer text:', answerText);
-    
     // Show answer in answer box
     const answerBox = document.getElementById('answerBox');
     if (answerBox) {
@@ -365,19 +317,16 @@ function showAnswer(isPositive) {
                 <strong>Significado:</strong> ${currentVerb.english}
             </div>
         `;
-        console.log('Answer box updated successfully');
     }
 }
 
 // Next question function
 function nextQuestion() {
-    console.log('=== NEXT QUESTION CALLED ===');
     generateQuestion();
 }
 
 // Start loading data when the DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('=== DOM LOADED - STARTING APP ===');
     loadVerbData();
 });
 
@@ -385,5 +334,3 @@ document.addEventListener('DOMContentLoaded', function() {
 window.selectCategory = selectCategory;
 window.showAnswer = showAnswer;
 window.nextQuestion = nextQuestion;
-
-console.log('=== VERBS.JS LOADED SUCCESSFULLY ===');

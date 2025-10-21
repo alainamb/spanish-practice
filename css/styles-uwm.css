@@ -137,6 +137,29 @@ h4 {
     padding: 2rem 0;
 }
 
+/* Two-column grid for side-by-side sections */
+.two-column-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.two-column-grid > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-column-grid .instructions-section {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .two-column-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Main activity container */
 .activity-container {
     background-color: var(--uwm-bg-white);
