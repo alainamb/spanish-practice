@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0;
+    margin: 0 0 2rem 0;
     background-color: var(--uwm-bg-gray);
     border: 2px solid var(--uwm-border);
     border-radius: 8px;
@@ -43,29 +43,12 @@ path[id^="MX"].completed, circle[id^="MX"].completed {
     cursor: default;
 }
 
-/* Question section styling */
-.question-section {
-    margin-bottom: 1rem;
-}
-
+/* Question section styling - Map-specific overrides */
 .question-box {
-    background-color: var(--uwm-bg-gray);
-    border: 2px solid var(--uwm-border);
-    border-radius: 8px;
-    padding: 2rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
     min-height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .question-box .question-text {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--uwm-text);
     margin: 0;
 }
 
@@ -78,6 +61,7 @@ path[id^="MX"].completed, circle[id^="MX"].completed {
 
 .question-box .feedback-message.correct {
     color: #16a34a;
+    font-size: 1.5rem;
 }
 
 .question-box .feedback-message.incorrect {

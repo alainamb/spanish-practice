@@ -77,7 +77,7 @@ function startPractice() {
     // Reset all states on the map
     const statePaths = document.querySelectorAll('path[id^="MX"], circle[id^="MX"]');
     statePaths.forEach(element => {
-        element.classList.remove('correct', 'completed');
+        element.classList.remove('correct', 'completed', 'incorrect');
     });
     
     // Hide restart button initially
@@ -142,8 +142,12 @@ function handleStateClick(event) {
             <p class="feedback-message correct">¡Correcto! That's ${currentState.name}!</p>
         `;
         
-        // Show next button
+        // Check if this is the last state
+        const isLastState = currentStateIndex === remainingStates.length - 1;
+        
+        // Show next or finish button
         nextBtn.classList.remove('hidden');
+        nextBtn.textContent = isLastState ? 'Finish' : 'Next State';
         
     } else {
         // Incorrect answer
@@ -167,7 +171,61 @@ function handleStateClick(event) {
 // Move to next state
 function nextState() {
     currentStateIndex++;
-    displayCurrentState();
+    
+    if (currentStateIndex >= remainingStates.length) {
+        // All states completed - show celebration
+        showCompletionMessage();
+        launchConfetti();
+    } else {
+        displayCurrentState();
+    }
+}
+
+// Show completion message
+function showCompletionMessage() {
+    const questionBox = document.getElementById('questionBox');
+    const nextBtn = document.getElementById('nextBtn');
+    const restartBtn = document.getElementById('restartBtn');
+    
+    questionBox.innerHTML = `
+        <p class="feedback-message correct" style="font-size: 1.75rem;">¡Excelente! 🎉</p>
+        <p class="question-text" style="margin-top: 1rem;">You've identified all 32 Mexican states!</p>
+    `;
+    
+    // Hide next button, show restart button
+    nextBtn.classList.add('hidden');
+    restartBtn.classList.remove('hidden');
+}
+
+// Confetti animation function
+function launchConfetti() {
+    const duration = 3000;
+    const animationEnd = Date.now() + duration;
+    const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 9999 };
+
+    function randomInRange(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+
+    const interval = setInterval(function() {
+        const timeLeft = animationEnd - Date.now();
+
+        if (timeLeft <= 0) {
+            return clearInterval(interval);
+        }
+
+        const particleCount = 50 * (timeLeft / duration);
+        
+        // Create confetti from two points
+        confetti(Object.assign({}, defaults, {
+            particleCount,
+            origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 }
+        }));
+        confetti(Object.assign({}, defaults, {
+            particleCount,
+            origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 }
+        }));
+    }, 250);
 }
 
 // Make functions available globally
