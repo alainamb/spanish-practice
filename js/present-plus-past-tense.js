@@ -34,7 +34,7 @@ const subjects = [
 // Load verb data from JSON file
 async function loadVerbData() {
     try {
-        const response = await fetch('/data/ESP-verbs.json');
+        const response = await fetch('../data/ESP-verbs.json');
         const data = await response.json();
         
         verbsData = data.verbs;
