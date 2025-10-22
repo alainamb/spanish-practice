@@ -25,7 +25,7 @@ const subjects = [
     { pronoun: "ustedes", display: "ustedes", grammaticalPronoun: "ustedes" },
     // Contextual subjects
     { pronoun: "ella", display: "Claudia Sheinbaum", grammaticalPronoun: "ella" },
-    { pronoun: "ellos", display: "Martha Stewart and Snoop Dogg", grammaticalPronoun: "ellos" },
+    { pronoun: "ellos", display: "Martha Stewart y Snoop Dogg", grammaticalPronoun: "ellos" },
     { pronoun: "nosotros", display: "Mis amigos y yo", grammaticalPronoun: "nosotros" },
     { pronoun: "ella", display: "Mi familia", grammaticalPronoun: "ella" },
     { pronoun: "él", display: "El grupo de profesionales", grammaticalPronoun: "él" }
@@ -301,9 +301,7 @@ function showAnswer(tense) {
     const answerBox = document.getElementById('answerBox');
     if (answerBox) {
         answerBox.innerHTML = `
-            <div class="answer-text">
-                <p>${answer}</p>
-            </div>
+            <div class="answer-text-plus">${answer}</p></div>
             <div class="verb-info">
                 <strong>Significado:</strong> ${currentVerb.english}
             </div>

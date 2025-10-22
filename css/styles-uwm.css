@@ -343,17 +343,23 @@ h4 {
     justify-content: center;
 }
 
-.answer-text {
+.answer-text-q-a {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 1rem;
     color: var(--uwm-text);
 }
 
+.answer-text-plus {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--uwm-text);
+}
+
 .verb-info {
     font-style: italic;
     color: var(--uwm-black-light);
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .next-question-section {

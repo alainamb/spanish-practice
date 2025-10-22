@@ -311,7 +311,7 @@ function showAnswer(isPositive) {
     const answerBox = document.getElementById('answerBox');
     if (answerBox) {
         answerBox.innerHTML = `
-            <div class="answer-text">${answerText}</div>
+            <div class="answer-text-q-a">${answerText}</div>
             <div class="verb-info">
                 <strong>Infinitivo:</strong> ${currentVerb.infinitive}<br>
                 <strong>Significado:</strong> ${currentVerb.english}
