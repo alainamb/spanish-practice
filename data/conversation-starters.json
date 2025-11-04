@@ -41,27 +41,34 @@
         {
             "throwback-answers": [
                 "Yo también",
-                "Yo tampoco"
+                "Yo tampoco",
+                "Nosotros también",
+                "Nosotros tampoco",
+                "Nosotras también",
+                "Nosotras tampoco",
+                "Nosotres también",
+                "Nosotres tampoco"
             ]
         }
     ],
     "inappropriate-combinations": [
         {
+            "comment": "Rule 1: 'Nada' is not an appropriate answer to 'How are you?' questions (only to 'What's new?' questions)",
             "questions": [
                 "¿Cómo estás?",
-                "¿Cómo está usted?",
-                "¿Cómo están ustedes?",
+                "¿Cómo está (usted)?",
+                "¿Cómo están (ustedes)?",
                 "¿Cómo te va?", 
-                "¿Cómo vas?"  
+                "¿Cómo vas?",
+                "¿Cómo le va?",
+                "¿Cómo va?"
             ],
             "answers": [
                 "Nada"
-            ],
-            "throwbacks": [
-                "¿Y contigo?"
             ]
         },
         {
+            "comment": "Rule 2: State-of-being answers (Bien, Muy bien, Regular, Todo bien) don't match 'What's new?' questions",
             "questions": [
                 "¿Qué hay de nuevo?",
                 "¿Qué onda?"
@@ -69,24 +76,12 @@
             "answers": [
                 "Bien",
                 "¡Muy bien!",
+                "¡Todo bien!",
                 "Regular"
-            ],
-            "throwbacks": [
-                "¿Y tú?",
-                "¿Y usted?",
-                "¿Y ustedes?"
             ]
         },
         {
-            "questions": [
-                "¿Cómo le va?", 
-                "¿Cómo va?"           
-            ],
-            "answers": [
-                "Nada"
-            ]
-        },
-        {
+            "comment": "Rule 3: 'Yo también' (Me too) doesn't make sense with negative answers",
             "answers": [
                 "No estoy bien",
                 "Nada"    
@@ -96,6 +91,7 @@
             ]
         },
         {
+            "comment": "Rule 4: 'Yo tampoco' (Me neither) doesn't make sense with positive answers",
             "answers": [
                 "Bien",
                 "¡Muy bien!",
@@ -105,6 +101,55 @@
             ],
             "throwback-answers": [
                 "Yo tampoco"
+            ]
+        },
+        {
+            "comment": "Rule 5: Plural 'Nosotros/as/es' responses require plural throwback '¿Y ustedes?'",
+            "throwbacks": [
+                "¿Y tú?",
+                "¿Y usted?",
+                "¿Y contigo?",
+                "¿Y en tu caso?",
+                "¿Y tú qué tal?",
+                "¿Y usted qué tal?",
+                "¿Y de tu parte?",
+                "¿Y por tu lado?", 
+                "¿Qué hay de ti?"
+            ],
+            "throwback-answers": [
+                "Nosotros también",
+                "Nosotros tampoco",
+                "Nosotras también",
+                "Nosotras tampoco",
+                "Nosotres también",
+                "Nosotres tampoco"
+            ]
+        },
+        {
+            "comment": "Rule 6: 'Nosotros/as/es también' (We too) doesn't make sense with negative answers",
+            "answers": [
+                "No estoy bien",
+                "Nada"
+            ],
+            "throwback-answers": [
+                "Nosotros también",
+                "Nosotras también",
+                "Nosotres también"
+            ]
+        },
+        {
+            "comment": "Rule 7: 'Nosotros/as/es tampoco' (We neither) doesn't make sense with positive answers",
+            "answers": [
+                "Bien",
+                "¡Muy bien!",
+                "¡Todo bien!",
+                "Regular",
+                "Todo en ordén"
+            ],
+            "throwback-answers": [
+                "Nosotros tampoco",
+                "Nosotras tampoco",
+                "Nosotres tampoco"
             ]
         }
     ]
