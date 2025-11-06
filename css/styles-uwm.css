@@ -242,6 +242,18 @@ h4 {
     padding: 1.5rem;
     border-radius: 6px;
     margin-bottom: 1rem;
+    overflow: auto;
+}
+
+.introduction-section img {
+    float: left;
+    width: 350px;  /* adjust to your preferred size */
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s ease;
 }
 
 /* Instructions section */
@@ -274,6 +286,14 @@ h4 {
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 8px;
+}
+
+.category-btn-image {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 6px;
+    padding-bottom: 0.5rem;
 }
 
 .category-btn:hover,
@@ -465,6 +485,12 @@ tr:hover {
 
 .conversation-line:last-child {
     margin-bottom: 0;
+}
+
+/* Embedded video iframes */
+.instructions-section iframe {
+    display: block;
+    width: 100%;
 }
 
 /* Footer - fixed to bottom */
