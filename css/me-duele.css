@@ -1,0 +1,141 @@
+/* Me duele activity - specific styling */
+
+/* Main exercise container - single gray box */
+.exercise-container {
+    background-color: var(--uwm-bg-gray);
+    border: 2px solid var(--uwm-border);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Two column grid inside the gray box */
+.exercise-container .two-column-grid {
+    gap: 2rem;
+}
+
+/* SVG container - remove its own background since it's inside the gray box */
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#bodyImageContainer svg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s ease;
+}
+
+/* Hover effect for clickable body parts */
+rect[id] {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+rect[id]:hover {
+    opacity: 0.2 !important;
+}
+
+/* Exercise buttons */
+.exercise-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.exercise-btn {
+    padding: 12px 20px;
+    border: 2px solid var(--uwm-gold);
+    background-color: transparent;
+    color: var(--uwm-text);
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.exercise-btn:hover,
+.exercise-btn:focus {
+    background-color: var(--uwm-gold);
+    color: var(--uwm-black);
+}
+
+.exercise-btn.selected {
+    background-color: var(--uwm-gold);
+    color: var(--uwm-black);
+}
+
+/* Exercise container */
+
+/* Exercise column */
+.exercise-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* White backgrounds for question and answer boxes inside the gray container */
+.exercise-container .question-box {
+    background-color: var(--uwm-bg-white);
+    border: 1px solid var(--uwm-border);
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.exercise-container .answer-box {
+    background-color: var(--uwm-bg-white);
+    border: 1px solid var(--uwm-border);
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* Response buttons container */
+.exercise-container .response-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure all content inside answer box is centered */
+.exercise-container .answer-box > div,
+.exercise-container .answer-box p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.75rem;
+}
+
+.exercise-container .response-buttons button {
+    margin: 0;
+}
+
+.exercise-container .answer-box .answer-text-plus {
+    margin: 0.5rem 0;
+}
+
+.exercise-container .answer-box .answer-text-plus:last-child {
+    margin-bottom: 0;
+}
+

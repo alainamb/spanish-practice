@@ -1,0 +1,84 @@
+{
+    "pain-points": [
+        {
+            "id": "cabeza",
+            "doler-yo": "Me duele",
+            "doler-tú": "Te duele",
+            "doler-usted": "A usted le duele",
+            "doler-él": "A él le duele",
+            "doler-ella": "A ella le duele",
+            "doler-elle": "A elle le duele",
+            "body-part": "la cabeza"
+        },
+        {
+            "id": "cuello",
+            "doler-yo": "Me duele",
+            "doler-tú": "Te duele",
+            "doler-usted": "A usted le duele",
+            "doler-él": "A él le duele",
+            "doler-ella": "A ella le duele",
+            "doler-elle": "A elle le duele",
+            "body-part": "el cuello"
+        },
+        {
+            "id": "hombros",
+            "doler-yo": "Me duelen",
+            "doler-tú": "Te duelen",
+            "doler-usted": "A usted le duelen",
+            "doler-él": "A él le duelen",
+            "doler-ella": "A ella le duelen",
+            "doler-elle": "A elle le duelen",
+            "body-part": "los hombros"
+        },
+        {
+            "id": "espalda",
+            "doler-yo": "Me duele",
+            "doler-tú": "Te duele",
+            "doler-usted": "A usted le duele",
+            "doler-él": "A él le duele",
+            "doler-ella": "A ella le duele",
+            "doler-elle": "A elle le duele",
+            "body-part": "la espalda"
+        },
+        {
+            "id": "estomago",
+            "doler-yo": "Me duele",
+            "doler-tú": "Te duele",
+            "doler-usted": "A usted le duele",
+            "doler-él": "A él le duele",
+            "doler-ella": "A ella le duele",
+            "doler-elle": "A elle le duele",
+            "body-part": "el estómago"
+        },
+        {
+            "id": "rodillas",
+            "doler-yo": "Me duelen",
+            "doler-tú": "Te duelen",
+            "doler-usted": "A usted le duelen",
+            "doler-él": "A él le duelen",
+            "doler-ella": "A ella le duelen",
+            "doler-elle": "A elle le duelen",
+            "body-part": "las rodillas"
+        },
+        {
+            "id": "tobillo",
+            "doler-yo": "Me duele",
+            "doler-tú": "Te duele",
+            "doler-usted": "A usted le duele",
+            "doler-él": "A él le duele",
+            "doler-ella": "A ella le duele",
+            "doler-elle": "A elle le duele",
+            "body-part": "el tobillo"
+        },
+        {
+            "id": "pies",
+            "doler-yo": "Me duelen",
+            "doler-tú": "Te duelen",
+            "doler-usted": "A usted le duelen",
+            "doler-él": "A él le duelen",
+            "doler-ella": "A ella le duelen",
+            "doler-elle": "A elle le duelen",
+            "body-part": "los pies"
+        }
+    ]
+}
