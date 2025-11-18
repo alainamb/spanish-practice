@@ -23,37 +23,37 @@
             "top4answer": "Perdí mis llaves",
             "top5answer": "Me desperté tarde",
             "randomAnswers": [
-                "Mi carro no arrancó",
+                "Mi coche no arrancó",
                 "Perdí el autobús",
                 "Tuve una emergencia",
                 "Me perdí",
-                "Olvidé la hora"
+                "Se me olvidé la hora"
             ]
         },
         {
-            "question": "Of the 100 domestic travelers surveyed, where did they say they went for their last vacation?",
+            "question": "Of the 100 travelers surveyed, where did they say they went for their last vacation?",
             "top1answer": "Fui a la playa",
-            "top2answer": "Fui a las montañas",
-            "top3answer": "Visité a mi familia",
+            "top2answer": "Visité a mi familia",
+            "top3answer": "Fui puebleando",
             "top4answer": "Me quedé en casa",
-            "top5answer": "Fui a un parque nacional",
+            "top5answer": "Fui a otro país",
             "randomAnswers": [
                 "Fui al lago",
                 "Fui al desierto",
-                "Visité una ciudad grande",
-                "Fui a un pueblo pequeño",
+                "Visité un parque nacional",
+                "Fui a las montañas",
                 "Fui a un resort"
             ]
         },
         {
             "question": "Of the 100 people surveyed, what did they say they had for breakfast?",
-            "top1answer": "Comí cereal",
-            "top2answer": "Tomé café",
+            "top1answer": "Tomé café",
+            "top2answer": "Comí pan de dulce",
             "top3answer": "Comí huevos",
             "top4answer": "No comí nada",
-            "top5answer": "Comí pan con mantequilla",
+            "top5answer": "Comí fruta",
             "randomAnswers": [
-                "Comí fruta",
+                "Comí cereal",
                 "Tomé jugo",
                 "Comí yogur",
                 "Comí avena",
@@ -72,20 +72,20 @@
                 "Se me perdieron los audífonos",
                 "Se me perdió la identificación",
                 "Se me perdió un libro",
-                "Se me perdió el reloj"
+                "Se me perdió un arete"
             ]
         },
         {
             "question": "Of the 100 people surveyed, what were the most common chores they did at home last week?",
-            "top1answer": "Limpié mi cuarto",
-            "top2answer": "Lavé los platos",
-            "top3answer": "Saqué la basura",
-            "top4answer": "Lavé la ropa",
-            "top5answer": "Pasé la aspiradora",
+            "top1answer": "Lavé los trastes",
+            "top2answer": "Saqué la basura",
+            "top3answer": "Lavé la ropa",
+            "top4answer": "Barrí el piso",
+            "top5answer": "Limpié mi cuarto",
             "randomAnswers": [
                 "Corté el césped",
                 "Cociné la cena",
-                "Barrí el piso",
+                "Pasé la aspiradora",
                 "Limpié el baño",
                 "Regué las plantas"
             ]
@@ -93,10 +93,10 @@
         {
             "question": "Of the 100 people surveyed, what was the last item that they use commonly that broke or stopped working?",
             "top1answer": "Se me rompió el teléfono",
-            "top2answer": "Se me descompuso el carro",
+            "top2answer": "Se me descompuso el coche",
             "top3answer": "Se me rompió la computadora",
             "top4answer": "Se me acabó la batería",
-            "top5answer": "Se me descompuso el internet",
+            "top5answer": "No se conectó el internet",
             "randomAnswers": [
                 "Se me rompieron los lentes",
                 "Se me descompuso la lavadora",
@@ -111,9 +111,9 @@
             "top2answer": "Se me olvidó llamar a alguien",
             "top3answer": "Se me olvidó una cita",
             "top4answer": "Se me olvidó comprar algo",
-            "top5answer": "Se me olvidó pagar una cuenta",
+            "top5answer": "Se me olvidó el cumpleaños de alguien",
             "randomAnswers": [
-                "Se me olvidó el cumpleaños de alguien",
+                "Se me olvidó pagar una cuenta",
                 "Se me olvidó cerrar la puerta",
                 "Se me olvidó apagar las luces",
                 "Se me olvidó enviar un mensaje",
@@ -140,7 +140,7 @@
             "top1answer": "Tomé agua",
             "top2answer": "Tomé café",
             "top3answer": "Tomé jugo",
-            "top4answer": "Tomé refresco",
+            "top4answer": "Tomé un refresco",
             "top5answer": "Tomé té",
             "randomAnswers": [
                 "Tomé leche",
@@ -156,11 +156,11 @@
             "top2answer": "Fui a un restaurante",
             "top3answer": "Me cantaron Las Mañanitas",
             "top4answer": "Recibí regalos",
-            "top5answer": "Hice una fiesta",
+            "top5answer": "Fui a la casa de mi familia",
             "randomAnswers": [
-                "Salí con mis amigos",
-                "Me planearon una fiesta sorpresa",
-                "Bailamos toda la noche",
+                "Hice una fiesta",
+                "Me planearon una sorpresa",
+                "Salí a bailar con mis amigos",
                 "Viajé a otro lugar",
                 "Me quedé en casa"
             ]
@@ -173,7 +173,7 @@
             "top4answer": "Le regalé un libro",
             "top5answer": "Le di una tarjeta",
             "randomAnswers": [
-                "Le compré joyas",
+                "Le compré joyería",
                 "Le di chocolates",
                 "Le regalé un juguete",
                 "Le compré perfume",
@@ -190,8 +190,8 @@
             "randomAnswers": [
                 "Estudié inglés",
                 "Estudié para un examen",
-                "Estudié biología",
-                "Estudié química",
+                "Hice un proyecto",
+                "Estudié programación",
                 "Repasé mis apuntes"
             ]
         },
@@ -203,7 +203,7 @@
             "top4answer": "Fui al gimnasio",
             "top5answer": "No hice ejercicio",
             "randomAnswers": [
-                "Jugué baloncesto",
+                "Jugué beisbol",
                 "Nadé",
                 "Monté en bicicleta",
                 "Jugué tenis",
@@ -216,13 +216,13 @@
             "top2answer": "Comí algo",
             "top3answer": "Vi televisión",
             "top4answer": "Me bañé",
-            "top5answer": "Hice la tarea",
+            "top5answer": "Saqué a pasear al perro",
             "randomAnswers": [
                 "Hablé con mi familia",
                 "Me acosté",
-                "Cociné la cena",
+                "Preparé la cena",
                 "Jugué videojuegos",
-                "Saqué a pasear al perro"
+                "Hice la tarea"
             ]
         }
     ]
