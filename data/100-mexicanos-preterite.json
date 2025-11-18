@@ -1,0 +1,229 @@
+{
+    "surveyQs": [
+        {
+            "question": "Of the 100 students surveyed, what were the most common answers for why they didn't complete their homework?",
+            "top1answer": "El perro la comió",
+            "top2answer": "Se me olvidó",
+            "top3answer": "No tuve tiempo",
+            "top4answer": "Estuve enfermo/a",
+            "top5answer": "No entendí la tarea",
+            "randomAnswers": [
+                "Perdí mi libro",
+                "Mi computadora no funcionó",
+                "Tuve que trabajar",
+                "Ayudé a mi familia",
+                "Se fue la luz"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what reason did they give for being late?",
+            "top1answer": "Hubo mucho tráfico",
+            "top2answer": "Se me hizo tarde",
+            "top3answer": "No sonó mi alarma",
+            "top4answer": "Perdí mis llaves",
+            "top5answer": "Me desperté tarde",
+            "randomAnswers": [
+                "Mi carro no arrancó",
+                "Perdí el autobús",
+                "Tuve una emergencia",
+                "Me perdí",
+                "Olvidé la hora"
+            ]
+        },
+        {
+            "question": "Of the 100 domestic travelers surveyed, where did they say they went for their last vacation?",
+            "top1answer": "Fui a la playa",
+            "top2answer": "Fui a las montañas",
+            "top3answer": "Visité a mi familia",
+            "top4answer": "Me quedé en casa",
+            "top5answer": "Fui a un parque nacional",
+            "randomAnswers": [
+                "Fui al lago",
+                "Fui al desierto",
+                "Visité una ciudad grande",
+                "Fui a un pueblo pequeño",
+                "Fui a un resort"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what did they say they had for breakfast?",
+            "top1answer": "Comí cereal",
+            "top2answer": "Tomé café",
+            "top3answer": "Comí huevos",
+            "top4answer": "No comí nada",
+            "top5answer": "Comí pan con mantequilla",
+            "randomAnswers": [
+                "Comí fruta",
+                "Tomé jugo",
+                "Comí yogur",
+                "Comí avena",
+                "Comí tocino"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what were the most common items that people lost in the last month?",
+            "top1answer": "Se me perdieron las llaves",
+            "top2answer": "Se me perdió el teléfono",
+            "top3answer": "Se me perdió la cartera",
+            "top4answer": "Se me perdieron los lentes",
+            "top5answer": "Se me perdió un calcetín",
+            "randomAnswers": [
+                "Se me perdió el paraguas",
+                "Se me perdieron los audífonos",
+                "Se me perdió la identificación",
+                "Se me perdió un libro",
+                "Se me perdió el reloj"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what were the most common chores they did at home last week?",
+            "top1answer": "Limpié mi cuarto",
+            "top2answer": "Lavé los platos",
+            "top3answer": "Saqué la basura",
+            "top4answer": "Lavé la ropa",
+            "top5answer": "Pasé la aspiradora",
+            "randomAnswers": [
+                "Corté el césped",
+                "Cociné la cena",
+                "Barrí el piso",
+                "Limpié el baño",
+                "Regué las plantas"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what was the last item that they use commonly that broke or stopped working?",
+            "top1answer": "Se me rompió el teléfono",
+            "top2answer": "Se me descompuso el carro",
+            "top3answer": "Se me rompió la computadora",
+            "top4answer": "Se me acabó la batería",
+            "top5answer": "Se me descompuso el internet",
+            "randomAnswers": [
+                "Se me rompieron los lentes",
+                "Se me descompuso la lavadora",
+                "Se me rompió el reloj",
+                "Se me descompuso la cafetera",
+                "Se me rompieron los audífonos"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what was the most recent thing that they forgot to do?",
+            "top1answer": "Se me olvidó la tarea",
+            "top2answer": "Se me olvidó llamar a alguien",
+            "top3answer": "Se me olvidó una cita",
+            "top4answer": "Se me olvidó comprar algo",
+            "top5answer": "Se me olvidó pagar una cuenta",
+            "randomAnswers": [
+                "Se me olvidó el cumpleaños de alguien",
+                "Se me olvidó cerrar la puerta",
+                "Se me olvidó apagar las luces",
+                "Se me olvidó enviar un mensaje",
+                "Se me olvidó traer algo importante"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what did they watch on TV last night?",
+            "top1answer": "Vi una película",
+            "top2answer": "Vi las noticias",
+            "top3answer": "Vi un partido de fútbol",
+            "top4answer": "Vi una telenovela",
+            "top5answer": "Vi una serie",
+            "randomAnswers": [
+                "Vi un documental",
+                "Vi un programa de cocina",
+                "Vi dibujos animados",
+                "Vi un reality show",
+                "Vi un programa de concursos"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what was the last thing they drank?",
+            "top1answer": "Tomé agua",
+            "top2answer": "Tomé café",
+            "top3answer": "Tomé jugo",
+            "top4answer": "Tomé refresco",
+            "top5answer": "Tomé té",
+            "randomAnswers": [
+                "Tomé leche",
+                "Tomé chocolate caliente",
+                "Tomé una cerveza",
+                "Tomé un batido",
+                "Tomé limonada"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what did they do to celebrate their last birthday?",
+            "top1answer": "Comí pastel",
+            "top2answer": "Fui a un restaurante",
+            "top3answer": "Me cantaron Las Mañanitas",
+            "top4answer": "Recibí regalos",
+            "top5answer": "Hice una fiesta",
+            "randomAnswers": [
+                "Salí con mis amigos",
+                "Me planearon una fiesta sorpresa",
+                "Bailamos toda la noche",
+                "Viajé a otro lugar",
+                "Me quedé en casa"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what was the last gift they gave someone?",
+            "top1answer": "Le di dinero",
+            "top2answer": "Le di ropa",
+            "top3answer": "Le compré flores",
+            "top4answer": "Le regalé un libro",
+            "top5answer": "Le di una tarjeta",
+            "randomAnswers": [
+                "Le compré joyas",
+                "Le di chocolates",
+                "Le regalé un juguete",
+                "Le compré perfume",
+                "Le hice un pastel"
+            ]
+        },
+        {
+            "question": "Of the 100 students surveyed, what did they study last night?",
+            "top1answer": "Estudié matemáticas",
+            "top2answer": "Estudié español",
+            "top3answer": "Estudié historia",
+            "top4answer": "Estudié ciencias",
+            "top5answer": "No estudié nada",
+            "randomAnswers": [
+                "Estudié inglés",
+                "Estudié para un examen",
+                "Estudié biología",
+                "Estudié química",
+                "Repasé mis apuntes"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what sport or exercise did they do last week?",
+            "top1answer": "Caminé",
+            "top2answer": "Corrí",
+            "top3answer": "Jugué fútbol",
+            "top4answer": "Fui al gimnasio",
+            "top5answer": "No hice ejercicio",
+            "randomAnswers": [
+                "Jugué baloncesto",
+                "Nadé",
+                "Monté en bicicleta",
+                "Jugué tenis",
+                "Hice yoga"
+            ]
+        },
+        {
+            "question": "Of the 100 people surveyed, what did they do when they got home yesterday?",
+            "top1answer": "Descansé",
+            "top2answer": "Comí algo",
+            "top3answer": "Vi televisión",
+            "top4answer": "Me bañé",
+            "top5answer": "Hice la tarea",
+            "randomAnswers": [
+                "Hablé con mi familia",
+                "Me acosté",
+                "Cociné la cena",
+                "Jugué videojuegos",
+                "Saqué a pasear al perro"
+            ]
+        }
+    ]
+}

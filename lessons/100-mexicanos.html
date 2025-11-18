@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Practice - 100 Mexicanos: Preterite</title>
+    <link href="../css/styles-uwm.css" rel="stylesheet">
+    <link href="../css/100-mexicanos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-title-section">
+                <h1 class="nav-title">Spanish Practice</h1>
+                <p class="nav-tagline">Improve your Spanish with practice activities</p>
+            </div>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Home</a>
+                <a href="../lessons.html" class="nav-item">Lessons</a>
+                <a href="../elements-of-culture.html" class="nav-item">Elements of Culture</a>
+                <a href="../resources.html" class="nav-item">Helpful Resources</a>
+                <a href="../about.html" class="nav-item">About</a>
+                <a href="../contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <div id="home" class="page active">
+                <div class="activity-container">
+                    <h2>100 Mexicanos: Preterite Practice</h2>
+
+                    <h3>Introduction</h3>
+                    <div class="introduction-section">
+                        <p>Welcome to <strong>100 Mexicanos</strong>, known in the United States as <strong>Family Feud</strong>! In this episode, we'll focus on practicing the preterite tense. This activity is also useful in the scenarios you'll be identifying responses for. Here you can learn some common responses for when you're late, when something broke, when you've forgotten something, etc. </p>
+                        <p>Along with being a fun way to practice, this activity also gives us the chance to think about the cultural adaptation that often needs to happen in translation. In Mexico Family Feud is called: <strong>100 Mexicanos VIP</strong>. The cultural adaptation of the title makes sense. In Mexico, family is a much stronger cultural value compared with the individualism of the United States, so a direct translation of "Family Feud" may result in a title that is counter to cultural values. The shift in the title from focusing on the feud between two families to the 100 people surveyed is strategic and helps to ensure the local cultural resonance of the game.</p>
+                    </div>
+
+                    <h3>Instructions</h3>
+                    <div class="instructions-section">
+                        <p>In this activity, you'll practice using the <strong>preterite</strong> tense while playing a game inspired by <strong>100 Mexicanos VIP</strong>. Remember, the preterite is one of the two main ways of expressing past tense in Spanish. Take some time to review/recall how the preterite works. For each round, you'll see a survey question and need to guess the top 5 preterite answers given by respondents.</p>
+                        <ul>
+                            <li>Read the survey question carefully</li>
+                            <li>Click on one of the 10 answer buttons to make your guess</li>
+                            <li>If your answer is in the top 5, it will be revealed on the board</li>
+                            <li>If your answer is not in the top 5, you'll get an X (strike)</li>
+                            <li>Try to reveal all 5 top answers before getting 3 strikes</li>
+                            <li>Click "Next Question" to move to a new survey question</li>
+                        </ul>
+                        <p>All answers use the preterite tense, so pay attention to verb conjugations!</p>
+                    </div>
+
+                    <h3>Game Board</h3>
+                    <div class="game-container">
+                        <!-- Question Display -->
+                        <div class="question-display">
+                            <p class="question-text" id="questionText">Click the "Start Game" button to begin please</p>
+                        </div>
+
+                        <!-- Answer Board -->
+                        <div class="answer-board">
+                            <div class="answer-slot" id="slot1">
+                                <span class="slot-number">1</span>
+                                <span class="slot-answer">Top Answer 1</span>
+                            </div>
+                            <div class="answer-slot" id="slot2">
+                                <span class="slot-number">2</span>
+                                <span class="slot-answer">Top Answer 2</span>
+                            </div>
+                            <div class="answer-slot" id="slot3">
+                                <span class="slot-number">3</span>
+                                <span class="slot-answer">Top Answer 3</span>
+                            </div>
+                            <div class="answer-slot" id="slot4">
+                                <span class="slot-number">4</span>
+                                <span class="slot-answer">Top Answer 4</span>
+                            </div>
+                            <div class="answer-slot" id="slot5">
+                                <span class="slot-number">5</span>
+                                <span class="slot-answer">Top Answer 5</span>
+                            </div>
+                        </div>
+
+                        <!-- Strikes Display -->
+                        <div class="strikes-container">
+                            <div class="strike" id="strike1">✗</div>
+                            <div class="strike" id="strike2">✗</div>
+                            <div class="strike" id="strike3">✗</div>
+                        </div>
+
+                        <!-- Answer Buttons -->
+                        <div class="answer-buttons" id="answerButtons">
+                            <!-- Buttons will be generated by JavaScript -->
+                        </div>
+
+                        <!-- Game Controls -->
+                        <div class="game-controls">
+                            <button class="btn btn-primary" id="startBtn" onclick="startGame()">Start Game</button>
+                            <button class="btn btn-primary hidden" id="nextBtn" onclick="nextQuestion()">Next Question</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Developed for the Spanish courses taught at UW-Milwaukee's School of Continuing Education by Alaina Brandt</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="../js/100-mexicanos.js"></script>
+</body>
+</html>
