@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Load survey data from JSON
 async function loadData() {
     try {
-        const response = await fetch('../data/100-mexicanos-preterite.json');
+        const response = await fetch('../data/100-mexicanos-vip-preterite.json');
         const data = await response.json();
         surveyData = data.surveyQs;
         console.log('Survey data loaded:', surveyData.length, 'questions');
