@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Practice - Las Mañanitas</title>
+    <link href="../css/styles-uwm.css" rel="stylesheet">
+    <style>
+        mark {
+            background-color: var(--uwm-gold);
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-title-section">
+                <h1 class="nav-title">Spanish Practice</h1>
+                <p class="nav-tagline">Improve your Spanish with practice activities</p>
+            </div>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Home</a>
+                <a href="../lessons.html" class="nav-item">Lessons</a>
+                <a href="../elements-of-culture.html" class="nav-item">Elements of Culture</a>
+                <a href="../resources.html" class="nav-item">Helpful Resources</a>
+                <a href="../about.html" class="nav-item">About</a>
+                <a href="../contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <div id="home" class="page active">
+                <div class="activity-container">
+                    <h2>Las Mañanitas</h2>
+
+                    <h3>Introduction</h3>
+                    <div class="introduction-section">
+                        <p>Welcome to this lesson on celebrating birthdays in Mexico. The "Happy Birthday to You" song can also be sung in Spanish (🎶Feliz cumpleaños a ti), though it's much more common in Mexico to sing <strong>Las Mañanitas</strong> to the birthday person on their special day. You can learn more about the tradition around this song in in the <a href="https://www.newyorklatinculture.com/las-mananitas-virgen-guadalupe" target="_blank">NY Latin Culture Magazine</a>.</p>
+                        <p>If you want to fit in at Mexican birthday celebrations, you'll need to memorize at least the first few verses to be able to sing along. It's also worth knowing that people may have a favorite version of Las Mañanitas, so on birthdays, it would be a nice touch to play the right one for them!</p>
+                    </div>
+
+                    <h3>Instructions</h3>
+                    <div class="instructions-section">
+                        <p>This activity features one of many versions of Las Mañanitas. Play the video, then work through the lyrics. Use context clues to translate the text as much as possible. Then identify all of the verbs used within in all of their forms.</p>
+
+                        <p>Whenever you're ready, click the <strong>Reveal</strong> button to display the text with all of the verbs highlighted.</p>
+                        <p>Some tips to get you started:</p>
+                        <ul>
+                            <li>Remember that there are just three verb types: AR, ER, and IR verbs.</li>
+                            <li>Verb use in this text is varied. The text contains both infinitive (to __) and conjugated (I __) verbs. Present, past and future tenses are covered, as are more complex grammatical structures.</li>
+                            <li>If you enounter a word that reminds you of a verb but you don't recognize the ending, don't worry about it. You'll conjugate more and more tenses as you go! As you build up your skills, it's also good for you to notice instances of the new tenses you'll eventually be conjugating.</li>
+
+                        </ul>
+                    </div>
+
+                    <h3>Las Mañanitas - Video de música</h3>
+                    <div class="instructions-section">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/q6MQ1kmfCbY?si=pfUH7eUwz13ySXRm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p><strong>Source:</strong> <a href="https://youtu.be/q6MQ1kmfCbY?si=afzzyzH2_xblYbeq" target="_blank">JN Music Group</a></p>
+                    </div>
+
+                    <h3>Las Mañanitas - La letra de la canción</h3>
+                    <div class="instructions-section" id="textBox" data-activity="las-mañanitas">
+                        <!-- JavaScript will populate this with the speech text -->
+                    </div>
+
+                    <div class="button-container" style="text-align: center; margin-top: 1.5rem;">
+                        <button id="revealBtn" class="btn btn-primary" onclick="toggleReveal()">Reveal</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Developed for the Spanish courses taught at UW-Milwaukee's School of Continuing Education by Alaina Brandt</p>
+        </div>
+    </footer>
+
+    <script src="../js/verb-identification.js"></script>
+</body>
+</html>
