@@ -24,7 +24,7 @@ const subjects = [
     { pronoun: "elles", display: "elles", grammaticalPronoun: "elles" },
     { pronoun: "ustedes", display: "ustedes", grammaticalPronoun: "ustedes" },
     // Contextual subjects
-    { pronoun: "ella", display: "Claudia Sheinbaum", grammaticalPronoun: "ella" },
+    { pronoun: "ella", display: "Presidenta Claudia Sheinbaum", grammaticalPronoun: "ella" },
     { pronoun: "ellos", display: "Martha Stewart y Snoop Dogg", grammaticalPronoun: "ellos" },
     { pronoun: "nosotros", display: "Mis amigos y yo", grammaticalPronoun: "nosotros" },
     { pronoun: "ella", display: "Mi familia", grammaticalPronoun: "ella" },
@@ -100,6 +100,22 @@ function useFallbackData() {
                 ellas: "bailaron",
                 elles: "bailaron",
                 ustedes: "bailaron"
+            },
+            "conjugationsImperfect": {
+                yo: "bailaba",
+                tú: "bailabas",
+                él: "bailaba",
+                ella: "bailaba",
+                elle: "bailaba",
+                usted: "bailaba",
+                nosotros: "bailábamos",
+                nosotras: "bailábamos",
+                vosotros: "bailabais",
+                vosotras: "bailabais",
+                ellos: "bailaban",
+                ellas: "bailaban",
+                elles: "bailaban",
+                ustedes: "bailaban"
             }
         }
     ];
@@ -145,6 +161,22 @@ function ensureBailarExists() {
                 ellas: "bailaron",
                 elles: "bailaron",
                 ustedes: "bailaron"
+            },
+            "conjugationsImperfect": {
+                yo: "bailaba",
+                tú: "bailabas",
+                él: "bailaba",
+                ella: "bailaba",
+                elle: "bailaba",
+                usted: "bailaba",
+                nosotros: "bailábamos",
+                nosotras: "bailábamos",
+                vosotros: "bailabais",
+                vosotras: "bailabais",
+                ellos: "bailaban",
+                ellas: "bailaban",
+                elles: "bailaban",
+                ustedes: "bailaban"
             }
         });
     }
@@ -269,11 +301,12 @@ function showAnswer(tense) {
     // Get conjugations
     const presentConj = currentVerb.conjugationsPresent[grammaticalPronoun];
     const pastConj = currentVerb.conjugationsPreterite[grammaticalPronoun];
-    
+    const imperfectConj = currentVerb.conjugationsImperfect[grammaticalPronoun];
+
     let answer;
     let tenseLabel;
     
-    if (tense === true || tense === 'present') {  // Changed this line
+    if (tense === true || tense === 'present') {
         tenseLabel = 'Present Tense';
         if (displaySubject === grammaticalPronoun) {
             if (grammaticalPronoun === "yo") {
@@ -284,7 +317,7 @@ function showAnswer(tense) {
         } else {
             answer = `${displaySubject} ${presentConj}...`;
         }
-    } else { // past
+    } else if (tense === false || tense === 'preterite') { // past
         tenseLabel = 'Past Tense';
         if (displaySubject === grammaticalPronoun) {
             if (grammaticalPronoun === "yo") {
@@ -294,6 +327,17 @@ function showAnswer(tense) {
             }
         } else {
             answer = `${displaySubject} ${pastConj}...`;
+        }
+    } else { // imperfect
+        tenseLabel = 'Imperfect Tense';
+        if (displaySubject === grammaticalPronoun) {
+            if (grammaticalPronoun === "yo") {
+                answer = `${imperfectConj.charAt(0).toUpperCase() + imperfectConj.slice(1)}...`;
+            } else {
+                answer = `${displaySubject.charAt(0).toUpperCase() + displaySubject.slice(1)} ${imperfectConj}...`;
+            }
+        } else {
+            answer = `${displaySubject} ${imperfectConj}...`;  // Changed from pastConj to imperfectConj
         }
     }
     

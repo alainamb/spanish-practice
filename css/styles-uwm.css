@@ -436,6 +436,18 @@ h4 {
     border-color: #b91c1c;
 }
 
+.btn-neutral {
+    border-color: #ffd14c;
+    background-color: #ffd14c;
+    color: var(--uwm-bg-white);
+}
+
+.btn-neutral:hover,
+.btn-neutral:focus {
+    background-color: #ffbd00;
+    border-color: #ffbd00;
+}
+
 .hidden {
     display: none !important;
 }
