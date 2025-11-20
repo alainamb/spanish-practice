@@ -152,13 +152,13 @@
         },
         {
             "question": "Of the 100 people surveyed, what did they do to celebrate their last birthday?",
-            "top1answer": "Comí pastel",
-            "top2answer": "Fui a un restaurante",
-            "top3answer": "Me cantaron Las Mañanitas",
-            "top4answer": "Recibí regalos",
+            "top1answer": "Hice una fiesta",
+            "top2answer": "Comí pastel",
+            "top3answer": "Fui a un restaurante",
+            "top4answer": "Me cantaron Las Mañanitas",
             "top5answer": "Fui a la casa de mi familia",
             "randomAnswers": [
-                "Hice una fiesta",
+                "Recibí regalos",
                 "Me planearon una sorpresa",
                 "Salí a bailar con mis amigos",
                 "Viajé a otro lugar",

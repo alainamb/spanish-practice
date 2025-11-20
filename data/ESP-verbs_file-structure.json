@@ -31,6 +31,22 @@
         "ellas": "conocen",
         "elles": "conocen",
         "ustedes": "conocen"
+      },
+      "conjugationsImperfect": {
+        "yo": "conjugation",
+        "tú": "conjugation",
+        "él": "conjugation",
+        "ella": "conjugation",
+        "elle": "conjugation",
+        "usted": "conjugation",
+        "nosotros": "conjugation",
+        "nosotras": "conjugation",
+        "vosotros": "conjugation",
+        "vosotras": "conjugation",
+        "ellos": "conjugation",
+        "ellas": "conjugation",
+        "elles": "conjugation",
+        "ustedes": "conjugation"
       }
     },
     {

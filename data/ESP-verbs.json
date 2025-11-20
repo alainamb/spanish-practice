@@ -47,6 +47,22 @@
         "ellas": "abrieron",
         "elles": "abrieron",
         "ustedes": "abrieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "abría",
+        "tú": "abrías",
+        "él": "abría",
+        "ella": "abría",
+        "elle": "abría",
+        "usted": "abría",
+        "nosotros": "abríamos",
+        "nosotras": "abríamos",
+        "vosotros": "abríais",
+        "vosotras": "abríais",
+        "ellos": "abrían",
+        "ellas": "abrían",
+        "elles": "abrían",
+        "ustedes": "abrían"
       }
     },
     {
@@ -84,6 +100,22 @@
         "ellas": "almorzaron",
         "elles": "almorzaron",
         "ustedes": "almorzaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "almorzaba",
+        "tú": "almorzabas",
+        "él": "almorzaba",
+        "ella": "almorzaba",
+        "elle": "almorzaba",
+        "usted": "almorzaba",
+        "nosotros": "almorzábamos",
+        "nosotras": "almorzábamos",
+        "vosotros": "almorzabais",
+        "vosotras": "almorzabais",
+        "ellos": "almorzaban",
+        "ellas": "almorzaban",
+        "elles": "almorzaban",
+        "ustedes": "almorzaban"
       }
     },
     {
@@ -121,6 +153,22 @@
         "ellas": "aprendieron",
         "elles": "aprendieron",
         "ustedes": "aprendieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "aprendía",
+        "tú": "aprendías",
+        "él": "aprendía",
+        "ella": "aprendía",
+        "elle": "aprendía",
+        "usted": "aprendía",
+        "nosotros": "aprendíamos",
+        "nosotras": "aprendíamos",
+        "vosotros": "aprendíais",
+        "vosotras": "aprendíais",
+        "ellos": "aprendían",
+        "ellas": "aprendían",
+        "elles": "aprendían",
+        "ustedes": "aprendían"
       }
     },
     {
@@ -158,6 +206,22 @@
         "ellas": "asistieron",
         "elles": "asistieron",
         "ustedes": "asistieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "asistía",
+        "tú": "asistías",
+        "él": "asistía",
+        "ella": "asistía",
+        "elle": "asistía",
+        "usted": "asistía",
+        "nosotros": "asistíamos",
+        "nosotras": "asistíamos",
+        "vosotros": "asistíais",
+        "vosotras": "asistíais",
+        "ellos": "asistían",
+        "ellas": "asistían",
+        "elles": "asistían",
+        "ustedes": "asistían"
       }
     },
     {
@@ -195,6 +259,22 @@
         "ellas": "bailaron",
         "elles": "bailaron",
         "ustedes": "bailaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "bailaba",
+        "tú": "bailabas",
+        "él": "bailaba",
+        "ella": "bailaba",
+        "elle": "bailaba",
+        "usted": "bailaba",
+        "nosotros": "bailábamos",
+        "nosotras": "bailábamos",
+        "vosotros": "bailabais",
+        "vosotras": "bailabais",
+        "ellos": "bailaban",
+        "ellas": "bailaban",
+        "elles": "bailaban",
+        "ustedes": "bailaban"
       }
     },
     {
@@ -232,7 +312,23 @@
         "ellas": "bebieron",
         "elles": "bebieron",
         "ustedes": "bebieron"
-    }
+      },
+      "conjugationsImperfect": {
+        "yo": "bebía",
+        "tú": "bebías",
+        "él": "bebía",
+        "ella": "bebía",
+        "elle": "bebía",
+        "usted": "bebía",
+        "nosotros": "bebíamos",
+        "nosotras": "bebíamos",
+        "vosotros": "bebíais",
+        "vosotras": "bebíais",
+        "ellos": "bebían",
+        "ellas": "bebían",
+        "elles": "bebían",
+        "ustedes": "bebían"
+      }
     },
     {
       "infinitive": "caminar",
@@ -269,6 +365,22 @@
         "ellas": "caminaron",
         "elles": "caminaron",
         "ustedes": "caminaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "caminaba",
+        "tú": "caminabas",
+        "él": "caminaba",
+        "ella": "caminaba",
+        "elle": "caminaba",
+        "usted": "caminaba",
+        "nosotros": "caminábamos",
+        "nosotras": "caminábamos",
+        "vosotros": "caminabais",
+        "vosotras": "caminabais",
+        "ellos": "caminaban",
+        "ellas": "caminaban",
+        "elles": "caminaban",
+        "ustedes": "caminaban"
       }
     },
     {
@@ -306,6 +418,22 @@
         "ellas": "cantaron",
         "elles": "cantaron",
         "ustedes": "cantaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "cantaba",
+        "tú": "cantabas",
+        "él": "cantaba",
+        "ella": "cantaba",
+        "elle": "cantaba",
+        "usted": "cantaba",
+        "nosotros": "cantábamos",
+        "nosotras": "cantábamos",
+        "vosotros": "cantabais",
+        "vosotras": "cantabais",
+        "ellos": "cantaban",
+        "ellas": "cantaban",
+        "elles": "cantaban",
+        "ustedes": "cantaban"
       }
     },
     {
@@ -343,6 +471,22 @@
         "ellas": "cenaron",
         "elles": "cenaron",
         "ustedes": "cenaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "cenaba",
+        "tú": "cenabas",
+        "él": "cenaba",
+        "ella": "cenaba",
+        "elle": "cenaba",
+        "usted": "cenaba",
+        "nosotros": "cenábamos",
+        "nosotras": "cenábamos",
+        "vosotros": "cenabais",
+        "vosotras": "cenabais",
+        "ellos": "cenaban",
+        "ellas": "cenaban",
+        "elles": "cenaban",
+        "ustedes": "cenaban"
       }
     },
     {
@@ -380,6 +524,22 @@
         "ellas": "cerraron",
         "elles": "cerraron",
         "ustedes": "cerraron"
+      },
+      "conjugationsImperfect": {
+        "yo": "cerraba",
+        "tú": "cerrabas",
+        "él": "cerraba",
+        "ella": "cerraba",
+        "elle": "cerraba",
+        "usted": "cerraba",
+        "nosotros": "cerrábamos",
+        "nosotras": "cerrábamos",
+        "vosotros": "cerrabais",
+        "vosotras": "cerrabais",
+        "ellos": "cerraban",
+        "ellas": "cerraban",
+        "elles": "cerraban",
+        "ustedes": "cerraban"
       }
     },
     {
@@ -417,6 +577,22 @@
         "ellas": "comieron",
         "elles": "comieron",
         "ustedes": "comieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "comía",
+        "tú": "comías",
+        "él": "comía",
+        "ella": "comía",
+        "elle": "comía",
+        "usted": "comía",
+        "nosotros": "comíamos",
+        "nosotras": "comíamos",
+        "vosotros": "comíais",
+        "vosotras": "comíais",
+        "ellos": "comían",
+        "ellas": "comían",
+        "elles": "comían",
+        "ustedes": "comían"
       }
     },
     {
@@ -454,6 +630,22 @@
         "ellas": "comenzaron",
         "elles": "comenzaron",
         "ustedes": "comenzaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "comenzaba",
+        "tú": "comenzabas",
+        "él": "comenzaba",
+        "ella": "comenzaba",
+        "elle": "comenzaba",
+        "usted": "comenzaba",
+        "nosotros": "comenzábamos",
+        "nosotras": "comenzábamos",
+        "vosotros": "comenzabais",
+        "vosotras": "comenzabais",
+        "ellos": "comenzaban",
+        "ellas": "comenzaban",
+        "elles": "comenzaban",
+        "ustedes": "comenzaban"
       }
     },
     {
@@ -491,6 +683,22 @@
         "ellas": "compartieron",
         "elles": "compartieron",
         "ustedes": "compartieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "compartía",
+        "tú": "compartías",
+        "él": "compartía",
+        "ella": "compartía",
+        "elle": "compartía",
+        "usted": "compartía",
+        "nosotros": "compartíamos",
+        "nosotras": "compartíamos",
+        "vosotros": "compartíais",
+        "vosotras": "compartíais",
+        "ellos": "compartían",
+        "ellas": "compartían",
+        "elles": "compartían",
+        "ustedes": "compartían"
       }
     },
     {
@@ -528,6 +736,22 @@
         "ellas": "compraron",
         "elles": "compraron",
         "ustedes": "compraron"
+      },
+      "conjugationsImperfect": {
+        "yo": "compraba",
+        "tú": "comprabas",
+        "él": "compraba",
+        "ella": "compraba",
+        "elle": "compraba",
+        "usted": "compraba",
+        "nosotros": "comprábamos",
+        "nosotras": "comprábamos",
+        "vosotros": "comprabais",
+        "vosotras": "comprabais",
+        "ellos": "compraban",
+        "ellas": "compraban",
+        "elles": "compraban",
+        "ustedes": "compraban"
       }
     },
     {
@@ -565,6 +789,22 @@
         "ellas": "comprendieron",
         "elles": "comprendieron",
         "ustedes": "comprendieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "comprendía",
+        "tú": "comprendías",
+        "él": "comprendía",
+        "ella": "comprendía",
+        "elle": "comprendía",
+        "usted": "comprendía",
+        "nosotros": "comprendíamos",
+        "nosotras": "comprendíamos",
+        "vosotros": "comprendíais",
+        "vosotras": "comprendíais",
+        "ellos": "comprendían",
+        "ellas": "comprendían",
+        "elles": "comprendían",
+        "ustedes": "comprendían"
       }
     },
     {
@@ -602,6 +842,22 @@
         "ellas": "conocieron",
         "elles": "conocieron",
         "ustedes": "conocieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "conocía",
+        "tú": "conocías",
+        "él": "conocía",
+        "ella": "conocía",
+        "elle": "conocía",
+        "usted": "conocía",
+        "nosotros": "conocíamos",
+        "nosotras": "conocíamos",
+        "vosotros": "conocíais",
+        "vosotras": "conocíais",
+        "ellos": "conocían",
+        "ellas": "conocían",
+        "elles": "conocían",
+        "ustedes": "conocían"
       }
     },
     {
@@ -639,6 +895,22 @@
         "ellas": "consiguieron",
         "elles": "consiguieron",
         "ustedes": "consiguieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "conseguía",
+        "tú": "conseguías",
+        "él": "conseguía",
+        "ella": "conseguía",
+        "elle": "conseguía",
+        "usted": "conseguía",
+        "nosotros": "conseguíamos",
+        "nosotras": "conseguíamos",
+        "vosotros": "conseguíais",
+        "vosotras": "conseguíais",
+        "ellos": "conseguían",
+        "ellas": "conseguían",
+        "elles": "conseguían",
+        "ustedes": "conseguían"
       }
     },
     {
@@ -676,6 +948,22 @@
         "ellas": "contaron",
         "elles": "contaron",
         "ustedes": "contaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "contaba",
+        "tú": "contabas",
+        "él": "contaba",
+        "ella": "contaba",
+        "elle": "contaba",
+        "usted": "contaba",
+        "nosotros": "contábamos",
+        "nosotras": "contábamos",
+        "vosotros": "contabais",
+        "vosotras": "contabais",
+        "ellos": "contaban",
+        "ellas": "contaban",
+        "elles": "contaban",
+        "ustedes": "contaban"
       }
     },
     {
@@ -713,6 +1001,22 @@
         "ellas": "contestaron",
         "elles": "contestaron",
         "ustedes": "contestaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "contestaba",
+        "tú": "contestabas",
+        "él": "contestaba",
+        "ella": "contestaba",
+        "elle": "contestaba",
+        "usted": "contestaba",
+        "nosotros": "contestábamos",
+        "nosotras": "contestábamos",
+        "vosotros": "contestabais",
+        "vosotras": "contestabais",
+        "ellos": "contestaban",
+        "ellas": "contestaban",
+        "elles": "contestaban",
+        "ustedes": "contestaban"
       }
     },
     {
@@ -750,6 +1054,22 @@
         "ellas": "conversaron",
         "elles": "conversaron",
         "ustedes": "conversaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "conversaba",
+        "tú": "conversabas",
+        "él": "conversaba",
+        "ella": "conversaba",
+        "elle": "conversaba",
+        "usted": "conversaba",
+        "nosotros": "conversábamos",
+        "nosotras": "conversábamos",
+        "vosotros": "conversabais",
+        "vosotras": "conversabais",
+        "ellos": "conversaban",
+        "ellas": "conversaban",
+        "elles": "conversaban",
+        "ustedes": "conversaban"
       }
     },
     {
@@ -787,6 +1107,22 @@
         "ellas": "corrieron",
         "elles": "corrieron",
         "ustedes": "corrieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "corría",
+        "tú": "corrías",
+        "él": "corría",
+        "ella": "corría",
+        "elle": "corría",
+        "usted": "corría",
+        "nosotros": "corríamos",
+        "nosotras": "corríamos",
+        "vosotros": "corríais",
+        "vosotras": "corríais",
+        "ellos": "corrían",
+        "ellas": "corrían",
+        "elles": "corrían",
+        "ustedes": "corrían"
       }
     },
     {
@@ -824,6 +1160,22 @@
         "ellas": "debieron",
         "elles": "debieron",
         "ustedes": "debieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "debía",
+        "tú": "debías",
+        "él": "debía",
+        "ella": "debía",
+        "elle": "debía",
+        "usted": "debía",
+        "nosotros": "debíamos",
+        "nosotras": "debíamos",
+        "vosotros": "debíais",
+        "vosotras": "debíais",
+        "ellos": "debían",
+        "ellas": "debían",
+        "elles": "debían",
+        "ustedes": "debían"
       }
     },
     {
@@ -861,6 +1213,22 @@
         "ellas": "decidieron",
         "elles": "decidieron",
         "ustedes": "decidieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "decidía",
+        "tú": "decidías",
+        "él": "decidía",
+        "ella": "decidía",
+        "elle": "decidía",
+        "usted": "decidía",
+        "nosotros": "decidíamos",
+        "nosotras": "decidíamos",
+        "vosotros": "decidíais",
+        "vosotras": "decidíais",
+        "ellos": "decidían",
+        "ellas": "decidían",
+        "elles": "decidían",
+        "ustedes": "decidían"
       }
     },
     {
@@ -898,6 +1266,22 @@
         "ellas": "dijeron",
         "elles": "dijeron",
         "ustedes": "dijeron"
+      },
+      "conjugationsImperfect": {
+        "yo": "decía",
+        "tú": "decías",
+        "él": "decía",
+        "ella": "decía",
+        "elle": "decía",
+        "usted": "decía",
+        "nosotros": "decíamos",
+        "nosotras": "decíamos",
+        "vosotros": "decíais",
+        "vosotras": "decíais",
+        "ellos": "decían",
+        "ellas": "decían",
+        "elles": "decían",
+        "ustedes": "decían"
       }
     },
     {
@@ -935,6 +1319,22 @@
         "ellas": "desayunaron",
         "elles": "desayunaron",
         "ustedes": "desayunaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "desayunaba",
+        "tú": "desayunabas",
+        "él": "desayunaba",
+        "ella": "desayunaba",
+        "elle": "desayunaba",
+        "usted": "desayunaba",
+        "nosotros": "desayunábamos",
+        "nosotras": "desayunábamos",
+        "vosotros": "desayunabais",
+        "vosotras": "desayunabais",
+        "ellos": "desayunaban",
+        "ellas": "desayunaban",
+        "elles": "desayunaban",
+        "ustedes": "desayunaban"
       }
     },
     {
@@ -972,6 +1372,22 @@
         "ellas": "descansaron",
         "elles": "descansaron",
         "ustedes": "descansaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "descansaba",
+        "tú": "descansabas",
+        "él": "descansaba",
+        "ella": "descansaba",
+        "elle": "descansaba",
+        "usted": "descansaba",
+        "nosotros": "descansábamos",
+        "nosotras": "descansábamos",
+        "vosotros": "descansabais",
+        "vosotras": "descansabais",
+        "ellos": "descansaban",
+        "ellas": "descansaban",
+        "elles": "descansaban",
+        "ustedes": "descansaban"
       }
     },
     {
@@ -1009,6 +1425,22 @@
         "ellas": "describieron",
         "elles": "describieron",
         "ustedes": "describieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "describía",
+        "tú": "describías",
+        "él": "describía",
+        "ella": "describía",
+        "elle": "describía",
+        "usted": "describía",
+        "nosotros": "describíamos",
+        "nosotras": "describíamos",
+        "vosotros": "describíais",
+        "vosotras": "describíais",
+        "ellos": "describían",
+        "ellas": "describían",
+        "elles": "describían",
+        "ustedes": "describían"
       }
     },
     {
@@ -1046,6 +1478,22 @@
         "ellas": "desearon",
         "elles": "desearon",
         "ustedes": "desearon"
+      },
+      "conjugationsImperfect": {
+        "yo": "deseaba",
+        "tú": "deseabas",
+        "él": "deseaba",
+        "ella": "deseaba",
+        "elle": "deseaba",
+        "usted": "deseaba",
+        "nosotros": "deseábamos",
+        "nosotras": "deseábamos",
+        "vosotros": "deseabais",
+        "vosotras": "deseabais",
+        "ellos": "deseaban",
+        "ellas": "deseaban",
+        "elles": "deseaban",
+        "ustedes": "deseaban"
       }
     },
     {
@@ -1083,6 +1531,22 @@
         "ellas": "dibujaron",
         "elles": "dibujaron",
         "ustedes": "dibujaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "dibujaba",
+        "tú": "dibujabas",
+        "él": "dibujaba",
+        "ella": "dibujaba",
+        "elle": "dibujaba",
+        "usted": "dibujaba",
+        "nosotros": "dibujábamos",
+        "nosotras": "dibujábamos",
+        "vosotros": "dibujabais",
+        "vosotras": "dibujabais",
+        "ellos": "dibujaban",
+        "ellas": "dibujaban",
+        "elles": "dibujaban",
+        "ustedes": "dibujaban"
       }
     },
     {
@@ -1120,6 +1584,22 @@
         "ellas": "durmieron",
         "elles": "durmieron",
         "ustedes": "durmieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "dormía",
+        "tú": "dormías",
+        "él": "dormía",
+        "ella": "dormía",
+        "elle": "dormía",
+        "usted": "dormía",
+        "nosotros": "dormíamos",
+        "nosotras": "dormíamos",
+        "vosotros": "dormíais",
+        "vosotras": "dormíais",
+        "ellos": "dormían",
+        "ellas": "dormían",
+        "elles": "dormían",
+        "ustedes": "dormían"
       }
     },
     {
@@ -1157,6 +1637,22 @@
         "ellas": "eligieron",
         "elles": "eligieron",
         "ustedes": "eligieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "elegía",
+        "tú": "elegías",
+        "él": "elegía",
+        "ella": "elegía",
+        "elle": "elegía",
+        "usted": "elegía",
+        "nosotros": "elegíamos",
+        "nosotras": "elegíamos",
+        "vosotros": "elegíais",
+        "vosotras": "elegíais",
+        "ellos": "elegían",
+        "ellas": "elegían",
+        "elles": "elegían",
+        "ustedes": "elegían"
       }
     },
     {
@@ -1194,6 +1690,22 @@
         "ellas": "empezaron",
         "elles": "empezaron",
         "ustedes": "empezaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "empezaba",
+        "tú": "empezabas",
+        "él": "empezaba",
+        "ella": "empezaba",
+        "elle": "empezaba",
+        "usted": "empezaba",
+        "nosotros": "empezábamos",
+        "nosotras": "empezábamos",
+        "vosotros": "empezabais",
+        "vosotras": "empezabais",
+        "ellos": "empezaban",
+        "ellas": "empezaban",
+        "elles": "empezaban",
+        "ustedes": "empezaban"
       }
     },
     {
@@ -1231,6 +1743,22 @@
         "ellas": "encontraron",
         "elles": "encontraron",
         "ustedes": "encontraron"
+      },
+      "conjugationsImperfect": {
+        "yo": "encontraba",
+        "tú": "encontrabas",
+        "él": "encontraba",
+        "ella": "encontraba",
+        "elle": "encontraba",
+        "usted": "encontraba",
+        "nosotros": "encontrábamos",
+        "nosotras": "encontrábamos",
+        "vosotros": "encontrabais",
+        "vosotras": "encontrabais",
+        "ellos": "encontraban",
+        "ellas": "encontraban",
+        "elles": "encontraban",
+        "ustedes": "encontraban"
       }
     },
     {
@@ -1268,6 +1796,22 @@
         "ellas": "encontraron",
         "elles": "encontraron",
         "ustedes": "encontraron"
+      },
+      "conjugationsImperfect": {
+        "yo": "enseñaba",
+        "tú": "enseñabas",
+        "él": "enseñaba",
+        "ella": "enseñaba",
+        "elle": "enseñaba",
+        "usted": "enseñaba",
+        "nosotros": "enseñábamos",
+        "nosotras": "enseñábamos",
+        "vosotros": "enseñabais",
+        "vosotras": "enseñabais",
+        "ellos": "enseñaban",
+        "ellas": "enseñaban",
+        "elles": "enseñaban",
+        "ustedes": "enseñaban"
       }
     },
     {
@@ -1305,6 +1849,22 @@
         "ellas": "entendieron",
         "elles": "entendieron",
         "ustedes": "entendieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "entendía",
+        "tú": "entendías",
+        "él": "entendía",
+        "ella": "entendía",
+        "elle": "entendía",
+        "usted": "entendía",
+        "nosotros": "entendíamos",
+        "nosotras": "entendíamos",
+        "vosotros": "entendíais",
+        "vosotras": "entendíais",
+        "ellos": "entendían",
+        "ellas": "entendían",
+        "elles": "entendían",
+        "ustedes": "entendían"
       }
     },
     {
@@ -1342,6 +1902,22 @@
         "ellas": "escribieron",
         "elles": "escribieron",
         "ustedes": "escribieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "escribía",
+        "tú": "escribías",
+        "él": "escribía",
+        "ella": "escribía",
+        "elle": "escribía",
+        "usted": "escribía",
+        "nosotros": "escribíamos",
+        "nosotras": "escribíamos",
+        "vosotros": "escribíais",
+        "vosotras": "escribíais",
+        "ellos": "escribían",
+        "ellas": "escribían",
+        "elles": "escribían",
+        "ustedes": "escribían"
       }
     },
     {
@@ -1379,6 +1955,22 @@
         "ellas": "escucharon",
         "elles": "escucharon",
         "ustedes": "escucharon"
+      },
+      "conjugationsImperfect": {
+        "yo": "escuchaba",
+        "tú": "escuchabas",
+        "él": "escuchaba",
+        "ella": "escuchaba",
+        "elle": "escuchaba",
+        "usted": "escuchaba",
+        "nosotros": "escuchábamos",
+        "nosotras": "escuchábamos",
+        "vosotros": "escuchabais",
+        "vosotras": "escuchabais",
+        "ellos": "escuchaban",
+        "ellas": "escuchaban",
+        "elles": "escuchaban",
+        "ustedes": "escuchaban"
       }
     },
     {
@@ -1416,6 +2008,22 @@
         "ellas": "esperaron",
         "elles": "esperaron",
         "ustedes": "esperaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "esperaba",
+        "tú": "esperabas",
+        "él": "esperaba",
+        "ella": "esperaba",
+        "elle": "esperaba",
+        "usted": "esperaba",
+        "nosotros": "esperábamos",
+        "nosotras": "esperábamos",
+        "vosotros": "esperabais",
+        "vosotras": "esperabais",
+        "ellos": "esperaban",
+        "ellas": "esperaban",
+        "elles": "esperaban",
+        "ustedes": "esperaban"
       }
     },
     {
@@ -1453,6 +2061,22 @@
         "ellas": "estuvieron",
         "elles": "estuvieron",
         "ustedes": "estuvieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "estaba",
+        "tú": "estabas",
+        "él": "estaba",
+        "ella": "estaba",
+        "elle": "estaba",
+        "usted": "estaba",
+        "nosotros": "estábamos",
+        "nosotras": "estábamos",
+        "vosotros": "estabais",
+        "vosotras": "estabais",
+        "ellos": "estaban",
+        "ellas": "estaban",
+        "elles": "estaban",
+        "ustedes": "estaban"
       }
     },
     {
@@ -1490,6 +2114,22 @@
         "ellas": "estudiaron",
         "elles": "estudiaron",
         "ustedes": "estudiaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "estudiaba",
+        "tú": "estudiabas",
+        "él": "estudiaba",
+        "ella": "estudiaba",
+        "elle": "estudiaba",
+        "usted": "estudiaba",
+        "nosotros": "estudiábamos",
+        "nosotras": "estudiábamos",
+        "vosotros": "estudiabais",
+        "vosotras": "estudiabais",
+        "ellos": "estudiaban",
+        "ellas": "estudiaban",
+        "elles": "estudiaban",
+        "ustedes": "estudiaban"
       }
     },
     {
@@ -1527,6 +2167,22 @@
         "ellas": "explicaron",
         "elles": "explicaron",
         "ustedes": "explicaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "explicaba",
+        "tú": "explicabas",
+        "él": "explicaba",
+        "ella": "explicaba",
+        "elle": "explicaba",
+        "usted": "explicaba",
+        "nosotros": "explicábamos",
+        "nosotras": "explicábamos",
+        "vosotros": "explicabais",
+        "vosotras": "explicabais",
+        "ellos": "explicaban",
+        "ellas": "explicaban",
+        "elles": "explicaban",
+        "ustedes": "explicaban"
       }
     },
     {
@@ -1564,6 +2220,22 @@
         "ellas": "hablaron",
         "elles": "hablaron",
         "ustedes": "hablaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "hablaba",
+        "tú": "hablabas",
+        "él": "hablaba",
+        "ella": "hablaba",
+        "elle": "hablaba",
+        "usted": "hablaba",
+        "nosotros": "hablábamos",
+        "nosotras": "hablábamos",
+        "vosotros": "hablabais",
+        "vosotras": "hablabais",
+        "ellos": "hablaban",
+        "ellas": "hablaban",
+        "elles": "hablaban",
+        "ustedes": "hablaban"
       }
     },
     {
@@ -1601,6 +2273,22 @@
         "ellas": "hicieron",
         "elles": "hicieron",
         "ustedes": "hicieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "hacía",
+        "tú": "hacías",
+        "él": "hacía",
+        "ella": "hacía",
+        "elle": "hacía",
+        "usted": "hacía",
+        "nosotros": "hacíamos",
+        "nosotras": "hacíamos",
+        "vosotros": "hacíais",
+        "vosotras": "hacíais",
+        "ellos": "hacían",
+        "ellas": "hacían",
+        "elles": "hacían",
+        "ustedes": "hacían"
       }
     },
     {
@@ -1638,6 +2326,22 @@
         "ellas": "impidieron",
         "elles": "impidieron",
         "ustedes": "impidieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "impedía",
+        "tú": "impedías",
+        "él": "impedía",
+        "ella": "impedía",
+        "elle": "impedía",
+        "usted": "impedía",
+        "nosotros": "impedíamos",
+        "nosotras": "impedíamos",
+        "vosotros": "impedíais",
+        "vosotras": "impedíais",
+        "ellos": "impedían",
+        "ellas": "impedían",
+        "elles": "impedían",
+        "ustedes": "impedían"
       }
     },
     {
@@ -1675,6 +2379,22 @@
         "ellas": "fueron",
         "elles": "fueron",
         "ustedes": "fueron"
+      },
+      "conjugationsImperfect": {
+        "yo": "iba",
+        "tú": "ibas",
+        "él": "iba",
+        "ella": "iba",
+        "elle": "iba",
+        "usted": "iba",
+        "nosotros": "íbamos",
+        "nosotras": "íbamos",
+        "vosotros": "ibais",
+        "vosotras": "ibais",
+        "ellos": "iban",
+        "ellas": "iban",
+        "elles": "iban",
+        "ustedes": "iban"
       }
     },
     {
@@ -1712,6 +2432,22 @@
         "ellas": "leyeron",
         "elles": "leyeron",
         "ustedes": "leyeron"
+      },
+      "conjugationsImperfect": {
+        "yo": "leía",
+        "tú": "leías",
+        "él": "leía",
+        "ella": "leía",
+        "elle": "leía",
+        "usted": "leía",
+        "nosotros": "leíamos",
+        "nosotras": "leíamos",
+        "vosotros": "leíais",
+        "vosotras": "leíais",
+        "ellos": "leían",
+        "ellas": "leían",
+        "elles": "leían",
+        "ustedes": "leían"
       }
     },
     {
@@ -1749,6 +2485,22 @@
         "ellas": "llegaron",
         "elles": "llegaron",
         "ustedes": "llegaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "llegaba",
+        "tú": "llegabas",
+        "él": "llegaba",
+        "ella": "llegaba",
+        "elle": "llegaba",
+        "usted": "llegaba",
+        "nosotros": "llegábamos",
+        "nosotras": "llegábamos",
+        "vosotros": "llegabais",
+        "vosotras": "llegabais",
+        "ellos": "llegaban",
+        "ellas": "llegaban",
+        "elles": "llegaban",
+        "ustedes": "llegaban"
       }
     },
     {
@@ -1786,6 +2538,22 @@
         "ellas": "llevaron",
         "elles": "llevaron",
         "ustedes": "llevaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "llevaba",
+        "tú": "llevabas",
+        "él": "llevaba",
+        "ella": "llevaba",
+        "elle": "llevaba",
+        "usted": "llevaba",
+        "nosotros": "llevábamos",
+        "nosotras": "llevábamos",
+        "vosotros": "llevabais",
+        "vosotras": "llevabais",
+        "ellos": "llevaban",
+        "ellas": "llevaban",
+        "elles": "llevaban",
+        "ustedes": "llevaban"
       }
     },
     {
@@ -1823,6 +2591,22 @@
         "ellas": "miraron",
         "elles": "miraron",
         "ustedes": "miraron"
+      },
+      "conjugationsImperfect": {
+        "yo": "miraba",
+        "tú": "mirabas",
+        "él": "miraba",
+        "ella": "miraba",
+        "elle": "miraba",
+        "usted": "miraba",
+        "nosotros": "mirábamos",
+        "nosotras": "mirábamos",
+        "vosotros": "mirabais",
+        "vosotras": "mirabais",
+        "ellos": "miraban",
+        "ellas": "miraban",
+        "elles": "miraban",
+        "ustedes": "miraban"
       }
     },
     {
@@ -1860,6 +2644,22 @@
         "ellas": "mostraron",
         "elles": "mostraron",
         "ustedes": "mostraron"
+      },
+      "conjugationsImperfect": {
+        "yo": "mostraba",
+        "tú": "mostrabas",
+        "él": "mostraba",
+        "ella": "mostraba",
+        "elle": "mostraba",
+        "usted": "mostraba",
+        "nosotros": "mostrábamos",
+        "nosotras": "mostrábamos",
+        "vosotros": "mostrabais",
+        "vosotras": "mostrabais",
+        "ellos": "mostraban",
+        "ellas": "mostraban",
+        "elles": "mostraban",
+        "ustedes": "mostraban"
       }
     },
     {
@@ -1897,6 +2697,22 @@
         "ellas": "necesitaron",
         "elles": "necesitaron",
         "ustedes": "necesitaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "necesitaba",
+        "tú": "necesitabas",
+        "él": "necesitaba",
+        "ella": "necesitaba",
+        "elle": "necesitaba",
+        "usted": "necesitaba",
+        "nosotros": "necesitábamos",
+        "nosotras": "necesitábamos",
+        "vosotros": "necesitabais",
+        "vosotras": "necesitabais",
+        "ellos": "necesitaban",
+        "ellas": "necesitaban",
+        "elles": "necesitaban",
+        "ustedes": "necesitaban"
       }
     },
     {
@@ -1934,6 +2750,22 @@
         "ellas": "oyeron",
         "elles": "oyeron",
         "ustedes": "oyeron"
+      },
+      "conjugationsImperfect": {
+        "yo": "oía",
+        "tú": "oías",
+        "él": "oía",
+        "ella": "oía",
+        "elle": "oía",
+        "usted": "oía",
+        "nosotros": "oíamos",
+        "nosotras": "oíamos",
+        "vosotros": "oíais",
+        "vosotras": "oíais",
+        "ellos": "oían",
+        "ellas": "oían",
+        "elles": "oían",
+        "ustedes": "oían"
       }
     },
     {
@@ -1971,6 +2803,22 @@
         "ellas": "pidieron",
         "elles": "pidieron",
         "ustedes": "pidieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "pedía",
+        "tú": "pedías",
+        "él": "pedía",
+        "ella": "pedía",
+        "elle": "pedía",
+        "usted": "pedía",
+        "nosotros": "pedíamos",
+        "nosotras": "pedíamos",
+        "vosotros": "pedíais",
+        "vosotras": "pedíais",
+        "ellos": "pedían",
+        "ellas": "pedían",
+        "elles": "pedían",
+        "ustedes": "pedían"
       }
     },
     {
@@ -2008,6 +2856,22 @@
         "ellas": "pensaron",
         "elles": "pensaron",
         "ustedes": "pensaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "pensaba",
+        "tú": "pensabas",
+        "él": "pensaba",
+        "ella": "pensaba",
+        "elle": "pensaba",
+        "usted": "pensaba",
+        "nosotros": "pensábamos",
+        "nosotras": "pensábamos",
+        "vosotros": "pensabais",
+        "vosotras": "pensabais",
+        "ellos": "pensaban",
+        "ellas": "pensaban",
+        "elles": "pensaban",
+        "ustedes": "pensaban"
       }
     },
     {
@@ -2045,6 +2909,22 @@
         "ellas": "perdieron",
         "elles": "perdieron",
         "ustedes": "perdieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "perdía",
+        "tú": "perdías",
+        "él": "perdía",
+        "ella": "perdía",
+        "elle": "perdía",
+        "usted": "perdía",
+        "nosotros": "perdíamos",
+        "nosotras": "perdíamos",
+        "vosotros": "perdíais",
+        "vosotras": "perdíais",
+        "ellos": "perdían",
+        "ellas": "perdían",
+        "elles": "perdían",
+        "ustedes": "perdían"
       }
     },
     {
@@ -2082,6 +2962,22 @@
         "ellas": "pudieron",
         "elles": "pudieron",
         "ustedes": "pudieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "podía",
+        "tú": "podías",
+        "él": "podía",
+        "ella": "podía",
+        "elle": "podía",
+        "usted": "podía",
+        "nosotros": "podíamos",
+        "nosotras": "podíamos",
+        "vosotros": "podíais",
+        "vosotras": "podíais",
+        "ellos": "podían",
+        "ellas": "podían",
+        "elles": "podían",
+        "ustedes": "podían"
       }
     },
     {
@@ -2119,6 +3015,22 @@
         "ellas": "pusieron",
         "elles": "pusieron",
         "ustedes": "pusieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "ponía",
+        "tú": "ponías",
+        "él": "ponía",
+        "ella": "ponía",
+        "elle": "ponía",
+        "usted": "ponía",
+        "nosotros": "poníamos",
+        "nosotras": "poníamos",
+        "vosotros": "poníais",
+        "vosotras": "poníais",
+        "ellos": "ponían",
+        "ellas": "ponían",
+        "elles": "ponían",
+        "ustedes": "ponían"
       }
     },
     {
@@ -2156,6 +3068,22 @@
         "ellas": "practicaron",
         "elles": "practicaron",
         "ustedes": "practicaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "practicaba",
+        "tú": "practicabas",
+        "él": "practicaba",
+        "ella": "practicaba",
+        "elle": "practicaba",
+        "usted": "practicaba",
+        "nosotros": "practicábamos",
+        "nosotras": "practicábamos",
+        "vosotros": "practicabais",
+        "vosotras": "practicabais",
+        "ellos": "practicaban",
+        "ellas": "practicaban",
+        "elles": "practicaban",
+        "ustedes": "practicaban"
       }
     },
     {
@@ -2193,6 +3121,22 @@
         "ellas": "prefirieron",
         "elles": "prefirieron",
         "ustedes": "prefirieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "prefería",
+        "tú": "preferías",
+        "él": "prefería",
+        "ella": "prefería",
+        "elle": "prefería",
+        "usted": "prefería",
+        "nosotros": "preferíamos",
+        "nosotras": "preferíamos",
+        "vosotros": "preferíais",
+        "vosotras": "preferíais",
+        "ellos": "preferían",
+        "ellas": "preferían",
+        "elles": "preferían",
+        "ustedes": "preferían"
       }
     },
     {
@@ -2230,6 +3174,22 @@
         "ellas": "preguntaron",
         "elles": "preguntaron",
         "ustedes": "preguntaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "preguntaba",
+        "tú": "preguntabas",
+        "él": "preguntaba",
+        "ella": "preguntaba",
+        "elle": "preguntaba",
+        "usted": "preguntaba",
+        "nosotros": "preguntábamos",
+        "nosotras": "preguntábamos",
+        "vosotros": "preguntabais",
+        "vosotras": "preguntabais",
+        "ellos": "preguntaban",
+        "ellas": "preguntaban",
+        "elles": "preguntaban",
+        "ustedes": "preguntaban"
       }
     },
     {
@@ -2267,6 +3227,22 @@
         "ellas": "prepararon",
         "elles": "prepararon",
         "ustedes": "prepararon"
+      },
+      "conjugationsImperfect": {
+        "yo": "preparaba",
+        "tú": "preparabas",
+        "él": "preparaba",
+        "ella": "preparaba",
+        "elle": "preparaba",
+        "usted": "preparaba",
+        "nosotros": "preparábamos",
+        "nosotras": "preparábamos",
+        "vosotros": "preparabais",
+        "vosotras": "preparabais",
+        "ellos": "preparaban",
+        "ellas": "preparaban",
+        "elles": "preparaban",
+        "ustedes": "preparaban"
       }
     },
     {
@@ -2304,6 +3280,22 @@
         "ellas": "quisieron",
         "elles": "quisieron",
         "ustedes": "quisieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "quería",
+        "tú": "querías",
+        "él": "quería",
+        "ella": "quería",
+        "elle": "quería",
+        "usted": "quería",
+        "nosotros": "queríamos",
+        "nosotras": "queríamos",
+        "vosotros": "queríais",
+        "vosotras": "queríais",
+        "ellos": "querían",
+        "ellas": "querían",
+        "elles": "querían",
+        "ustedes": "querían"
       }
     },
     {
@@ -2341,6 +3333,22 @@
         "ellas": "recibieron",
         "elles": "recibieron",
         "ustedes": "recibieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "recibía",
+        "tú": "recibías",
+        "él": "recibía",
+        "ella": "recibía",
+        "elle": "recibía",
+        "usted": "recibía",
+        "nosotros": "recibíamos",
+        "nosotras": "recibíamos",
+        "vosotros": "recibíais",
+        "vosotras": "recibíais",
+        "ellos": "recibían",
+        "ellas": "recibían",
+        "elles": "recibían",
+        "ustedes": "recibían"
       }
     },
     {
@@ -2378,6 +3386,22 @@
         "ellas": "recordaron",
         "elles": "recordaron",
         "ustedes": "recordaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "recordaba",
+        "tú": "recordabas",
+        "él": "recordaba",
+        "ella": "recordaba",
+        "elle": "recordaba",
+        "usted": "recordaba",
+        "nosotros": "recordábamos",
+        "nosotras": "recordábamos",
+        "vosotros": "recordabais",
+        "vosotras": "recordabais",
+        "ellos": "recordaban",
+        "ellas": "recordaban",
+        "elles": "recordaban",
+        "ustedes": "recordaban"
       }
     },
     {
@@ -2415,6 +3439,22 @@
         "ellas": "regresaron",
         "elles": "regresaron",
         "ustedes": "regresaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "regresaba",
+        "tú": "regresabas",
+        "él": "regresaba",
+        "ella": "regresaba",
+        "elle": "regresaba",
+        "usted": "regresaba",
+        "nosotros": "regresábamos",
+        "nosotras": "regresábamos",
+        "vosotros": "regresabais",
+        "vosotras": "regresabais",
+        "ellos": "regresaban",
+        "ellas": "regresaban",
+        "elles": "regresaban",
+        "ustedes": "regresaban"
       }
     },
     {
@@ -2452,6 +3492,22 @@
         "ellas": "rieron",
         "elles": "rieron",
         "ustedes": "rieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "reía",
+        "tú": "reías",
+        "él": "reía",
+        "ella": "reía",
+        "elle": "reía",
+        "usted": "reía",
+        "nosotros": "reíamos",
+        "nosotras": "reíamos",
+        "vosotros": "reíais",
+        "vosotras": "reíais",
+        "ellos": "reían",
+        "ellas": "reían",
+        "elles": "reían",
+        "ustedes": "reían"
       }
     },
     {
@@ -2489,6 +3545,22 @@
         "ellas": "repitieron",
         "elles": "repitieron",
         "ustedes": "repitieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "repetía",
+        "tú": "repetías",
+        "él": "repetía",
+        "ella": "repetía",
+        "elle": "repetía",
+        "usted": "repetía",
+        "nosotros": "repetíamos",
+        "nosotras": "repetíamos",
+        "vosotros": "repetíais",
+        "vosotras": "repetíais",
+        "ellos": "repetían",
+        "ellas": "repetían",
+        "elles": "repetían",
+        "ustedes": "repetían"
       }
     },
     {
@@ -2526,6 +3598,22 @@
         "ellas": "supieron",
         "elles": "supieron",
         "ustedes": "supieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "sabía",
+        "tú": "sabías",
+        "él": "sabía",
+        "ella": "sabía",
+        "elle": "sabía",
+        "usted": "sabía",
+        "nosotros": "sabíamos",
+        "nosotras": "sabíamos",
+        "vosotros": "sabíais",
+        "vosotras": "sabíais",
+        "ellos": "sabían",
+        "ellas": "sabían",
+        "elles": "sabían",
+        "ustedes": "sabían"
       }
     },
     {
@@ -2563,6 +3651,22 @@
         "ellas": "salieron",
         "elles": "salieron",
         "ustedes": "salieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "salía",
+        "tú": "salías",
+        "él": "salía",
+        "ella": "salía",
+        "elle": "salía",
+        "usted": "salía",
+        "nosotros": "salíamos",
+        "nosotras": "salíamos",
+        "vosotros": "salíais",
+        "vosotras": "salíais",
+        "ellos": "salían",
+        "ellas": "salían",
+        "elles": "salían",
+        "ustedes": "salían"
       }
     },
     {
@@ -2600,6 +3704,22 @@
         "ellas": "siguieron",
         "elles": "siguieron",
         "ustedes": "siguieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "seguía",
+        "tú": "seguías",
+        "él": "seguía",
+        "ella": "seguía",
+        "elle": "seguía",
+        "usted": "seguía",
+        "nosotros": "seguíamos",
+        "nosotras": "seguíamos",
+        "vosotros": "seguíais",
+        "vosotras": "seguíais",
+        "ellos": "seguían",
+        "ellas": "seguían",
+        "elles": "seguían",
+        "ustedes": "seguían"
       }
     },
     {
@@ -2637,6 +3757,22 @@
         "ellas": "fueron",
         "elles": "fueron",
         "ustedes": "fueron"
+      },
+      "conjugationsImperfect": {
+        "yo": "era",
+        "tú": "eras",
+        "él": "era",
+        "ella": "era",
+        "elle": "era",
+        "usted": "era",
+        "nosotros": "éramos",
+        "nosotras": "éramos",
+        "vosotros": "erais",
+        "vosotras": "erais",
+        "ellos": "eran",
+        "ellas": "eran",
+        "elles": "eran",
+        "ustedes": "eran"
       }
     },
     {
@@ -2674,6 +3810,22 @@
         "ellas": "sonrieron",
         "elles": "sonrieron",
         "ustedes": "sonrieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "sonreía",
+        "tú": "sonreías",
+        "él": "sonreía",
+        "ella": "sonreía",
+        "elle": "sonreía",
+        "usted": "sonreía",
+        "nosotros": "sonreíamos",
+        "nosotras": "sonreíamos",
+        "vosotros": "sonreíais",
+        "vosotras": "sonreíais",
+        "ellos": "sonreían",
+        "ellas": "sonreían",
+        "elles": "sonreían",
+        "ustedes": "sonreían"
       }
     },
     {
@@ -2711,6 +3863,22 @@
         "ellas": "supusieron",
         "elles": "supusieron",
         "ustedes": "supusieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "suponía",
+        "tú": "suponías",
+        "él": "suponía",
+        "ella": "suponía",
+        "elle": "suponía",
+        "usted": "suponía",
+        "nosotros": "suponíamos",
+        "nosotras": "suponíamos",
+        "vosotros": "suponíais",
+        "vosotras": "suponíais",
+        "ellos": "suponían",
+        "ellas": "suponían",
+        "elles": "suponían",
+        "ustedes": "suponían"
       }
     },
     {
@@ -2748,6 +3916,22 @@
         "ellas": "tuvieron",
         "elles": "tuvieron",
         "ustedes": "tuvieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "tenía",
+        "tú": "tenías",
+        "él": "tenía",
+        "ella": "tenía",
+        "elle": "tenía",
+        "usted": "tenía",
+        "nosotros": "teníamos",
+        "nosotras": "teníamos",
+        "vosotros": "teníais",
+        "vosotras": "teníais",
+        "ellos": "tenían",
+        "ellas": "tenían",
+        "elles": "tenían",
+        "ustedes": "tenían"
       }
     },
     {
@@ -2785,6 +3969,22 @@
         "ellas": "terminaron",
         "elles": "terminaron",
         "ustedes": "terminaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "terminaba",
+        "tú": "terminabas",
+        "él": "terminaba",
+        "ella": "terminaba",
+        "elle": "terminaba",
+        "usted": "terminaba",
+        "nosotros": "terminábamos",
+        "nosotras": "terminábamos",
+        "vosotros": "terminabais",
+        "vosotras": "terminabais",
+        "ellos": "terminaban",
+        "ellas": "terminaban",
+        "elles": "terminaban",
+        "ustedes": "terminaban"
       }
     },
     {
@@ -2822,6 +4022,22 @@
         "ellas": "tomaron",
         "elles": "tomaron",
         "ustedes": "tomaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "tomaba",
+        "tú": "tomabas",
+        "él": "tomaba",
+        "ella": "tomaba",
+        "elle": "tomaba",
+        "usted": "tomaba",
+        "nosotros": "tomábamos",
+        "nosotras": "tomábamos",
+        "vosotros": "tomabais",
+        "vosotras": "tomabais",
+        "ellos": "tomaban",
+        "ellas": "tomaban",
+        "elles": "tomaban",
+        "ustedes": "tomaban"
       }
     },
     {
@@ -2859,6 +4075,22 @@
         "ellas": "trabajaron",
         "elles": "trabajaron",
         "ustedes": "trabajaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "trabajaba",
+        "tú": "trabajabas",
+        "él": "trabajaba",
+        "ella": "trabajaba",
+        "elle": "trabajaba",
+        "usted": "trabajaba",
+        "nosotros": "trabajábamos",
+        "nosotras": "trabajábamos",
+        "vosotros": "trabajabais",
+        "vosotras": "trabajabais",
+        "ellos": "trabajaban",
+        "ellas": "trabajaban",
+        "elles": "trabajaban",
+        "ustedes": "trabajaban"
       }
     },
     {
@@ -2881,7 +4113,7 @@
       "elles": "traen",
       "ustedes": "traen"
     },
-      "conjugationsPreterite": {
+    "conjugationsPreterite": {
         "yo": "traje",
         "tú": "trajiste",
         "él": "trajo",
@@ -2896,6 +4128,22 @@
         "ellas": "trajeron",
         "elles": "trajeron",
         "ustedes": "trajeron"
+      },
+      "conjugationsImperfect": {
+        "yo": "traía",
+        "tú": "traías",
+        "él": "traía",
+        "ella": "traía",
+        "elle": "traía",
+        "usted": "traía",
+        "nosotros": "traíamos",
+        "nosotras": "traíamos",
+        "vosotros": "traíais",
+        "vosotras": "traíais",
+        "ellos": "traían",
+        "ellas": "traían",
+        "elles": "traían",
+        "ustedes": "traían"
       }
   },
   {
@@ -2933,6 +4181,22 @@
         "ellas": "vieron",
         "elles": "vieron",
         "ustedes": "vieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "veía",
+        "tú": "veías",
+        "él": "veía",
+        "ella": "veía",
+        "elle": "veía",
+        "usted": "veía",
+        "nosotros": "veíamos",
+        "nosotras": "veíamos",
+        "vosotros": "veíais",
+        "vosotras": "veíais",
+        "ellos": "veían",
+        "ellas": "veían",
+        "elles": "veían",
+        "ustedes": "veían"
       }
   },
   {
@@ -2970,6 +4234,22 @@
         "ellas": "vinieron",
         "elles": "vinieron",
         "ustedes": "vinieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "venía",
+        "tú": "venías",
+        "él": "venía",
+        "ella": "venía",
+        "elle": "venía",
+        "usted": "venía",
+        "nosotros": "veníamos",
+        "nosotras": "veníamos",
+        "vosotros": "veníais",
+        "vosotras": "veníais",
+        "ellos": "venían",
+        "ellas": "venían",
+        "elles": "venían",
+        "ustedes": "venían"
       }
   },
   {
@@ -3007,6 +4287,22 @@
         "ellas": "viajaron",
         "elles": "viajaron",
         "ustedes": "viajaron"
+      },
+      "conjugationsImperfect": {
+        "yo": "viajaba",
+        "tú": "viajabas",
+        "él": "viajaba",
+        "ella": "viajaba",
+        "elle": "viajaba",
+        "usted": "viajaba",
+        "nosotros": "viajábamos",
+        "nosotras": "viajábamos",
+        "vosotros": "viajabais",
+        "vosotras": "viajabais",
+        "ellos": "viajaban",
+        "ellas": "viajaban",
+        "elles": "viajaban",
+        "ustedes": "viajaban"
       }
   },
   {
@@ -3044,6 +4340,22 @@
         "ellas": "vivieron",
         "elles": "vivieron",
         "ustedes": "vivieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "vivía",
+        "tú": "vivías",
+        "él": "vivía",
+        "ella": "vivía",
+        "elle": "vivía",
+        "usted": "vivía",
+        "nosotros": "vivíamos",
+        "nosotras": "vivíamos",
+        "vosotros": "vivíais",
+        "vosotras": "vivíais",
+        "ellos": "vivían",
+        "ellas": "vivían",
+        "elles": "vivían",
+        "ustedes": "vivían"
       }
   },
   {
@@ -3081,6 +4393,22 @@
         "ellas": "volvieron",
         "elles": "volvieron",
         "ustedes": "volvieron"
+      },
+      "conjugationsImperfect": {
+        "yo": "volvía",
+        "tú": "volvías",
+        "él": "volvía",
+        "ella": "volvía",
+        "elle": "volvía",
+        "usted": "volvía",
+        "nosotros": "volvíamos",
+        "nosotras": "volvíamos",
+        "vosotros": "volvíais",
+        "vosotras": "volvíais",
+        "ellos": "volvían",
+        "ellas": "volvían",
+        "elles": "volvían",
+        "ustedes": "volvían"
       }
   }
 ]
