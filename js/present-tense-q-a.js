@@ -7,7 +7,7 @@ let selectedCategory = 'all'; // Default to 'all' verbs
 let verbsData = [];
 let categoriesData = [];
 
-// Complete subjects list including elle/elles and nosotras
+// Complete subjects list including elle/elles
 const subjects = [
     { pronoun: "tú", needsSubject: false },
     { pronoun: "usted", needsSubject: true },
@@ -18,7 +18,7 @@ const subjects = [
     { pronoun: "ellos", needsSubject: true },
     { pronoun: "ellas", needsSubject: true },
     { pronoun: "elles", needsSubject: true }
-    // Removed nosotros/nosotras to avoid subjunctive command forms in negative responses
+    // Nosotros/nosotras not included to avoid subjunctive command forms in negative responses
 ];
 
 // Load verb data from JSON file
@@ -145,7 +145,7 @@ function initializeApp() {
 // Set up the default question and answer
 function setupDefaultQuestion() {
     
-    // Ensure we find "bailar" verb - it should definitely exist now
+    // Ensure "bailar" verb is found
     currentVerb = verbsData.find(verb => verb.infinitive === "bailar");
     
     // Set subject to "tú" for "¿Bailas?"
