@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Practice - Making Introductions</title>
+    <link href="../css/styles-uwm.css" rel="stylesheet">
+    <script>
+        // Set the data file before loading the script
+        window.dataFile = 'introductions.json';
+    </script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-title-section">
+                <h1 class="nav-title">Spanish Practice</h1>
+                <p class="nav-tagline">Improve your Spanish with practice activities</p>
+            </div>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Home</a>
+                <a href="../lessons.html" class="nav-item">Lessons</a>
+                <a href="../elements-of-culture.html" class="nav-item">Elements of Culture</a>
+                <a href="../resources.html" class="nav-item">Helpful Resources</a>
+                <a href="../about.html" class="nav-item">About</a>
+                <a href="../contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <div id="home" class="page active">
+                <div class="activity-container">
+                    <h2>Making Introductions</h2>
+
+                    <h3>Introduction</h3>
+                    <div class="introduction-section">
+                        <p>Welcome to this Conversation Starters lesson. In this lesson, you'll learn phrases for introducing people in different social contexts. The phrases you use vary depending on the level of formality and whether you're introducing one person, multiple people, or two people to each other. First study the introduction phrases below, then practice determining which introduction is appropriate for different social situations.</p>
+                    </div>
+
+                    <h3>Introducing People</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Making introductions in Spanish</th>
+                                <th>Making introductions in English</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Hola, ¿cómo te llamas? | ¿Cómo se llama usted?<br>
+                                    Me llamo Alaina | Soy Alaina<br>
+                                </td>
+                                <td>
+                                    Hello, what is your name? (informal) | What is your name? (formal)<br>
+                                    My name is Alaina | I'm Alaina<br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Mucho gusto<br>
+                                    Encantado | Encantada | Encantade
+                                </td>
+                                <td>
+                                    Nice to meet you<br>
+                                    Lovely to meet you (select ending according to your gender)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Te presento a... | Le presento a... |  Les presento a...
+                                </td>
+                                <td>
+                                    I'd like to introduce you (informal) | you (formal) | you all to...<br>
+                                </td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Les presento (el uno al otro | la una a la otra | le une a le otre)<br>
+                                </td>
+                                <td>
+                                    I'd like to introduce you two to each other (select ending according to gender)
+                                </td>
+                            </tr>              
+                        </tbody>
+                    </table>
+
+                    <h3>Instructions</h3>
+                    <div class="instructions-section">
+                        <p>Familiarize yourself with the introduction phrases above. Practice pronouncing them aloud or in your head. Notice how the level of formality changes based on your relationship with the people involved.</p>
+                        <p>When you're ready, click "Next Scenario" to see a social situation. Determine which introduction phrase would be most appropriate, then click "Show Answer" to check your response.</p>
+                        <p><strong>Key considerations:</strong></p>
+                        <ul>
+                            <li><strong>Te presento a...</strong> - Use when introducing someone to a friend, peer, or someone you use "tú" with (informal)</li>
+                            <li><strong>Le presento a...</strong> - Use when introducing someone to an authority figure, elder, or someone you use "usted" with (formal)</li>
+                            <li><strong>Les presento a...</strong> - Use when introducing someone to a group of people</li>
+                            <li><strong>Les presento (el uno al otro/la una a la otra/le une a le otre)</strong> - Use when introducing two people to each other simultaneously</li>
+                        </ul>
+                    </div>
+
+                    <h3>Practice Scenarios</h3>
+                    <div class="question-section">
+                        <div class="question-box" id="questionBox">
+                            <p class="placeholder-text">Click "Next Scenario" to begin practicing introductions.</p>
+                        </div>
+                        
+                        <div class="response-buttons">
+                            <button class="btn btn-positive" onclick="showAnswer(true)">Next Scenario</button>
+                            <button class="btn btn-negative" onclick="showAnswer(false)">Show Answer</button>
+                        </div>
+                    </div>
+                    <h3>Possible Responses</h3>
+                    <div class="answer-box" id="answerBox">
+                        <p class="placeholder-text">Once you click Show Answer, the appropriate response will appear here.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Developed for the Spanish courses taught at UW-Milwaukee's School of Continuing Education by Alaina Brandt</p>
+        </div>
+    </footer>
+
+    <script src="../js/scenario-practice.js" data-file="making-introductions.json"></script>
+</body>
+</html>

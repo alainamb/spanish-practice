@@ -3,10 +3,23 @@ let currentScenario = null;
 let scenariosData = [];
 let usedScenarios = [];
 
+// Get the data file from the script tag's data attribute
+function getDataFile() {
+    const scriptTag = document.currentScript || document.querySelector('script[data-file]');
+    return scriptTag ? scriptTag.getAttribute('data-file') : null;
+}
+
 // Load scenario data from JSON file
 async function loadScenarioData() {
+    const dataFile = getDataFile();
+    
+    if (!dataFile) {
+        console.error('No data file specified in script tag');
+        return;
+    }
+    
     try {
-        const response = await fetch('../data/courtesy-expressions.json');
+        const response = await fetch(`../data/${dataFile}`);
         const data = await response.json();
         
         scenariosData = data.scenarios;
@@ -16,29 +29,8 @@ async function loadScenarioData() {
         
     } catch (error) {
         console.error('Error loading scenario data:', error);
-        // Fallback to sample data if JSON fails to load
-        useFallbackData();
-        initializeApp();
+        alert('Error loading activity data. Please refresh the page.');
     }
-}
-
-// Fallback data in case JSON doesn't load
-function useFallbackData() {
-    
-    scenariosData = [
-        {
-            scenario: "You'd like another slice of dessert.",
-            responses: "Sí por favor | Con permiso"
-        },
-        {
-            scenario: "Someone thanks you",
-            responses: "De nada | No hay de que"
-        },
-        {
-            scenario: "Someone gave you a gift.",
-            responses: "Gracias | Muchas gracias"
-        }
-    ];
 }
 
 // Initialize the app
@@ -81,7 +73,7 @@ function generateScenario() {
     // Reset answer section to placeholder
     const answerBox = document.getElementById('answerBox');
     if (answerBox) {
-        answerBox.innerHTML = '<p class="placeholder-text">Once you click Show Answer, potential responses will appear here.</p>';
+        answerBox.innerHTML = '<p class="placeholder-text">Once you click Show Answer, the appropriate response will appear here.</p>';
     }
 }
 
@@ -97,10 +89,9 @@ function showAnswer(nextScenario) {
             return;
         }
     
-    const answerBox = document.getElementById('answerBox');
+        const answerBox = document.getElementById('answerBox');
         if (answerBox) {
             answerBox.innerHTML = `<div class="answer-text">${currentScenario.responses}</div>`;
-            console.log('Answer displayed successfully');
         }
     }
 }

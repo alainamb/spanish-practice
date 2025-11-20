@@ -1,0 +1,84 @@
+{
+    "scenarios": [
+        {
+            "scenario": "You're introducing your roommate to your childhood friend.",
+            "responses": "Te presento a..."
+        },
+        {
+            "scenario": "You're out with a friend, and you run into another one.",
+            "responses": "Te presento a..."
+        },
+        {
+            "scenario": "Your child is being introduced to a new playmate.",
+            "responses": "Te presento a..."
+        },
+        {
+            "scenario": "You're introducing your cousin to your best friend at a party.",
+            "responses": "Te presento a..."
+        },
+        {
+            "scenario": "You're introducing your younger sibling to your friend from work.",
+            "responses": "Te presento a..."
+        },
+        {
+            "scenario": "You find yourself introducing two presidents.",
+            "responses": "Le presento a..."
+        },
+        {
+            "scenario": "You're introducing your family to your mother-in-law.",
+            "responses": "Le presento a..."
+        },
+        {
+            "scenario": "You're introducing your boss to a client at a business meeting.",
+            "responses": "Le presento a..."
+        },
+        {
+            "scenario": "You're introducing your grandmother to your professor.",
+            "responses": "Le presento a..."
+        },
+        {
+            "scenario": "You're introducing your doctor to your elderly parent.",
+            "responses": "Le presento a..."
+        },
+        {
+            "scenario": "You're introducing a new romantic partner to your parents.",
+            "responses": "Les presento a..."
+        },
+        {
+            "scenario": "You're introducing your study group members to each other at the library.",
+            "responses": "Les presento a..."
+        },
+        {
+            "scenario": "You're introducing your soccer teammates to each other before a game.",
+            "responses": "Les presento a..."
+        },
+        {
+            "scenario": "You're introducing a guest speaker to your classmates.",
+            "responses": "Les presento a..."
+        },
+        {
+            "scenario": "You're introducing your bandmates to your music teacher.",
+            "responses": "Les presento a..."
+        },
+        {
+            "scenario": "You're introducing two classmates who don't know each other yet.",
+            "responses": "Les presento (el uno al otro/la una a la otra/le une a le otre)"
+        },
+        {
+            "scenario": "You're introducing your two best friends from different friend groups.",
+            "responses": "Les presento (el uno al otro/la una a la otra/le une a le otre)"
+        },
+        {
+            "scenario": "You're introducing two colleagues who will be working on a project together.",
+            "responses": "Les presento (el uno al otro/la una a la otra/le une a le otre)"
+        },
+        {
+            "scenario": "You're introducing your partner to your best friend for the first time.",
+            "responses": "Les presento (el uno al otro/la una a la otra/le une a le otre)"
+        },
+        {
+            "scenario": "You're introducing your sibling to your roommate.",
+            "responses": "Les presento (el uno al otro/la una a la otra/le une a le otre)"
+        }
+    ]
+}
