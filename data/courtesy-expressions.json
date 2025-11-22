@@ -51,6 +51,14 @@
         {
             "scenario": "Someone helps you with the dishes.",
             "responses": "Gracias | Muchas gracias"
+        },
+        {
+            "scenario": "Someone younger wants to get around you. They say \"Con permiso\".",
+            "responses": "Propio | Adelante | Pasa | Pásale | Pásate"
+        },
+        {
+            "scenario": "Someone older wants to get around you. They say \"Con permiso\".",
+            "responses": "Propio | Adelante | Pase | Pásele | Pásase"
         }
     ]
 }
