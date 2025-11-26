@@ -1,0 +1,179 @@
+/* Weather Forecast Practice - Additional CSS */
+
+.forecast-container {
+    margin-bottom: 2rem;
+    background-color: var(--uwm-bg-gray);
+    border: 2px solid var(--uwm-border);
+    border-radius: 8px;
+    padding: 2rem;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.forecast-container .placeholder-text {
+    color: var(--uwm-black-light);
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+}
+
+/* Forecast grid - 7 day cards */
+.forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.75rem;
+    max-width: 1000px;
+    margin: 0;  /* Changed from margin: 0 auto; */
+    width: 100%;  /* Added to ensure full width */
+}
+
+/* Individual day card */
+.day-card {
+    background-color: var(--uwm-bg-white);
+    border: 3px solid var(--uwm-border);
+    border-radius: 8px;
+    padding: 0.75rem 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.day-card:hover:not(.disabled) {
+    border-color: var(--uwm-gold);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.day-card.selected {
+    background-color: var(--uwm-gold-light);
+    border-color: var(--uwm-gold);
+    border-width: 4px;
+}
+
+.day-card.disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* Day name label */
+.day-name {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--uwm-text);
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+
+/* Weather icon */
+.weather-icon {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+/* Temperature display */
+.temp-high {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--uwm-text);
+    margin: 0.25rem 0;
+}
+
+.temp-low {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--uwm-black-light);
+    margin: 0.25rem 0;
+}
+
+/* Feedback overlay */
+.feedback-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 10;
+    animation: pop-in 0.3s ease-out;
+}
+
+.feedback-overlay.correct {
+    background-color: rgba(22, 163, 74, 0.9);
+    color: white;
+}
+
+.feedback-overlay.incorrect {
+    background-color: rgba(220, 38, 38, 0.9);
+    color: white;
+}
+
+.feedback-overlay.missed {
+    background-color: rgba(245, 158, 11, 0.9);
+    color: white;
+}
+
+/* Animation for feedback */
+@keyframes pop-in {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .forecast-grid {
+        gap: 0.5rem;
+    }
+    
+    .day-card {
+        padding: 0.5rem 0.25rem;
+        min-height: 160px;
+    }
+    
+    .weather-icon {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .forecast-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .forecast-container {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .forecast-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+    
+    .day-card {
+        min-height: 140px;
+    }
+}

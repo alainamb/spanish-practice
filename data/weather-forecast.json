@@ -1,0 +1,564 @@
+{
+    "cities": [
+        {
+            "id": "mexico-city",
+            "name": "Ciudad de México",
+            "forecast": [
+                {
+                    "day": "domingo",
+                    "condition": "partly-cloudy",
+                    "high": 24,
+                    "low": 12
+                },
+                {
+                    "day": "lunes",
+                    "condition": "sunny",
+                    "high": 26,
+                    "low": 13
+                },
+                {
+                    "day": "martes",
+                    "condition": "stormy",
+                    "high": 23,
+                    "low": 14
+                },
+                {
+                    "day": "miércoles",
+                    "condition": "rainy",
+                    "high": 22,
+                    "low": 13
+                },
+                {
+                    "day": "jueves",
+                    "condition": "partly-cloudy",
+                    "high": 25,
+                    "low": 12
+                },
+                {
+                    "day": "viernes",
+                    "condition": "stormy",
+                    "high": 23,
+                    "low": 14
+                },
+                {
+                    "day": "sábado",
+                    "condition": "sunny",
+                    "high": 27,
+                    "low": 13
+                }
+            ],
+            "questions": [
+                {
+                    "text": "¿En qué días llueve esta semana?",
+                    "correctDays": [3, 4, 6]
+                },
+                {
+                    "text": "¿Qué día hace más calor?",
+                    "correctDays": [7]
+                },
+                {
+                    "text": "¿En qué días hace buen tiempo para ir al parque?",
+                    "correctDays": [1, 2, 5, 7]
+                },
+                {
+                    "text": "¿En qué días llevo un paraguas por si hay lluvia?",
+                    "correctDays": [1, 3, 4, 5, 6]
+                },
+                {
+                    "text": "¿En qué días llevo bloqueador porque está completamente soleado?",
+                    "correctDays": [2, 7]
+                }
+            ]
+        },
+        {
+            "id": "hermosillo",
+            "name": "Hermosillo",
+            "forecast": [
+                {
+                    "day": "domingo",
+                    "condition": "sunny",
+                    "high": 42,
+                    "low": 28
+                },
+                {
+                    "day": "lunes",
+                    "condition": "sunny",
+                    "high": 44,
+                    "low": 30
+                },
+                {
+                    "day": "martes",
+                    "condition": "sunny",
+                    "high": 43,
+                    "low": 29
+                },
+                {
+                    "day": "miércoles",
+                    "condition": "partly-cloudy",
+                    "high": 39,
+                    "low": 27
+                },
+                {
+                    "day": "jueves",
+                    "condition": "sunny",
+                    "high": 41,
+                    "low": 28
+                },
+                {
+                    "day": "viernes",
+                    "condition": "sunny",
+                    "high": 43,
+                    "low": 30
+                },
+                {
+                    "day": "sábado",
+                    "condition": "hot",
+                    "high": 45,
+                    "low": 31
+                }
+            ],
+            "questions": [
+                {
+                    "text": "¿En qué días hace más de 40 grados?",
+                    "correctDays": [1, 2, 3, 5, 6, 7]
+                },
+                {
+                    "text": "¿En qué día hay un poco de descanso de tanto calor?",
+                    "correctDays": [4]
+                },
+                {
+                    "text": "¿En qué días hace calor esta semana?",
+                    "correctDays": [1, 2, 3, 4, 5, 6, 7]
+                },
+                {
+                    "text": "¿Hay un día en qué sería recomendable quedarnos en casa para evitar un golpe de calor?",
+                    "correctDays": [7]
+                },
+                {
+                    "text": "¿Qué día tiene la temperatura más baja?",
+                    "correctDays": [4]
+                }
+            ]
+        },
+        {
+            "id": "cancun",
+            "name": "Cancún",
+            "forecast": [
+                {
+                    "day": "domingo",
+                    "condition": "partly-cloudy",
+                    "high": 32,
+                    "low": 25
+                },
+                {
+                    "day": "lunes",
+                    "condition": "rainy",
+                    "high": 30,
+                    "low": 24
+                },
+                {
+                    "day": "martes",
+                    "condition": "sunny",
+                    "high": 33,
+                    "low": 26
+                },
+                {
+                    "day": "miércoles",
+                    "condition": "rainy",
+                    "high": 31,
+                    "low": 25
+                },
+                {
+                    "day": "jueves",
+                    "condition": "partly-cloudy",
+                    "high": 32,
+                    "low": 25
+                },
+                {
+                    "day": "viernes",
+                    "condition": "sunny",
+                    "high": 34,
+                    "low": 26
+                },
+                {
+                    "day": "sábado",
+                    "condition": "sunny",
+                    "high": 33,
+                    "low": 26
+                }
+            ],
+            "questions": [
+                {
+                    "text": "¿Cuándo llueve esta semana?",
+                    "correctDays": [2, 4]
+                },
+                {
+                    "text": "¿Qué días son buenos para ir a la playa?",
+                    "correctDays": [1, 3, 5, 6, 7]
+                },
+                {
+                    "text": "¿En qué días hace calor?",
+                    "correctDays": [1, 2, 3, 4, 5, 6, 7]
+                },
+                {
+                    "text": "¿En qué días hay nubes?",
+                    "correctDays": [1, 2, 4, 5]
+                },
+                {
+                    "text": "¿Cuáles son los tres días más calurosos esta semana?",
+                    "correctDays": [3, 6, 7]
+                }
+            ]
+        },
+        {
+            "id": "chicago",
+            "name": "Chicago",
+            "forecast": [
+                {
+                    "day": "domingo",
+                    "condition": "windy",
+                    "high": 8,
+                    "low": 0
+                },
+                {
+                    "day": "lunes",
+                    "condition": "cloudy",
+                    "high": 6,
+                    "low": -2
+                },
+                {
+                    "day": "martes",
+                    "condition": "snowy",
+                    "high": 3,
+                    "low": -3
+                },
+                {
+                    "day": "miércoles",
+                    "condition": "snowy",
+                    "high": 2,
+                    "low": -4
+                },
+                {
+                    "day": "jueves",
+                    "condition": "partly-cloudy",
+                    "high": 5,
+                    "low": -1
+                },
+                {
+                    "day": "viernes",
+                    "condition": "sunny",
+                    "high": 7,
+                    "low": 1
+                },
+                {
+                    "day": "sábado",
+                    "condition": "windy",
+                    "high": 9,
+                    "low": 2
+                }
+            ],
+            "questions": [
+                {
+                    "text": "¿Cuándo nieva?",
+                    "correctDays": [3, 4]
+                },
+                {
+                    "text": "¿En qué días hace mucho viento?",
+                    "correctDays": [1, 7]
+                },
+                {
+                    "text": "¿Qué día hace más frío?",
+                    "correctDays": [4]
+                },
+                {
+                    "text": "¿Hay sol esta semana?",
+                    "correctDays": [5, 6]
+                },
+                {
+                    "text": "¿En qué días hay una mayor probabilidad de granizos?",
+                    "correctDays": [1, 3, 4, 7]
+                }
+            ]
+        },
+        {
+            "id": "new-york",
+            "name": "New York City",
+            "forecast": [
+                {
+                    "day": "domingo",
+                    "condition": "cloudy",
+                    "high": 4,
+                    "low": -2
+                },
+                {
+                    "day": "lunes",
+                    "condition": "snowy",
+                    "high": 1,
+                    "low": -4
+                },
+                {
+                    "day": "martes",
+                    "condition": "snowy",
+                    "high": 0,
+                    "low": -5
+                },
+                {
+                    "day": "miércoles",
+                    "condition": "partly-cloudy",
+                    "high": 3,
+                    "low": -3
+                },
+                {
+                    "day": "jueves",
+                    "condition": "sunny",
+                    "high": 6,
+                    "low": -1
+                },
+                {
+                    "day": "viernes",
+                    "condition": "cloudy",
+                    "high": 5,
+                    "low": 0
+                },
+                {
+                    "day": "sábado",
+                    "condition": "rainy",
+                    "high": 7,
+                    "low": 2
+                }
+            ],
+            "questions": [
+                {
+                    "text": "¿En qué días nieva?",
+                    "correctDays": [2, 3]
+                },
+                {
+                    "text": "¿Qué día hace mejor tiempo?",
+                    "correctDays": [5]
+                },
+                {
+                    "text": "¿Cuándo hace mucho frío esta semana?",
+                    "correctDays": [1, 2, 3, 4]
+                },
+                {
+                    "text": "¿Qué día hace más frío?",
+                    "correctDays": [5]
+                },
+                {
+                    "text": "¿Qué día está despejado?",
+                    "correctDays": [5]
+                }
+            ]
+        },
+        {
+            "id": "san-francisco",
+            "name": "San Francisco",
+            "forecast": [
+                {
+                    "day": "domingo",
+                    "condition": "foggy",
+                    "high": 15,
+                    "low": 10
+                },
+                {
+                    "day": "lunes",
+                    "condition": "cloudy",
+                    "high": 16,
+                    "low": 11
+                },
+                {
+                    "day": "martes",
+                    "condition": "foggy",
+                    "high": 14,
+                    "low": 10
+                },
+                {
+                    "day": "miércoles",
+                    "condition": "rainy",
+                    "high": 13,
+                    "low": 9
+                },
+                {
+                    "day": "jueves",
+                    "condition": "partly-cloudy",
+                    "high": 17,
+                    "low": 11
+                },
+                {
+                    "day": "viernes",
+                    "condition": "sunny",
+                    "high": 18,
+                    "low": 12
+                },
+                {
+                    "day": "sábado",
+                    "condition": "foggy",
+                    "high": 15,
+                    "low": 10
+                }
+            ],
+            "questions": [
+                {
+                    "text": "¿En qué días hay niebla?",
+                    "correctDays": [1, 3, 7]
+                },
+                {
+                    "text": "¿Cuándo llueve esta semana?",
+                    "correctDays": [4]
+                },
+                {
+                    "text": "¿Qué día hace mejor tiempo para ir al parque?",
+                    "correctDays": [6]
+                },
+                {
+                    "text": "¿En qué días hace fresco?",
+                    "correctDays": [1, 2, 3, 4, 7]
+                },
+                {
+                    "text": "¿En qué días llevamos paraguas?",
+                    "correctDays": [2, 4]
+                }
+            ]
+        },
+        {
+            "id": "milwaukee",
+            "name": "Milwaukee",
+            "forecast": [
+                {
+                    "day": "domingo",
+                    "condition": "stormy",
+                    "high": 12,
+                    "low": 6
+                },
+                {
+                    "day": "lunes",
+                    "condition": "rainy",
+                    "high": 10,
+                    "low": 4
+                },
+                {
+                    "day": "martes",
+                    "condition": "cloudy",
+                    "high": 8,
+                    "low": 2
+                },
+                {
+                    "day": "miércoles",
+                    "condition": "snowy",
+                    "high": 3,
+                    "low": -2
+                },
+                {
+                    "day": "jueves",
+                    "condition": "partly-cloudy",
+                    "high": 6,
+                    "low": 0
+                },
+                {
+                    "day": "viernes",
+                    "condition": "sunny",
+                    "high": 9,
+                    "low": 2
+                },
+                {
+                    "day": "sábado",
+                    "condition": "stormy",
+                    "high": 11,
+                    "low": 5
+                }
+            ],
+            "questions": [
+                {
+                    "text": "¿En qué días hay tormentas?",
+                    "correctDays": [1, 7]
+                },
+                {
+                    "text": "¿Cuándo nieva esta semana?",
+                    "correctDays": [4]
+                },
+                {
+                    "text": "¿Qué días llueve?",
+                    "correctDays": [1, 2, 7]
+                },
+                {
+                    "text": "¿Qué día hace mejor tiempo?",
+                    "correctDays": [6]
+                },
+                {
+                    "text": "¿En qué días habrán relámpagos y truenos?",
+                    "correctDays": [1, 7]
+                }
+            ]
+        },
+        {
+            "id": "oaxaca",
+            "name": "Oaxaca",
+            "forecast": [
+                {
+                    "day": "domingo",
+                    "condition": "sunny",
+                    "high": 28,
+                    "low": 14
+                },
+                {
+                    "day": "lunes",
+                    "condition": "partly-cloudy",
+                    "high": 29,
+                    "low": 15
+                },
+                {
+                    "day": "martes",
+                    "condition": "sunny",
+                    "high": 30,
+                    "low": 16
+                },
+                {
+                    "day": "miércoles",
+                    "condition": "rainy",
+                    "high": 26,
+                    "low": 15
+                },
+                {
+                    "day": "jueves",
+                    "condition": "partly-cloudy",
+                    "high": 27,
+                    "low": 14
+                },
+                {
+                    "day": "viernes",
+                    "condition": "sunny",
+                    "high": 31,
+                    "low": 16
+                },
+                {
+                    "day": "sábado",
+                    "condition": "sunny",
+                    "high": 30,
+                    "low": 15
+                }
+            ],
+            "questions": [
+                {
+                    "text": "¿En qué días hace sol?",
+                    "correctDays": [1, 3, 6, 7]
+                },
+                {
+                    "text": "¿Cuándo llueve esta semana?",
+                    "correctDays": [4]
+                },
+                {
+                    "text": "¿Qué día hace más calor?",
+                    "correctDays": [6]
+                },
+                {
+                    "text": "¿En qué días hace buen tiempo para caminar por el centro?",
+                    "correctDays": [1, 2, 3, 5, 6, 7]
+                },
+                {
+                    "text": "¿Qué día hace más fresco?",
+                    "correctDays": [4]
+                }
+            ]
+        }
+    ]
+}

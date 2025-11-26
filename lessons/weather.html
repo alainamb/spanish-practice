@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Practice - Weather Forecast</title>
+    <link href="../css/styles-uwm.css" rel="stylesheet">
+    <link href="../css/weather-forecast.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-title-section">
+                <h1 class="nav-title">Spanish Practice</h1>
+                <p class="nav-tagline">Improve your Spanish with practice activities</p>
+            </div>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Home</a>
+                <a href="../lessons.html" class="nav-item">Lessons</a>
+                <a href="../elements-of-culture.html" class="nav-item">Elements of Culture</a>
+                <a href="../resources.html" class="nav-item">Helpful Resources</a>
+                <a href="../about.html" class="nav-item">About</a>
+                <a href="../contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <div id="home" class="page active">
+                <div class="activity-container">
+                    <h2>Talking about the Weather</h2>
+
+                    <h3>Introduction</h3>
+                    <div class="introduction-section">
+                        <p>The weather, known as <i>el tiempo</i> or <i>el clima</i> in Spanish, is a versatile conversational topic. It's a safe topic that you can use to start conversations with strangers or acquaintances. People plan around the weather. It comes up a lot in everyday conversation. This lesson introduces you to common Spanish expressions related to the weather. After you've reviewed the related vocabulary and phrases, you can get some practice by answering questions about the weather forecast (prognóstico) for different cities in Mexico and the United States.</p>
+                        <p>Later, you can reinforce your learning by visiting a weather site like <a href="https://www.climamexico.mx/mexico/distrito-federal/clima-ciudad-de-mexico/pronostico-7-dias" target="_blank">climamexico.mx</a> and exploring the vocabulary they use to talk about the weather.</p>
+                        <p><strong>Localization Note:</strong> Folks in the United States are probably use to using Fahrenheit to measure temperature. During translation, that Fahrenheit system usually needs to get localized to Celsius, an international standard. This lesson presents temperatures in C°.</p>
+                    </div>
+
+                    <h3>Expressions</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Spanish expression</th>
+                                <th>English expression</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    ¿Qué tiempo hace? Hace buen/mal tiempo.
+                                </td>
+                                <td>
+                                    What's the weather like? The weather is good/bad.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Hace (mucho) sol | calor | frío | viento<br>
+                                    Hace fresco.
+                                </td>
+                                <td>
+                                    It's (very) | sunny | hot | cold | windy<br>
+                                    It's cool.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Llueve | Está lloviendo<br>
+                                    Graniza | Está granizando<br>
+                                    Nieva | Está nevando
+                                </td>
+                                <td>
+                                    It rains / It's raining | It's raining<br>
+                                    It hails / It's hailing | It's hailing<br>
+                                    It snows / It's snowing | It's snowing
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Está despejado.<br>
+                                    Está (muy/parcialmente) nublado. | Hay niebla.
+                                </td>
+                                <td>
+                                    It's clear out.<br>
+                                    It's (very/partly) cloudy. | It's foggy.
+                                </td>
+                            </tr>
+                                <tr>
+                                <td>
+                                    Hay una tormenta. | Hay relámpagos y truenos.<br>
+                                    Hay inundaciones.
+                                </td>
+                                <td>
+                                    There's a storm. | There's lightning and thunder.<br>
+                                    There are floods.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Es un día hermoso.</td>
+                                <td>It's a beautiful day.</td>
+                            </tr>
+                            <tr>
+                                <td>mucho | muy</td>
+                                <td>a lot | very</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Instructions</h3>
+                    <div class="instructions-section">
+                        <p>Start by reviewing the weather expressions and vocabulary introduced in the chart. Take the time to notice the patterns in the expressions. Practice reading the expressions.</p>
+                        <p>When you're ready, you can practice reading weather forecasts and answering questions in Spanish. Select a city to see its weekly forecast, then read the question and click on the day(s) that match the weather condition described.</p>
+                        <p>After you've selected your answer(s), click "Check Answer" to see if you're correct. Green checkmarks will appear on correct days, and red X's will appear on incorrect selections. When you answer correctly, click "Next Question" to continue.</p>
+                        <p><strong>Language and Speaking Note:</strong> Many Spanish weather expressions begin with "Hace". This construction assumes the subject of "el tiempo". For example: [El tiempo] hace calor. People often don't state "el tiempo" explicitly in this sentence construct.</li>
+                        </p>
+                    </div>
+
+                    <h3>Cities</h3>
+                    <div class="category-buttons">
+                        <button class="category-btn" onclick="selectCity('mexico-city')">Ciudad de México</button>
+                        <button class="category-btn" onclick="selectCity('new-york')">New York City</button>
+                        <button class="category-btn" onclick="selectCity('hermosillo')">Hermosillo</button>
+                        <button class="category-btn" onclick="selectCity('chicago')">Chicago</button>
+                        <button class="category-btn" onclick="selectCity('cancun')">Cancún</button>
+                        <button class="category-btn" onclick="selectCity('san-francisco')">San Francisco</button>
+                        <button class="category-btn" onclick="selectCity('milwaukee')">Milwaukee</button>
+                        <button class="category-btn" onclick="selectCity('oaxaca')">Oaxaca</button>
+                    </div>
+
+                    <h3 id="cityNameHeader">Weekly Forecast</h3>
+                    <div class="forecast-container" id="forecastDisplay">
+                        <p class="placeholder-text">Select a city to see its weekly forecast.</p>
+                    </div>
+
+                    <h3>Question</h3>
+                    <div class="question-section">
+                        <div class="question-box" id="questionBox">
+                            <p class="placeholder-text">Select a city and the first question will appear.</p>
+                        </div>
+                        
+                        <div class="response-buttons">
+                            <button class="btn btn-primary" id="checkAnswerBtn" onclick="checkAnswer()" disabled>Check Answer</button>
+                            <button class="btn btn-positive hidden" id="nextQuestionBtn" onclick="nextQuestion()">Next Question</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Developed for the Spanish courses taught at UW-Milwaukee's School of Continuing Education by Alaina Brandt</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="../js/weather-forecast.js"></script>
+</body>
+</html>
