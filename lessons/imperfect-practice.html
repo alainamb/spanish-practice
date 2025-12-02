@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Practice - Imperfect Tense Practice</title>
+    <link href="../css/styles-uwm.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-title-section">
+                <h1 class="nav-title">Spanish Practice</h1>
+                <p class="nav-tagline">Improve your Spanish with practice activities</p>
+            </div>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Home</a>
+                <a href="../lessons.html" class="nav-item">Lessons</a>
+                <a href="../elements-of-culture.html" class="nav-item">Elements of Culture</a>
+                <a href="../resources.html" class="nav-item">Helpful Resources</a>
+                <a href="../about.html" class="nav-item">About</a>
+                <a href="../contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <div id="home" class="page active">
+                <div class="activity-container">
+                    <h2>Imperfect Practice - Interruptions, Then and Now </h2>
+
+                    <h3>Introduction</h3>
+                    <div class="introduction-section">
+                        <p>You can talk about the past in two ways in Spanish, using either the <strong>preterite</strong> or the <strong>imperfect</strong>. The preterite is for things that happened that have more definition, such as events with clear beginnings or ends. Here you're practicing the ongoing past, so you'll need to use the imperfect form.</p>
+                        <p>The <strong>imperfect</strong> is used to describe ongoing or habitual actions in the past. In this activity, you'll practice forming imperfect conjugations in two common real-world contexts: describing what was happening that was interrupted, and contrasting the present with the past, including learning how to gossip about what others used to do!</p>
+                        <p>These situations are designed to help you build mental scenarios for conversations. When you practice imagining yourself using the imperfect tense in these contexts, you'll develop muscle memory that makes it easier to use the tense naturally when speaking Spanish.</p>
+                    </div>
+
+                    <h3>Instructions</h3>
+                    <div class="instructions-section">
+                        <p>This lesson features two modes for practicing imperfect conjugations. 
+
+                        <ul>
+                            <li>In <strong>Interruptions</strong> mode, you're given a subject and a verb, and you'll need to imagine an ongoing activity that was interrupted. You can click "Show Answer" to display the correct imperfect conjugation for the first part of the sentence.Fill in words and context in the first part of the sentence, so that when combined, then whole sentence makes sense.</li>
+                            <li>In <strong>Then and Now</strong> you're given a state of things now, and you'll imagine how things were in the past using the same subject and verb from the present tense part of the sentence. Here, clicking "Show Answer" displays the correctly conjugated imperfect tense of the verb. You can build upon that as you imagine your "then".</p>
+                        </ul>
+                        <p></p>
+                        <p>Remember:</p>
+                        <ul>
+                            <li><strong>AR verbs</strong> use the <strong>-aba</strong> endings: yo bailaba, tú bailabas, él/ella/elle bailaba, nosotros/nosotras bailábamos, ellos/ellas/elles bailaban</li>
+                            <li><strong>ER and IR verbs</strong> use the <strong>-ía</strong> endings: yo comía, tú comías, él/ella/elle comía, nosotros/nosotras comíamos, ellos/ellas/elles comían</li>
+                            <li><strong>Three irregular verbs:</strong>
+                                <ul>
+                                    <li><strong>ir</strong> → iba, ibas, iba, íbamos, iban</li>
+                                    <li><strong>ser</strong> → era, eras, era, éramos, eran</li>
+                                    <li><strong>ver</strong> → veía, veías, veía, veíamos, veían</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>Select a practice mode below to get started.</p>
+                    </div>
+
+                    <h3>Practice Mode</h3>
+                    <div class="category-buttons">
+                        <button class="category-btn" onclick="selectMode('interruptions')">Interruptions</button>
+                        <button class="category-btn" onclick="selectMode('then-and-now')">Then and Now</button>
+                    </div>
+
+                    <h3>Practice Question</h3>
+                    <div class="question-section">
+                        <div class="question-box" id="questionBox">
+                            <p class="placeholder-text">Once you pick a practice mode, the first question will appear here.</p>
+                        </div>
+                        
+                        <div class="response-buttons">
+                            <button class="btn btn-primary" onclick="showAnswer()">Show Answer</button>
+                        </div>
+                    </div>
+
+                    <h3>Answer Key</h3>
+                    <div class="answer-section">
+                        <div class="answer-box" id="answerBox">
+                            <p class="placeholder-text">Click the Show Answer button, and the correct conjugation will appear here.</p>
+                        </div>
+                        
+                        <div class="next-question-section" id="nextQuestionSection">
+                            <button class="btn btn-primary" onclick="nextQuestion()">Next Question</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Developed for the Spanish courses taught at UW-Milwaukee's School of Continuing Education by Alaina Brandt</p>
+        </div>
+    </footer>
+
+    <script src="../js/imperfect-practice.js"></script>
+</body>
+</html>

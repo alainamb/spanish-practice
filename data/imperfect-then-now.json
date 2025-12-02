@@ -1,0 +1,124 @@
+{
+    "scenarios": [
+        {
+            "scenario": "Ahora vivo en Milwaukee, pero antes",
+            "response": "vivía...",
+            "context": "location"
+        },
+        {
+            "scenario": "Hoy en día trabajo en una oficina, pero antes",
+            "response": "trabajaba...",
+            "context": "work"
+        },
+        {
+            "scenario": "Actualmente estudio español, pero antes",
+            "response": "estudiaba...",
+            "context": "study"
+        },
+        {
+            "scenario": "Ahora como mucha arroz, pero antes",
+            "response": "comía...",
+            "context": "food"
+        },
+        {
+            "scenario": "Hoy en día camino todos los días, pero antes",
+            "response": "caminaba...",
+            "context": "exercise"
+        },
+        {
+            "scenario": "Actualmente leo libros digitales, pero antes",
+            "response": "leía...",
+            "context": "reading"
+        },
+        {
+            "scenario": "Ahora tengo un coche nuevo, pero antes",
+            "response": "tenía...",
+            "context": "car"
+        },
+        {
+            "scenario": "Hoy en día uso mi teléfono para todo, pero antes",
+            "response": "usaba...",
+            "context": "technology"
+        },
+        {
+            "scenario": "Actualmente voy a terapía, pero antes",
+            "response": "iba...",
+            "context": "therapy"
+        },
+        {
+            "scenario": "Ahora prefiero el café, pero antes",
+            "response": "prefería...",
+            "context": "drinks"
+        },
+        {
+            "scenario": "Hoy en día trabajo desde casa, pero antes",
+            "response": "trabajaba...",
+            "context": "work location"
+        },
+        {
+            "scenario": "Actualmente tengo dos gatos, pero antes",
+            "response": "tenía...",
+            "context": "pets"
+        },
+        {
+            "scenario": "Ahora duermo ocho horas, pero antes",
+            "response": "dormía...",
+            "context": "sleep"
+        },
+        {
+            "scenario": "Hoy en día cocino en casa, pero antes",
+            "response": "cocinaba...",
+            "context": "cooking"
+        },
+        {
+            "scenario": "Actualmente viajo mucho, pero antes",
+            "response": "viajaba...",
+            "context": "travel"
+        },
+        {
+            "scenario": "Ahora tiene mala fama, pero antes",
+            "response": "tenía...",
+            "context": "gossip - reputation"
+        },
+        {
+            "scenario": "Hoy en día es muy serio, pero antes",
+            "response": "era...",
+            "context": "gossip - personality"
+        },
+        {
+            "scenario": "Actualmente trabaja mucho, pero antes",
+            "response": "trabajaba...",
+            "context": "gossip - work habits"
+        },
+        {
+            "scenario": "Ahora tienen muy poco dinero, pero antes",
+            "response": "tenían...",
+            "context": "gossip - money"
+        },
+        {
+            "scenario": "Ahora vive solo, pero antes",
+            "response": "vivía...",
+            "context": "gossip - living situation"
+        },
+        {
+            "scenario": "Hoy en día son muy responsables, pero antes",
+            "response": "eran...",
+            "context": "gossip - behavior"
+        },
+        {
+            "scenario": "Actualmente está muy ocupada, pero antes",
+            "response": "estaba...",
+            "context": "gossip - schedule"
+        },
+        {
+            "scenario": "Ahora tienen mucho dinero, pero antes",
+            "response": "tenían...",
+            "context": "gossip - finances"
+        },
+        {
+            "scenario": "Hoy en día habla muy bien español, pero antes",
+            "response": "hablaba...",
+            "context": "gossip - skills"
+        }
+    ]
+}
