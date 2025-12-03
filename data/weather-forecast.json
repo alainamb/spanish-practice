@@ -334,7 +334,7 @@
                 },
                 {
                     "text": "¿Qué día hace mejor tiempo?",
-                    "correctDays": [5]
+                    "correctDays": [3]
                 },
                 {
                     "text": "¿Cuándo hace mucho frío esta semana?",
