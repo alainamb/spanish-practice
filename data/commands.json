@@ -1,0 +1,144 @@
+{
+    "commands": [
+        {
+            "scenario": "Your friend is about to leave for an important job interview but seems nervous.",
+            "tú_do_command": "sé tranquilo/a",
+            "tú_dont_command": "no seas nervioso/a",
+            "usted_do_command": "sea tranquilo/a",
+            "usted_dont_command": "no sea nervioso/a"
+        },
+        {
+            "scenario": "A family member is rushing out the door without their phone and keys on the table.",
+            "tú_do_command": "trae tu teléfono y tus llaves",
+            "tú_dont_command": "no salgas sin tu teléfono y tus llaves",
+            "usted_do_command": "traiga su teléfono y sus llaves",
+            "usted_dont_command": "no salga sin su teléfono y sus llaves"
+        },
+        {
+            "scenario": "Your roommate is about to put a hot pan directly on the wooden counter.",
+            "tú_do_command": "pon la sartén en el salvamanteles",
+            "tú_dont_command": "no pongas la sartén en la mesa",
+            "usted_do_command": "ponga la sartén en el salvamanteles",
+            "usted_dont_command": "no ponga la sartén en la mesa"
+        },
+        {
+            "scenario": "A student in your study group keeps checking their phone instead of focusing on the assignment.",
+            "tú_do_command": "haz tu tarea primero",
+            "tú_dont_command": "no uses tu teléfono ahora",
+            "usted_do_command": "haga su tarea primero",
+            "usted_dont_command": "no use su teléfono ahora"
+        },
+        {
+            "scenario": "You're giving directions to someone who is lost and needs to go to the library.",
+            "tú_do_command": "ve derecho hasta la esquina",
+            "tú_dont_command": "no vayas por esa calle",
+            "usted_do_command": "vaya derecho hasta la esquina",
+            "usted_dont_command": "no vaya por esa calle"
+        },
+        {
+            "scenario": "Your younger sibling is about to tell your parents about the surprise party you're planning for them.",
+            "tú_do_command": "guarda el secreto",
+            "tú_dont_command": "no digas nada sobre la fiesta",
+            "usted_do_command": "guarde el secreto",
+            "usted_dont_command": "no diga nada sobre la fiesta"
+        },
+        {
+            "scenario": "A coworker is speaking too quietly during an important presentation to the team.",
+            "tú_do_command": "habla más alto, por favor",
+            "tú_dont_command": "no hables tan bajo",
+            "usted_do_command": "hable más alto, por favor",
+            "usted_dont_command": "no hable tan bajo"
+        },
+        {
+            "scenario": "You're hosting a dinner party and a guest offers to help carry dishes to the kitchen.",
+            "tú_do_command": "lleva los platos a la cocina",
+            "tú_dont_command": "no te preocupes, yo los llevo",
+            "usted_do_command": "lleve los platos a la cocina",
+            "usted_dont_command": "no se preocupe, yo los llevo"
+        },
+        {
+            "scenario": "Your friend is considering watching a movie you absolutely loved and think they'll enjoy too.",
+            "tú_do_command": "ve esa película esta noche",
+            "tú_dont_command": "no veas la segunda parte primero",
+            "usted_do_command": "vea esa película esta noche",
+            "usted_dont_command": "no vea la segunda parte primero"
+        },
+        {
+            "scenario": "You're waiting for a friend to arrive at your apartment for the first time and they text that they're here.",
+            "tú_do_command": "ven a la puerta del apartamento 3B",
+            "tú_dont_command": "no te quedes abajo",
+            "usted_do_command": "venga a la puerta del apartamento 3B",
+            "usted_dont_command": "no se quede abajo"
+        },
+        {
+            "scenario": "A client in your office is trying to explain something complex, but you don't speak their language well and need help.",
+            "tú_do_command": "traduce este documento al inglés",
+            "tú_dont_command": "no traduzcas palabra por palabra",
+            "usted_do_command": "traduzca este documento al inglés",
+            "usted_dont_command": "no traduzca palabra por palabra"
+        },
+        {
+            "scenario": "Your friend is about to leave early from a party where they could make important professional connections.",
+            "tú_do_command": "ten un poco más de paciencia",
+            "tú_dont_command": "no salgas tan temprano",
+            "usted_do_command": "tenga un poco más de paciencia",
+            "usted_dont_command": "no salga tan temprano"
+        },
+        {
+            "scenario": "You're a server and a customer is looking at the menu, seeming unsure what to order.",
+            "tú_do_command": "prueba las enchiladas",
+            "tú_dont_command": "no pidas el pescado hoy",
+            "usted_do_command": "pruebe las enchiladas",
+            "usted_dont_command": "no pida el pescado hoy"
+        },
+        {
+            "scenario": "Your classmate wasn't in class yesterday and asks what they missed.",
+            "tú_do_command": "pon atención a las páginas 45-50",
+            "tú_dont_command": "no te olvides de la tarea",
+            "usted_do_command": "ponga atención a las páginas 45-50",
+            "usted_dont_command": "no se olvide de la tarea"
+        },
+        {
+            "scenario": "Someone at your community center is looking for volunteer opportunities and you know of a good one.",
+            "tú_do_command": "ofrece tu ayuda en el banco de alimentos",
+            "tú_dont_command": "no dudes en participar",
+            "usted_do_command": "ofrezca su ayuda en el banco de alimentos",
+            "usted_dont_command": "no dude en participar"
+        },
+        {
+            "scenario": "Your neighbor's music is very loud late at night and you need to talk to them about this.",
+            "tú_do_command": "baja la música después de las 10 p.m.",
+            "tú_dont_command": "no pongas la música tan alta",
+            "usted_do_command": "baje la música después de las 10 p.m.",
+            "usted_dont_command": "no ponga la música tan alta"
+        },
+        {
+            "scenario": "A family member is about to throw away leftovers that are still good to eat.",
+            "tú_do_command": "pon esa comida en el refrigerador",
+            "tú_dont_command": "no tires esa comida todavía",
+            "usted_do_command": "ponga esa comida en el refrigerador",
+            "usted_dont_command": "no tire esa comida todavía"
+        },
+        {
+            "scenario": "Your friend keeps interrupting while you're trying to tell an important story.",
+            "tú_do_command": "déjame hablar, por favor",
+            "tú_dont_command": "no me interrumpas",
+            "usted_do_command": "déjeme hablar, por favor",
+            "usted_dont_command": "no me interrumpa"
+        },
+        {
+            "scenario": "You're teaching someone how to cook and they're about to add salt without tasting first.",
+            "tú_do_command": "prueba la comida primero",
+            "tú_dont_command": "no añadas sal sin probar",
+            "usted_do_command": "pruebe la comida primero",
+            "usted_dont_command": "no añada sal sin probar"
+        },
+        {
+            "scenario": "You're giving advice to someone who has an important appointment about when to arrive.",
+            "tú_do_command": "sal temprano para llegar a tiempo",
+            "tú_dont_command": "no llegues tarde",
+            "usted_do_command": "salga temprano para llegar a tiempo",
+            "usted_dont_command": "no llegue tarde"
+        }
+    ]
+}

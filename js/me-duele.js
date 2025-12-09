@@ -40,6 +40,7 @@ async function loadSVG() {
         console.error('Error loading SVG:', error);
     }
 }
+// Image credit: sergiosouzaTIDGraphics via https://pixabay.com/es/vectors/mujer-modelo-moda-belleza-morena-9433539/
 
 // Select practice mode
 function selectMode(mode) {

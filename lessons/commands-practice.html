@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Practice - Commands (Tú & Usted)</title>
+    <link href="../css/styles-uwm.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-title-section">
+                <h1 class="nav-title">Spanish Practice</h1>
+                <p class="nav-tagline">Improve your Spanish with practice activities</p>
+            </div>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Home</a>
+                <a href="../lessons.html" class="nav-item">Lessons</a>
+                <a href="../elements-of-culture.html" class="nav-item">Elements of Culture</a>
+                <a href="../resources.html" class="nav-item">Helpful Resources</a>
+                <a href="../about.html" class="nav-item">About</a>
+                <a href="../contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <div id="home" class="page active">
+                <div class="activity-container">
+                    <h2>Commands Practice - Tú & Usted</h2>
+
+                    <h3>Introduction</h3>
+                    <div class="introduction-section">
+                        <p>Giving commands in Spanish requires knowing when to use the familiar <strong>tú</strong> form versus the formal <strong>usted</strong> form, and how to construct both affirmative (do this) and negative (don't do this) commands. This activity gives you practice forming commands in realistic, everyday situations where you might need to give instructions, make requests or suggestions, or offer advice to others.</p>
+                        <p>Commands are one of the most practical aspects of Spanish communication—you'll use them when giving directions, teaching someone a task, following instructions, or simply asking someone to do (or not do) something!</p>
+                    </div>
+
+                    <h3>Instructions</h3>
+                    <div class="instructions-section">
+                        <p><strong>How this activity works:</strong></p>
+                        <ol>
+                            <li>First, select a practice mode: <strong>Familiar Commands (Tú)</strong> for friends, family, children, and peers, or <strong>Formal Commands (Usted)</strong> for strangers, authority figures, and people you want to show respect toward.</li>
+                            <li>Read the scenario carefully to understand the context.</li>
+                            <li>Click either <strong>Positive Command</strong> (telling someone to do something) or <strong>Negative Command</strong> (telling someone not to do something).</li>
+                            <li>The answer will appear showing you the correct command form for that situation.</li>
+                            <li>Click <strong>Next Scenario</strong> to practice with a new situation.</li>
+                        </ol>
+
+                        <p><strong>Verbs you'll practice:</strong> ir, ver, decir, hacer, poner, salir, ser, tener, venir, hablar, ofrecer, traducir, traer, llevar, dar, comer, escuchar, abrir, cerrar, sentarse, quedarse, probar, añadir, interrumpir, tirar, bajar, guardar, olvidarse, preocuparse, dudar, and participar.</p>
+
+                        <p><strong>Quick tips for forming commands:</strong></p>
+                        <ul>
+                            <li><strong>Tú affirmative commands:</strong> Use the <em>él/ella</em> form of the present tense (with 8 major irregular exceptions: di, haz, ve, pon, sal, sé, ten, ven)</li>
+                            <li><strong>Tú negative commands:</strong> Take the <em>yo</em> form of the present tense, drop the -o, and add -es (for -ar verbs) or -as (for -er/-ir verbs). Example: hablo → no hables</li>
+                            <li><strong>Usted commands (both positive and negative):</strong> Take the <em>yo</em> form, drop the -o, and add -e (for -ar verbs) or -a (for -er/-ir verbs). For negative, just add <em>no</em> in front. Example: hablo → hable / no hable</li>
+                            <li><strong>Reflexive verbs:</strong> Attach the pronoun to the end of affirmative commands (siéntate, quédese) but place it before negative commands (no te sientes, no se quede)</li>
+                        </ul>
+
+                        <p><em>Remember: Context matters! The same scenario might call for different levels of formality depending on your relationship with the person you're addressing.</em></p>
+                    </div>
+
+                    <h3>Practice Modes</h3>
+                    <div class="category-buttons">
+                        <button class="category-btn" onclick="selectMode('tu')">Familiar Commands (Tú)</button>
+                        <button class="category-btn" onclick="selectMode('usted')">Formal Commands (Usted)</button>
+                    </div>
+
+                    <h3>Practice Scenario</h3>
+                    <div class="question-section">
+                        <div class="question-box" id="scenarioBox">
+                            <p class="placeholder-text">Once you select a practice mode, a scenario will appear here for you to practice.</p>
+                        </div>
+                        
+                        <div class="response-buttons">
+                            <button class="btn btn-positive" onclick="showAnswer(true)">Positive Command</button>
+                            <button class="btn btn-negative" onclick="showAnswer(false)">Negative Command</button>
+                        </div>
+                    </div>
+
+                    <h3>Possible Response</h3>
+                    <div class="answer-section">
+                        <div class="answer-box" id="answerBox">
+                            <p class="placeholder-text">Once you click a command button, a possible response will appear here.</p>
+                        </div>
+                        
+                        <div class="next-question-section" id="nextScenarioSection">
+                            <button class="btn btn-primary" onclick="nextScenario()">Next Scenario</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Developed for the Spanish courses taught at UW-Milwaukee's School of Continuing Education by Alaina Brandt</p>
+        </div>
+    </footer>
+
+    <script src="../js/commands-practice.js"></script>
+</body>
+</html>
