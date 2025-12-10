@@ -1,4 +1,4 @@
-// 100 Mexicanos - Preterite Practice
+// 100 Mexicanos - Reusable Game Engine
 
 // Global variables
 let surveyData = [];
@@ -7,16 +7,27 @@ let currentQuestion = null;
 let revealedAnswers = new Set();
 let strikes = 0;
 let allAnswers = [];
+let dataFilePath = ''; // Will be set by the HTML page
 
 // Load data and initialize
 document.addEventListener('DOMContentLoaded', function() {
-    loadData();
+    // Get data file path from the data attribute on the script tag
+    const scriptTag = document.querySelector('script[data-json-file]');
+    if (scriptTag) {
+        dataFilePath = scriptTag.getAttribute('data-json-file');
+    }
+    
+    if (dataFilePath) {
+        loadData();
+    } else {
+        console.error('No data file path specified. Add data-json-file attribute to script tag.');
+    }
 });
 
 // Load survey data from JSON
 async function loadData() {
     try {
-        const response = await fetch('../data/100-mexicanos-vip-preterite.json');
+        const response = await fetch(dataFilePath);
         const data = await response.json();
         surveyData = data.surveyQs;
         console.log('Survey data loaded:', surveyData.length, 'questions');
