@@ -9,7 +9,7 @@
             "usted_dont_command": "no sea nervioso/a"
         },
         {
-            "scenario": "A family member is rushing out the door without their phone and keys on the table.",
+            "scenario": "A family member is rushing out the door and their phone and keys are on the table.",
             "verb_suggestions": "do: llevar | don't: olvidar",
             "tú_do_command": "lleva tu teléfono y tus llaves",
             "tú_dont_command": "no olvides tu teléfono y tus llaves",
