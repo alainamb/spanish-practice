@@ -65,7 +65,7 @@
             "usted_dont_command": "no se preocupe, relájese por favor"
         },
         {
-            "scenario": "You're recommending movies that you think someone you've just met should or shouldn't watch.",
+            "scenario": "You're recommending movies that you think someone should or shouldn't watch.",
             "verb_suggestions": "ver",
             "tú_do_command": "ve esa película",
             "tú_dont_command": "no veas esa película",
