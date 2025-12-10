@@ -100,11 +100,22 @@ function generateScenario() {
     // Display scenario
     const scenarioBox = document.getElementById('scenarioBox');
     if (scenarioBox) {
-        scenarioBox.innerHTML = `
-            <p class="question-text" style="font-size: 1.2rem; line-height: 1.6;">
-                ${currentScenario.scenario}
+        let scenarioHTML = `
+            <p style="font-size: 1.2rem; line-height: 1.6; margin: 0;">
+                <strong>${currentScenario.scenario}</strong>
             </p>
         `;
+        
+        // Add verb suggestions if available
+        if (currentScenario.verb_suggestions) {
+            scenarioHTML += `
+                <p style="margin-top: 0.5rem; margin-bottom: 0; font-style: italic; color: #666; font-size: 1rem;">
+                    <strong>Verb(s) to use:</strong> ${currentScenario.verb_suggestions}
+                </p>
+            `;
+        }
+        
+        scenarioBox.innerHTML = scenarioHTML;
     }
     
     // Reset answer section to placeholder
@@ -149,10 +160,12 @@ function showAnswer(isPositive) {
     const answerBox = document.getElementById('answerBox');
     if (answerBox) {
         answerBox.innerHTML = `
-            <div class="answer-text-plus">${capitalizedCommand}</div>
-            <div class="verb-info" style="margin-top: 1rem;">
+            <p style="font-size: 1.2rem; line-height: 1.6; margin: 0;">
+                <strong>${capitalizedCommand}</strong>
+            </p>
+            <p style="margin-top: 0.5rem; margin-bottom: 0; font-style: italic; color: #666; font-size: 1rem;">
                 <strong>Command Type:</strong> ${commandType}
-            </div>
+            </p>
         `;
     }
 }
