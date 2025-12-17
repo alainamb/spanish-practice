@@ -2,14 +2,14 @@
     "surveyQs": [
         {
             "question": "De 100 doctores encuestados, ¿qué les recomendaron a sus pacientes para dormir mejor?",
-            "top1answer": "Que apaguen las pantallas una hora antes",
-            "top2answer": "Que mantengan un horario regular",
-            "top3answer": "Que eviten la cafeína por la tarde",
-            "top4answer": "Que hagan su cuarto más oscuro",
-            "top5answer": "Que tomen una ducha caliente",
+            "top1answer": "Que pongan el teléfono en otro cuarto",
+            "top2answer": "Que eviten la cafeína por la tarde",
+            "top3answer": "Que mantengan un horario regular",
+            "top4answer": "Que lean antes de acostarse",
+            "top5answer": "Que hagan su cuarto más oscuro",
             "randomAnswers": [
-                "Que lean antes de acostarse",
-                "Que pongan el teléfono en otro cuarto",
+                "Que tomen una ducha caliente",
+                "Que apaguen las pantallas una hora antes",
                 "Que beban té de manzanilla",
                 "Que escriban sus preocupaciones",
                 "Que mediten por 10 minutos"
@@ -21,9 +21,9 @@
             "top2answer": "Que hagan la tarea a tiempo",
             "top3answer": "Que estudien un poco cada día",
             "top4answer": "Que hagan preguntas en clase",
-            "top5answer": "Que repasen sus apuntes",
+            "top5answer": "Que formen grupos de estudio",
             "randomAnswers": [
-                "Que formen grupos de estudio",
+                "Que repasen sus apuntes",
                 "Que lean el material antes de clase",
                 "Que visiten las horas de oficina",
                 "Que organicen sus materiales",
@@ -34,14 +34,14 @@
             "question": "De 100 asesores financieros encuestados, ¿qué les aconsejaron a sus clientes para ahorrar dinero?",
             "top1answer": "Que hagan un presupuesto mensual",
             "top2answer": "Que cocinen en casa más seguido",
-            "top3answer": "Que ahorren el 10% de su sueldo",
+            "top3answer": "Que eviten las compras impulsivas",
             "top4answer": "Que cancelen las suscripciones que no usan",
-            "top5answer": "Que comparen precios antes de comprar",
+            "top5answer": "Que ahorren el 10% de su sueldo",
             "randomAnswers": [
                 "Que usen cupones y ofertas",
                 "Que lleven su almuerzo al trabajo",
                 "Que vendan cosas que no necesitan",
-                "Que eviten las compras impulsivas",
+                "Que comparen precios antes de comprar",
                 "Que abran una cuenta de ahorros"
             ]
         },
@@ -49,8 +49,8 @@
             "question": "De 100 veterinarios encuestados, ¿qué les recomendaron a los dueños de mascotas?",
             "top1answer": "Que lleven a sus mascotas al veterinario anualmente",
             "top2answer": "Que les den comida de buena calidad",
-            "top3answer": "Que los vacunen a tiempo",
-            "top4answer": "Que jueguen con ellos todos los días",
+            "top3answer": "Que jueguen con ellos todos los días",
+            "top4answer": "Que los vacunen a tiempo",
             "top5answer": "Que les cepillen los dientes",
             "randomAnswers": [
                 "Que les corten las uñas regularmente",
@@ -62,9 +62,9 @@
         },
         {
             "question": "De 100 padres encuestados, ¿qué insistieron en que hicieran sus hijos antes de salir de casa?",
-            "top1answer": "Que se pongan el cinturón de seguridad",
+            "top1answer": "Que les avisen dónde van a estar",
             "top2answer": "Que lleven su teléfono con batería",
-            "top3answer": "Que les avisen dónde van a estar",
+            "top3answer": "Que traigan una chamarra",
             "top4answer": "Que regresen antes de medianoche",
             "top5answer": "Que no hablen con desconocidos",
             "randomAnswers": [
@@ -72,36 +72,36 @@
                 "Que lleven dinero para emergencias",
                 "Que vayan acompañados",
                 "Que coman algo antes de salir",
-                "Que traigan una chamarra"
+                "Que se pongan el cinturón de seguridad"
             ]
         },
         {
             "question": "De 100 abuelitas encuestadas, ¿qué les pidieron a sus familiares que trajeran a la cena?",
             "top1answer": "Que traigan a toda la familia",
             "top2answer": "Que lleven las tortillas",
-            "top3answer": "Que traigan el postre",
-            "top4answer": "Que no lleguen tarde",
+            "top3answer": "Que traigan flores para la mesa",
+            "top4answer": "Que no coman antes de llegar",
             "top5answer": "Que traigan sus Tuppers para llevar comida",
             "randomAnswers": [
                 "Que lleven las bebidas",
-                "Que traigan flores para la mesa",
+                "Que traigan el postre",
                 "Que ayuden a lavar los platos",
-                "Que no coman antes de llegar",
+                "Que no lleguen tarde",
                 "Que traigan fotos de los nietos"
             ]
         },
         {
             "question": "De 100 compañeros de cuarto encuestados, ¿qué le pidieron a su roommate que hiciera?",
-            "top1answer": "Que lave sus trastes inmediatamente",
-            "top2answer": "Que saque la basura cuando esté llena",
-            "top3answer": "Que baje el volumen después de las 10",
-            "top4answer": "Que limpie el baño cada semana",
+            "top1answer": "Que pague la renta a tiempo",
+            "top2answer": "Que lave sus trastes inmediatamente",
+            "top3answer": "Que saque la basura cuando esté llena",
+            "top4answer": "Que no use sus cosas sin permiso",
             "top5answer": "Que avise cuando vengan invitados",
             "randomAnswers": [
-                "Que pague la renta a tiempo",
+                "Que baje el volumen después de las 10",
                 "Que compre papel higiénico cuando se acabe",
-                "Que no use sus cosas sin permiso",
                 "Que cierre la puerta con llave",
+                "Que limpie el baño cada semana",
                 "Que apague las luces al salir"
             ]
         },
@@ -109,21 +109,21 @@
             "question": "De 100 jefes terribles encuestados, ¿qué les mandaron a sus empleados que hicieran? (¡Las peores demandas!)",
             "top1answer": "Que trabajen los fines de semana sin pago extra",
             "top2answer": "Que contesten emails a medianoche",
-            "top3answer": "Que no tomen vacaciones este año",
-            "top4answer": "Que lleguen una hora antes todos los días",
-            "top5answer": "Que traigan café para todos cada mañana",
+            "top3answer": "Que hagan el trabajo de tres personas",
+            "top4answer": "Que no se enfermen nunca",
+            "top5answer": "Que sonrían más en las juntas",
             "randomAnswers": [
-                "Que hagan el trabajo de tres personas",
-                "Que no se enfermen nunca",
+                "Que no tomen vacaciones este año",
+                "Que traigan café para todos cada mañana",
                 "Que cancelen sus planes personales",
-                "Que sonrían más en las juntas",
+                "Que lleguen una hora antes todos los días",
                 "Que lean sus mentes para saber qué quieren"
             ]
         },
         {
             "question": "De 100 ambientalistas encuestados, ¿qué sugirieron que hagamos para cuidar el planeta?",
-            "top1answer": "Que reciclemos la basura correctamente",
-            "top2answer": "Que usemos menos plástico",
+            "top1answer": "Que usemos menos plástico",
+            "top2answer": "Que reciclemos la basura correctamente",
             "top3answer": "Que caminemos o usen bicicleta más",
             "top4answer": "Que apaguemos las luces al salir",
             "top5answer": "Que compremos productos locales",
