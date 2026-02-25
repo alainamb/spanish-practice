@@ -59,6 +59,10 @@
         {
             "scenario": "Someone older wants to get around you. They say \"Con permiso\".",
             "responses": "Propio | Adelante | Pase | Pásele | Pásase"
+        },
+        {
+            "scenario": "You sit down at a table and the people around you are eating.",
+            "responses": "Provecho | Buen provecho"
         }
     ]
 }
