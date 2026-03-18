@@ -111,8 +111,8 @@
             "ustedes_dont_command": "no se queden allí"
         },
         {
-            "scenario": "You need a translation to read a document, and you want it to be idiomatic, not word-for-word.",
-            "ustedes_scenario": "You've asked a team of translators to translate a document, and you want the result to be idiomatic, not word-for-word.",
+            "scenario": "You need a translation to read a document",
+            "ustedes_scenario": "You need a team of translators to translate a document.",
             "verb_suggestions": "traducir",
             "tú_do_command": "traduce este documento por favor",
             "tú_dont_command": "no traduzcas palabra por palabra",
