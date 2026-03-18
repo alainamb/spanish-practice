@@ -265,6 +265,12 @@ h4 {
     margin-bottom: 1rem;
 }
 
+/* Column width control for 4-column pronoun tables */
+.reference-table .col-person   { width: 28%; }
+.reference-table .col-pronoun  { width: 14%; }
+.reference-table .col-meaning  { width: 30%; }
+.reference-table .col-example  { width: 28%; }
+
 /* Category buttons - 4x3 grid */
 .category-buttons {
     display: grid;
@@ -460,28 +466,39 @@ h4 {
 table {
     border-collapse: collapse;
     width: 100%;
-    margin: 20px 0;
+    margin: 0 0 1rem 0;
+    font-size: 0.95rem;
+    background-color: var(--uwm-bg-white);
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid var(--uwm-border);
     padding: 12px;
     text-align: left;
+    vertical-align: top;
+}
+
+thead tr {
+    background-color: #f0f4ff;
 }
 
 th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-    width: 50%;
+    font-weight: 600;
 }
 
-tr:nth-child(even) {
-    background-color: #f9f9f9;
+tbody tr:nth-child(even) {
+    background-color: #fafafa;
 }
 
-tr:hover {
-    background-color: #f0f0f0;
+tbody tr:hover {
+    background-color: #f5f7f9;
 }
+
+/* Column widths for 4-column pronoun/reference tables */
+.col-person   { width: 28%; }
+.col-pronoun  { width: 14%; }
+.col-meaning  { width: 30%; }
+.col-example  { width: 28%; }
 
 /* Conversation starters */
 .conversation-display {

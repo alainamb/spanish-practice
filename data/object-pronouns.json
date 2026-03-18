@@ -1,0 +1,617 @@
+{
+    "direct": [
+        {
+            "sentence": "Elle compra el libro.",
+            "english": "They buy the book.",
+            "direct_object": "el libro",
+            "indirect_object": null,
+            "pronoun_used": "lo",
+            "rewritten": "Elle lo compra.",
+            "explanation": "'El libro' is the direct object (what is being bought). Because 'libro' is masculine and singular, it is replaced with 'lo', which goes before the conjugated verb. Note: 'elle' is a non-binary singular pronoun used by some Spanish speakers."
+        },
+        {
+            "sentence": "Mis padres ven la película.",
+            "english": "My parents watch the movie.",
+            "direct_object": "la película",
+            "indirect_object": null,
+            "pronoun_used": "la",
+            "rewritten": "Mis padres la ven.",
+            "explanation": "'La película' is the direct object (what is being watched). Because 'película' is feminine and singular, it is replaced with 'la', placed before the conjugated verb."
+        },
+        {
+            "sentence": "Tú lees los artículos.",
+            "english": "You read the articles.",
+            "direct_object": "los artículos",
+            "indirect_object": null,
+            "pronoun_used": "los",
+            "rewritten": "Tú los lees.",
+            "explanation": "'Los artículos' is the direct object (what is being read). Because 'artículos' is masculine and plural, it is replaced with 'los', placed before the conjugated verb."
+        },
+        {
+            "sentence": "José busca las llaves.",
+            "english": "José is looking for the keys.",
+            "direct_object": "las llaves",
+            "indirect_object": null,
+            "pronoun_used": "las",
+            "rewritten": "José las busca.",
+            "explanation": "'Las llaves' is the direct object (what is being looked for). Because 'llaves' is feminine and plural, it is replaced with 'las', placed before the conjugated verb."
+        },
+        {
+            "sentence": "Ella está escribiendo el correo.",
+            "english": "She is writing the email.",
+            "direct_object": "el correo",
+            "indirect_object": null,
+            "pronoun_used": "lo",
+            "rewritten": "Ella lo está escribiendo. / Ella está escribiéndolo.",
+            "explanation": "'El correo' is the direct object (what is being written). It is replaced with 'lo' (masculine, singular). With a verb phrase, the pronoun can go before the conjugated verb or attached to the end of the infinitive or gerund."
+        },
+        {
+            "sentence": "Nosotros necesitamos comprar la comida.",
+            "english": "We need to buy the food.",
+            "direct_object": "la comida",
+            "indirect_object": null,
+            "pronoun_used": "la",
+            "rewritten": "Nosotros la necesitamos comprar. / Nosotros necesitamos comprarla.",
+            "explanation": "'La comida' is the direct object (what needs to be bought). With an infinitive, 'la' can go before the conjugated verb or be attached to the end of the infinitive."
+        },
+        {
+            "sentence": "La profesora va a revisar los exámenes.",
+            "english": "The professor is going to review the exams.",
+            "direct_object": "los exámenes",
+            "indirect_object": null,
+            "pronoun_used": "los",
+            "rewritten": "La profesora los va a revisar. / La profesora va a revisarlos.",
+            "explanation": "'Los exámenes' is the direct object (what will be reviewed). Because 'exámenes' is masculine and plural, it is replaced with 'los'. With an infinitive, the pronoun can go before 'va' or be attached to 'revisar'."
+        },
+        {
+            "sentence": "Mi hermana conoce a elles.",
+            "english": "My sister knows them.",
+            "direct_object": "a elles",
+            "indirect_object": null,
+            "pronoun_used": "les",
+            "rewritten": "Mi hermana les conoce.",
+            "explanation": "'A elles' is the direct object (the person being known). When a person is a direct object, Spanish uses the personal 'a'. Because elles refers to non-binary people, the pronoun is 'les'."
+        },
+        {
+            "sentence": "¿Ves a los estudiantes desde aquí?",
+            "english": "Do you see the students from here?",
+            "direct_object": "a los estudiantes",
+            "indirect_object": null,
+            "pronoun_used": "los",
+            "rewritten": "¿Los ves desde aquí?",
+            "explanation": "'A los estudiantes' is the direct object (the people being seen). Because the group is masculine plural, the pronoun 'los' replaces them, placed before the verb."
+        },
+        {
+            "sentence": "Ella abre la puerta.",
+            "english": "She opens the door.",
+            "direct_object": "la puerta",
+            "indirect_object": null,
+            "pronoun_used": "la",
+            "rewritten": "Ella la abre.",
+            "explanation": "'La puerta' is the direct object (what is being opened). 'Puerta' is feminine and singular, so it is replaced with 'la', which goes before the conjugated verb."
+        },
+        {
+            "sentence": "Quiero escuchar la canción otra vez.",
+            "english": "I want to listen to the song again.",
+            "direct_object": "la canción",
+            "indirect_object": null,
+            "pronoun_used": "la",
+            "rewritten": "La quiero escuchar otra vez. / Quiero escucharla otra vez.",
+            "explanation": "'La canción' is the direct object (what is being listened to). 'Canción' is feminine and singular, so it becomes 'la'. With an infinitive structure, the pronoun can go before 'quiero' or attach to 'escuchar'."
+        },
+        {
+            "sentence": "Yo no entiendo el problema.",
+            "english": "I don't understand the problem.",
+            "direct_object": "el problema",
+            "indirect_object": null,
+            "pronoun_used": "lo",
+            "rewritten": "Yo no lo entiendo.",
+            "explanation": "'El problema' is the direct object (what is not being understood). Because 'problema' is masculine and singular, it becomes 'lo'. In a negative sentence, 'no' stays before the pronoun and verb."
+        },
+        {
+            "sentence": "¿Usted está leyendo las instrucciones?",
+            "english": "Are you reading the instructions?",
+            "direct_object": "las instrucciones",
+            "indirect_object": null,
+            "pronoun_used": "las",
+            "rewritten": "¿Usted las está leyendo? / ¿Usted está leyéndolas?",
+            "explanation": "'Las instrucciones' is the direct object (what is being read). 'Instrucciones' is feminine and plural, so it becomes 'las'. With a gerund, the pronoun can go before 'está' or attach to the end of the gerund."
+        },
+        {
+            "sentence": "Mis amigos trajeron los regalos.",
+            "english": "My friends brought the gifts.",
+            "direct_object": "los regalos",
+            "indirect_object": null,
+            "pronoun_used": "los",
+            "rewritten": "Mis amigos los trajeron.",
+            "explanation": "'Los regalos' is the direct object (what was brought). 'Regalos' is masculine and plural, so it becomes 'los', placed before the conjugated verb."
+        },
+        {
+            "sentence": "Ella visita a su abuela los domingos.",
+            "english": "She visits her grandmother on Sundays.",
+            "direct_object": "a su abuela",
+            "indirect_object": null,
+            "pronoun_used": "la",
+            "rewritten": "Ella la visita los domingos.",
+            "explanation": "'A su abuela' is the direct object (the person being visited). The personal 'a' is used because the object is a person. 'Abuela' is feminine and singular, so the pronoun is 'la'."
+        },
+        {
+            "sentence": "Ustedes tienen que terminar el proyecto.",
+            "english": "You all have to finish the project.",
+            "direct_object": "el proyecto",
+            "indirect_object": null,
+            "pronoun_used": "lo",
+            "rewritten": "Ustedes lo tienen que terminar. / Ustedes tienen que terminarlo.",
+            "explanation": "'El proyecto' is the direct object (what needs to be finished). 'Proyecto' is masculine and singular, so it becomes 'lo'. With an infinitive, the pronoun can go before 'tienen' or attach to 'terminar'."
+        },
+        {
+            "sentence": "Nosotras pedimos la cuenta.",
+            "english": "We asked for the bill.",
+            "direct_object": "la cuenta",
+            "indirect_object": null,
+            "pronoun_used": "la",
+            "rewritten": "Nosotras la pedimos.",
+            "explanation": "'La cuenta' is the direct object (what was requested). 'Cuenta' is feminine and singular, so it becomes 'la', placed before the conjugated verb."
+        },
+        {
+            "sentence": "Tú debes leer las noticias.",
+            "english": "You should read the news.",
+            "direct_object": "las noticias",
+            "indirect_object": null,
+            "pronoun_used": "las",
+            "rewritten": "Tú las debes leer. / Tú debes leerlas.",
+            "explanation": "'Las noticias' is the direct object (what should be read). 'Noticias' is feminine and plural, so it becomes 'las'. With an infinitive, the pronoun can go before 'debes' or attach to 'leer'."
+        },
+        {
+            "sentence": "La niña rompió el vaso.",
+            "english": "The child broke the glass.",
+            "direct_object": "el vaso",
+            "indirect_object": null,
+            "pronoun_used": "lo",
+            "rewritten": "La niña lo rompió.",
+            "explanation": "'El vaso' is the direct object (what was broken). 'Vaso' is masculine and singular, so it becomes 'lo', placed before the conjugated verb."
+        },
+        {
+            "sentence": "Yo perdí mis audífonos en el metro.",
+            "english": "I lost my headphones on the subway.",
+            "direct_object": "mis audífonos",
+            "indirect_object": null,
+            "pronoun_used": "los",
+            "rewritten": "Yo los perdí en el metro.",
+            "explanation": "'Mis audífonos' is the direct object (what was lost). 'Audífonos' is masculine and plural, so it becomes 'los', placed before the conjugated verb."
+        }
+    ],
+    "indirect": [
+        {
+            "sentence": "Él le da un regalo a su mamá.",
+            "english": "He gives a gift to his mom.",
+            "direct_object": "un regalo",
+            "indirect_object": "a su mamá",
+            "pronoun_used": "le",
+            "leismo": true,
+            "rewritten": "Él le da un regalo.",
+            "explanation": "'A su mamá' is the indirect object (who is receiving the gift). Because the indirect object is a single person (regardless of gender), the pronoun is 'le'. Note: the 'le' already appears in the original sentence as 'leísmo de cortesía'. This is so common in Spanish that omitting it can sound cold or unnatural."
+        },
+        {
+            "sentence": "El cajero nos cobra el total.",
+            "english": "The cashier charges us the total.",
+            "direct_object": "el total",
+            "indirect_object": "nos",
+            "pronoun_used": "nos",
+            "pronoun_only": true,
+            "rewritten": "El cajero nos cobra el total.",
+            "explanation": "Here 'nos' is not replacing a noun phrase, it *is* the indirect object. Because there is no separate noun phrase to drop, the sentence doesn't change. This is different from sentences like 'Le pagamos el total al cajero', where 'al cajero' can be dropped since the 'le' is already in place."
+        },
+        {
+            "sentence": "La doctora les explica el diagnóstico a los pacientes.",
+            "english": "The doctor explains the diagnosis to the patients.",
+            "direct_object": "el diagnóstico",
+            "indirect_object": "a los pacientes",
+            "pronoun_used": "les",
+            "rewritten": "La doctora les explica el diagnóstico.",
+            "explanation": "'A los pacientes' is the indirect object (who is receiving the explanation). Because the indirect object is plural, the pronoun is 'les', placed before the conjugated verb."
+        },
+        {
+            "sentence": "Yo le escribo una carta a mi amiga.",
+            "english": "I write a letter to my friend.",
+            "direct_object": "una carta",
+            "indirect_object": "a mi amiga",
+            "pronoun_used": "le",
+            "rewritten": "Yo le escribo una carta.",
+            "explanation": "'A mi amiga' is the indirect object (who the letter is being written for/to). 'Le' is used for a single person, no matter their gender."
+        },
+        {
+            "sentence": "Le profesore le devuelve la tarea a la estudiante.",
+            "english": "The professor returns the homework to the student.",
+            "direct_object": "la tarea",
+            "indirect_object": "a la estudiante",
+            "pronoun_used": "le",
+            "rewritten": "Le profesore le devuelve la tarea.",
+            "explanation": "'A la estudiante' is the indirect object (who is receiving the homework back). Because the indirect object is a single person, the pronoun is 'le', placed before the conjugated verb. Note: the first 'le' in this sentence is a non-binary article modifying 'profesore', which uses the non-binary -e ending and works grammatically the same way as 'el profesor' or 'la profesora'. The second 'le' is the indirect object pronoun."
+        },
+        {
+            "sentence": "Mis padres me mandan mensajes todo el tiempo.",
+            "english": "My parents send me messages all the time.",
+            "direct_object": "mensajes",
+            "indirect_object": "me",
+            "pronoun_used": "me",
+            "rewritten": "Mis padres me mandan mensajes todo el tiempo.",
+            "explanation": "Here 'me' is already the indirect object pronoun. Because there is no separate noun phrase to drop, the sentence doesn't change. Compare: 'Les mando mensajes a mis padres.' → 'Les mando mensajes.' (dropping 'a mis padres')."
+        },
+        {
+            "sentence": "Nosotros le preparamos una sorpresa a Elena.",
+            "english": "We prepare a surprise for Elena.",
+            "direct_object": "una sorpresa",
+            "indirect_object": "a Elena",
+            "pronoun_used": "le",
+            "rewritten": "Nosotros le preparamos una sorpresa.",
+            "explanation": "'A Elena' is the indirect object (who the surprise is being prepared for). Because Elena is a single person, the pronoun 'le' is used, placed before the conjugated verb."
+        },
+        {
+            "sentence": "¿Tú les dijiste la verdad a tus empleados?",
+            "english": "Do you tell your employees the truth?",
+            "direct_object": "la verdad",
+            "indirect_object": "a tus empleados",
+            "pronoun_used": "les",
+            "rewritten": "¿Tú les dijiste la verdad?",
+            "explanation": "'A tus empleados' is the indirect object (who is being told the truth). Because 'empleados' is plural, 'les' is used. Note that 'les' can already appear before the verb as a clarifying pronoun alongside the full indirect object. This is common in Spanish."
+        },
+        {
+            "sentence": "Él les trae café a sus visitantes.",
+            "english": "He brings coffee to his visitors.",
+            "direct_object": "café",
+            "indirect_object": "a sus visitantes",
+            "pronoun_used": "les",
+            "rewritten": "Él les trae café.",
+            "explanation": "'A sus visitantes' is the indirect object (who the coffee is being brought for/to). Because there are multiple recipients, the pronoun 'les' is used, placed before the conjugated verb."
+        },
+        {
+            "sentence": "El banco te cobra una comisión.",
+            "english": "The bank charges you a fee.",
+            "direct_object": "una comisión",
+            "indirect_object": "te",
+            "pronoun_used": "te",
+            "rewritten": "El banco te cobra una comisión.",
+            "explanation": "Here 'te' is already the indirect object pronoun, so the sentence doesn't change. Compare: 'El banco le cobra una comisión al cliente' → 'El banco le cobra una comisión' (dropping 'al cliente')."
+        },
+        {
+            "sentence": "Yo le recomiendo ese restaurante a usted.",
+            "english": "I recommend that restaurant to you.",
+            "direct_object": "ese restaurante",
+            "indirect_object": "a usted",
+            "pronoun_used": "le",
+            "rewritten": "Yo le recomiendo ese restaurante.",
+            "explanation": "'A usted' is the indirect object (who is receiving the recommendation). For both 'usted' (formal you) and third person singular, the pronoun is 'le'."
+        },
+        {
+            "sentence": "El guía nos muestra el camino.",
+            "english": "The guide shows us the way.",
+            "direct_object": "el camino",
+            "indirect_object": "nos",
+            "pronoun_used": "nos",
+            "rewritten": "El guía nos muestra el camino.",
+            "explanation": "Here 'nos' is already the indirect object pronoun, so the sentence doesn't change. Compare: 'El guía les muestra el camino a los turistas' → 'El guía les muestra el camino' (dropping 'a los turistas')."
+        },
+        {
+            "sentence": "Tu amigo te presta su bicicleta.",
+            "english": "Your friend lends you their bicycle.",
+            "direct_object": "su bicicleta",
+            "indirect_object": "te",
+            "pronoun_used": "te",
+            "rewritten": "Tu amigo te presta su bicicleta.",
+            "explanation": "Here 'te' is already the indirect object pronoun, so the sentence doesn't change. Compare: 'Tu amigo le presta su bicicleta a María' → 'Tu amigo le presta su bicicleta' (dropping 'a María')."
+        },
+        {
+            "sentence": "Ella le va a contar la historia a su hija.",
+            "english": "She is going to tell the story to her daughter.",
+            "direct_object": "la historia",
+            "indirect_object": "a su hija",
+            "pronoun_used": "le",
+            "rewritten": "Ella le va a contar la historia. / Ella va a contarle la historia.",
+            "explanation": "'A su hija' is the indirect object (who the story is being told to). The pronoun 'le' replaces it. With an infinitive, 'le' can go before 'va' or be attached to 'contar'."
+        },
+        {
+            "sentence": "El técnico les instala el software a los empleados.",
+            "english": "The technician installs the software for the employees.",
+            "direct_object": "el software",
+            "indirect_object": "a los empleados",
+            "pronoun_used": "les",
+            "rewritten": "El técnico les instala el software.",
+            "explanation": "'A los empleados' is the indirect object (who the software is being installed for). Because there are multiple recipients, the pronoun 'les' is used."
+        },
+        {
+            "sentence": "Yo le pido un favor a mi vecino.",
+            "english": "I ask my neighbor a favor.",
+            "direct_object": "un favor",
+            "indirect_object": "a mi vecino",
+            "pronoun_used": "le",
+            "rewritten": "Yo le pido un favor.",
+            "explanation": "'A mi vecino' is the indirect object (who the favor is being asked of). Because 'vecino' is a single person, the pronoun 'le' is used."
+        },
+        {
+            "sentence": "El vendedor les ofrece un descuento a los clientes.",
+            "english": "The salesperson offers the customers a discount.",
+            "direct_object": "un descuento",
+            "indirect_object": "a los clientes",
+            "pronoun_used": "les",
+            "rewritten": "El vendedor les ofrece un descuento.",
+            "explanation": "'A los clientes' is the indirect object (who the discount is being offered to). Because there are multiple recipients, the pronoun 'les' is used."
+        },
+        {
+            "sentence": "Mis abuelos nos cuentan historias de su juventud.",
+            "english": "My grandparents tell us stories from their youth.",
+            "direct_object": "historias de su juventud",
+            "indirect_object": "nos",
+            "pronoun_used": "nos",
+            "rewritten": "Mis abuelos nos cuentan historias de su juventud.",
+            "explanation": "Here 'nos' is already the indirect object pronoun, so the sentence doesn't change. Compare: 'Mis abuelos les cuentan historias a sus nietos' → 'Mis abuelos les cuentan historias' (dropping 'a sus nietos')."
+        },
+        {
+            "sentence": "El chef le está preparando un plato especial a la clienta.",
+            "english": "The chef is preparing a special dish for the customer.",
+            "direct_object": "un plato especial",
+            "indirect_object": "a la clienta",
+            "pronoun_used": "le",
+            "rewritten": "El chef le está preparando un plato especial. / El chef está preparándole un plato especial.",
+            "explanation": "'A la clienta' is the indirect object (who the dish is being prepared for). Because the indirect object is a single person, 'le' is used. With a gerund, the pronoun can go before 'está' or attach to 'preparando'."
+        },
+        {
+            "sentence": "Nosotros les enviamos las invitaciones a las invitados.",
+            "english": "We send the invitations to the guests.",
+            "direct_object": "las invitaciones",
+            "indirect_object": "a las invitados",
+            "pronoun_used": "les",
+            "rewritten": "Nosotros les enviamos las invitaciones.",
+            "explanation": "'A las invitados' is the indirect object (who the invitations are being sent to). Because there are multiple recipients, the pronoun 'les' is used."
+        },
+        {
+            "sentence": "Tú le debes una disculpa a tu amigo.",
+            "english": "You owe your friend an apology.",
+            "direct_object": "una disculpa",
+            "indirect_object": "a tu amigo",
+            "pronoun_used": "le",
+            "rewritten": "Tú le debes una disculpa.",
+            "explanation": "'A tu amigo' is the indirect object (who the apology is owed to). Because 'amigo' is a single person, the pronoun 'le' is used, placed before the conjugated verb."
+        },
+        {
+            "sentence": "Yo le explico el proceso a elle.",
+            "english": "I explain the process to them.",
+            "direct_object": "el proceso",
+            "indirect_object": "a elle",
+            "pronoun_used": "le",
+            "rewritten": "Yo le explico el proceso.",
+            "explanation": "'A elle' is the indirect object (who is receiving the explanation). 'Elle' is a non-binary singular pronoun used by some Spanish speakers. Like 'él' and 'ella', it takes 'le' as its indirect object pronoun. The sentence is rewritten by dropping 'a elle', since 'le' already captures the recipient."
+        },
+        {
+            "sentence": "Mi compañere les manda un mensaje a elles.",
+            "english": "My classmate sends them a message.",
+            "direct_object": "un mensaje",
+            "indirect_object": "a elles",
+            "pronoun_used": "les",
+            "rewritten": "Mi compañere les manda un mensaje.",
+            "explanation": "'A elles' is the indirect object (who is receiving the message). 'Elles' is the non-binary plural pronoun used by some Spanish speakers. Like 'ellos' and 'ellas', the plural indirect object pronoun is 'les'. The sentence is rewritten by dropping 'a elles', since 'les' already identifies the recipients."
+        }
+    ],
+    "combined": [
+        {
+            "sentence": "Ella le da el libro a su amigo.",
+            "english": "She gives the book to her friend.",
+            "direct_object": "el libro",
+            "indirect_object": "a su amigo",
+            "do_pronoun": "lo",
+            "io_pronoun": "le → se",
+            "rewritten": "Ella se lo da.",
+            "explanation": "'El libro' (direct object, masculine singular) → 'lo'. 'A su amigo' (indirect object) → 'le'. When 'le' or 'les' comes before 'lo', 'la', 'los', or 'las', it changes to 'se' to avoid the awkward sound of 'le lo'. So 'le lo' becomes 'se lo'. The order is always: indirect before direct (se + lo)."
+        },
+        {
+            "sentence": "El profesor les explica la lección a los estudiantes.",
+            "english": "The professor explains the lesson to the students.",
+            "direct_object": "la lección",
+            "indirect_object": "a los estudiantes",
+            "do_pronoun": "la",
+            "io_pronoun": "les → se",
+            "rewritten": "El profesor se la explica.",
+            "explanation": "'La lección' (direct object, feminine singular) → 'la'. 'A los estudiantes' (indirect object, plural) → 'les'. When 'les' appears before 'la', it changes to 'se'. Order: indirect before direct (se + la)."
+        },
+        {
+            "sentence": "Yo le mando los documentos a mi jefe.",
+            "english": "I send the documents to my boss.",
+            "direct_object": "los documentos",
+            "indirect_object": "a mi jefe",
+            "do_pronoun": "los",
+            "io_pronoun": "le → se",
+            "rewritten": "Yo se los mando.",
+            "explanation": "'Los documentos' (direct object, masculine plural) → 'los'. 'A mi jefe' (indirect object) → 'le'. When 'le' comes before 'los', it changes to 'se'. Order: indirect before direct (se + los)."
+        },
+        {
+            "sentence": "Tu papá te prepara la comida.",
+            "english": "Your dad prepares the food for you.",
+            "direct_object": "la comida",
+            "indirect_object": "te",
+            "do_pronoun": "la",
+            "io_pronoun": "te",
+            "rewritten": "Tu papá te la prepara.",
+            "explanation": "'La comida' (direct object, feminine singular) → 'la'. 'Te' is already the indirect object pronoun (for you, tú). Because 'te' is not 'le' or 'les', no change to 'se' is needed. Order: indirect before direct (te + la)."
+        },
+        {
+            "sentence": "Nosotros les traemos las bebidas a los invitados.",
+            "english": "We bring the drinks to the guests.",
+            "direct_object": "las bebidas",
+            "indirect_object": "a los invitados",
+            "do_pronoun": "las",
+            "io_pronoun": "les → se",
+            "rewritten": "Nosotros se las traemos.",
+            "explanation": "'Las bebidas' (direct object, feminine plural) → 'las'. 'A los invitados' (indirect object, plural) → 'les'. 'Les' before 'las' changes to 'se'. Order: indirect before direct (se + las)."
+        },
+        {
+            "sentence": "Mi amigo me presta el carro.",
+            "english": "My friend lends me the car.",
+            "direct_object": "el carro",
+            "indirect_object": "me",
+            "do_pronoun": "lo",
+            "io_pronoun": "me",
+            "rewritten": "Mi amigo me lo presta.",
+            "explanation": "'El carro' (direct object, masculine singular) → 'lo'. 'Me' is already the indirect object pronoun (for me). No change to 'se' is needed here. Order: indirect before direct (me + lo)."
+        },
+        {
+            "sentence": "La maestra les va a enseñar las reglas a los niños.",
+            "english": "The teacher is going to teach the rules to the children.",
+            "direct_object": "las reglas",
+            "indirect_object": "a los niños",
+            "do_pronoun": "las",
+            "io_pronoun": "les → se",
+            "rewritten": "La maestra se las va a enseñar. / La maestra va a enseñárselas.",
+            "explanation": "'Las reglas' (direct object, feminine plural) → 'las'. 'A los niños' (indirect object, plural) → 'les'. 'Les' before 'las' changes to 'se'. With an infinitive, the pronouns can go before 'va' or attach together to 'enseñar' (note the written accent)."
+        },
+        {
+            "sentence": "Ella nos muestra sus resultados.",
+            "english": "She shows us her results.",
+            "direct_object": "sus resultados",
+            "indirect_object": "nos",
+            "do_pronoun": "los",
+            "io_pronoun": "nos",
+            "rewritten": "Ella nos los muestra.",
+            "explanation": "'Sus resultados' (direct object, masculine plural) → 'los'. 'Nos' is already the indirect object pronoun (for us). No change to 'se' is needed. Order: indirect before direct (nos + los)."
+        },
+        {
+            "sentence": "Ella le está contando el secreto a su hermana.",
+            "english": "She is telling the secret to her sister.",
+            "direct_object": "el secreto",
+            "indirect_object": "a su hermana",
+            "do_pronoun": "lo",
+            "io_pronoun": "le → se",
+            "rewritten": "Ella se lo está contando. / Ella está contándoselo.",
+            "explanation": "'El secreto' (direct object, masculine singular) → 'lo'. 'A su hermana' (indirect object) → 'le'. 'Le' before 'lo' changes to 'se'. With a gerund, the pronouns can go before 'está' or attach together to 'contando' (note the written accent)."
+        },
+        {
+            "sentence": "¿Tu jefe te paga el sueldo a tiempo?",
+            "english": "Does your boss pay you your salary on time?",
+            "direct_object": "el sueldo",
+            "indirect_object": "te",
+            "do_pronoun": "lo",
+            "io_pronoun": "te",
+            "rewritten": "¿Tu jefe te lo paga a tiempo?",
+            "explanation": "'El sueldo' (direct object, masculine singular) → 'lo'. 'Te' is already the indirect object pronoun (for you, tú). No change to 'se' is needed. Order: indirect before direct (te + lo)."
+        },
+        {
+            "sentence": "El banco le cobra los intereses al cliente.",
+            "english": "The bank charges the client the interest.",
+            "direct_object": "los intereses",
+            "indirect_object": "al cliente",
+            "do_pronoun": "los",
+            "io_pronoun": "le → se",
+            "rewritten": "El banco se los cobra.",
+            "explanation": "'Los intereses' (direct object, masculine plural) → 'los'. 'Al cliente' (indirect object) → 'le'. 'Le' before 'los' changes to 'se'. Order: indirect before direct (se + los)."
+        },
+        {
+            "sentence": "Yo te estoy mandando la dirección por mensaje.",
+            "english": "I'm sending you the address by message.",
+            "direct_object": "la dirección",
+            "indirect_object": "te",
+            "do_pronoun": "la",
+            "io_pronoun": "te",
+            "rewritten": "Yo te la mando por mensaje.",
+            "explanation": "'La dirección' (direct object, feminine singular) → 'la'. 'Te' is already the indirect object pronoun (for you, tú). Order: indirect before direct (te + la). No change to 'se' is needed. With a gerund, the pronouns can go before 'está' or attach together to 'mandando' (note the written accent)"
+        },
+        {
+            "sentence": "Nosotros le pedimos la cuenta al mesero.",
+            "english": "We ask the waiter for the bill.",
+            "direct_object": "la cuenta",
+            "indirect_object": "al mesero",
+            "do_pronoun": "la",
+            "io_pronoun": "le → se",
+            "rewritten": "Nosotros se la pedimos.",
+            "explanation": "'La cuenta' (direct object, feminine singular) → 'la'. 'Al mesero' (indirect object) → 'le'. 'Le' before 'la' changes to 'se'. Order: indirect before direct (se + la)."
+        },
+        {
+            "sentence": "Mi abuela nos hace la torta de cumpleaños.",
+            "english": "My grandmother makes the birthday cake for us.",
+            "direct_object": "la torta de cumpleaños",
+            "indirect_object": "nos",
+            "do_pronoun": "la",
+            "io_pronoun": "nos",
+            "rewritten": "Mi abuela nos la hace.",
+            "explanation": "'La torta de cumpleaños' (direct object, feminine singular) → 'la'. 'Nos' is already the indirect object pronoun (for us). Order: indirect before direct (nos + la). No change to 'se' is needed."
+        },
+        {
+            "sentence": "Ella les va a leer el cuento a los niños.",
+            "english": "She is going to read the story to the children.",
+            "direct_object": "el cuento",
+            "indirect_object": "a los niños",
+            "do_pronoun": "lo",
+            "io_pronoun": "les → se",
+            "rewritten": "Ella se lo va a leer. / Ella va a leérselo.",
+            "explanation": "'El cuento' (direct object, masculine singular) → 'lo'. 'A los niños' (indirect object, plural) → 'les'. 'Les' before 'lo' changes to 'se'. With an infinitive, pronouns can go before 'va' or attach to 'leer' (note the written accent)."
+        },
+        {
+            "sentence": "El dentista me saca la muela.",
+            "english": "The dentist removes my tooth.",
+            "direct_object": "la muela",
+            "indirect_object": "me",
+            "do_pronoun": "la",
+            "io_pronoun": "me",
+            "rewritten": "El dentista me la saca.",
+            "explanation": "'La muela' (direct object, feminine singular) → 'la'. 'Me' is already the indirect object pronoun (for me). Order: indirect before direct (me + la). No change to 'se' is needed."
+        },
+        {
+            "sentence": "Tú le debes explicar la situación a elle.",
+            "english": "You need to explain the situation to them.",
+            "direct_object": "la situación",
+            "indirect_object": "a elle",
+            "do_pronoun": "la",
+            "io_pronoun": "le → se",
+            "rewritten": "Tú se la debes explicar. / Tú debes explicársela.",
+            "explanation": "'A elle' is the indirect object (who is receiving the explanation). 'Elle' is a non-binary singular pronoun used by some Spanish speakers. Like 'él' and 'ella', it takes 'le' as its indirect object pronoun. 'La situación' (direct object, feminine singular) → 'la'. 'Le' before 'la' changes to 'se'. With an infinitive, the pronouns can go before 'debes' or attach to 'explicar' (note the written accent)."
+        },
+        {
+            "sentence": "La empresa nos ofrece los beneficios.",
+            "english": "The company offers us the benefits.",
+            "direct_object": "los beneficios",
+            "indirect_object": "nos",
+            "do_pronoun": "los",
+            "io_pronoun": "nos",
+            "rewritten": "La empresa nos los ofrece.",
+            "explanation": "'Los beneficios' (direct object, masculine plural) → 'los'. 'Nos' is already the indirect object pronoun (for us). Order: indirect before direct (nos + los). No change to 'se' is needed."
+        },
+        {
+            "sentence": "Él les está mostrando las fotos a sus padres.",
+            "english": "He is showing the photos to his parents.",
+            "direct_object": "las fotos",
+            "indirect_object": "a sus padres",
+            "do_pronoun": "las",
+            "io_pronoun": "les → se",
+            "rewritten": "Él se las está mostrando. / Él está mostrándoselas.",
+            "explanation": "'Las fotos' (direct object, feminine plural) → 'las'. 'A sus padres' (indirect object, plural) → 'les'. 'Les' before 'las' changes to 'se'. With a gerund, pronouns can go before 'está' or attach to 'mostrando' (note the written accent)."
+        },
+        {
+            "sentence": "La técnica te va a arreglar la computadora.",
+            "english": "The technician is going to fix the computer for you.",
+            "direct_object": "la computadora",
+            "indirect_object": "te",
+            "do_pronoun": "la",
+            "io_pronoun": "te",
+            "rewritten": "La técnica te la va a arreglar. / La técnica va a arreglártela.",
+            "explanation": "'La computadora' (direct object, feminine singular) → 'la'. 'Te' is already the indirect object pronoun (for you, tú). Order: indirect before direct (te + la). With an infinitive, pronouns can go before 'va' or attach to 'arreglar' (note the written accent)."
+        },
+        {
+            "sentence": "Mi compañero me está prestando los apuntes.",
+            "english": "My classmate is lending me the notes.",
+            "direct_object": "los apuntes",
+            "indirect_object": "me",
+            "do_pronoun": "los",
+            "io_pronoun": "me",
+            "rewritten": "Mi compañero me los está prestando. / Mi compañero está prestándomelos.",
+            "explanation": "'Los apuntes' (direct object, masculine plural) → 'los'. 'Me' is already the indirect object pronoun (for me). Order: indirect before direct (me + los). With a gerund, pronouns can go before 'está' or attach to 'prestando' (note the written accent)."
+        },
+        {
+            "sentence": "Le diseñadore le manda las fotos a su cliente.",
+            "english": "The designer sends the photos to their client.",
+            "direct_object": "las fotos",
+            "indirect_object": "a su cliente",
+            "do_pronoun": "las",
+            "io_pronoun": "le → se",
+            "rewritten": "Le diseñadore se las manda.",
+            "explanation": "'Las fotos' (direct object, feminine plural) → 'las'. 'A su cliente' (indirect object) → 'le'. When 'le' comes before 'las', it changes to 'se'. Order: indirect before direct (se + las). Note: 'le diseñadore' uses the non-binary -e ending; it works grammatically the same way as 'el diseñador' or 'la diseñadora'."
+        }
+    ]
+}
