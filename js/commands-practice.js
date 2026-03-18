@@ -4,6 +4,8 @@
 let currentScenario = null;
 let selectedMode = null; // 'tu', 'usted', or 'ustedes'
 let commandsData = [];
+let remainingScenarios = [];
+let isComplete = false;
 
 // Load commands data from JSON file
 async function loadCommandsData() {
@@ -29,12 +31,12 @@ function useFallbackData() {
     commandsData = [
         {
             scenario: "Your friend is about to leave for an important job interview but seems nervous.",
-            tú_do_command: "sé tranquilo/a",
-            tú_dont_command: "no seas nervioso/a",
-            usted_do_command: "sea tranquilo/a",
-            usted_dont_command: "no sea nervioso/a",
-            ustedes_do_command: "sean tranquilos/as",
-            ustedes_dont_command: "no sean nerviosos/as"
+            tú_do_command: "mantén la calma",
+            tú_dont_command: "no dejes que los nervios te ganen",
+            usted_do_command: "mantenga la calma",
+            usted_dont_command: "no deje que los nervios le ganen",
+            ustedes_do_command: "mantengan la calma",
+            ustedes_dont_command: "no dejen que los nervios les ganen"
         },
         {
             scenario: "A family member is rushing out the door without their phone and keys on the table.",
@@ -68,6 +70,16 @@ function initializeApp() {
     }
 }
 
+// Shuffle an array (Fisher-Yates)
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
 // Select practice mode
 function selectMode(mode) {
     selectedMode = mode;
@@ -84,12 +96,14 @@ function selectMode(mode) {
     if (clickedButton) {
         clickedButton.classList.add('selected');
     }
-    
-    // Generate first scenario for the selected mode
+
+    // Reset completion flag and queue, then start fresh
+    isComplete = false;
+    remainingScenarios = shuffleArray(commandsData);
     generateScenario();
 }
 
-// Generate a random scenario
+// Generate the next scenario from the queue
 function generateScenario() {
     if (!selectedMode) {
         return;
@@ -99,9 +113,15 @@ function generateScenario() {
         console.error('No commands data available');
         return;
     }
-    
-    // Select random scenario
-    currentScenario = commandsData[Math.floor(Math.random() * commandsData.length)];
+
+    // If the queue is empty, all scenarios have been shown — celebrate!
+    if (remainingScenarios.length === 0) {
+        showCompletionMessage();
+        return;
+    }
+
+    // Draw the next scenario from the front of the queue
+    currentScenario = remainingScenarios.shift();
     
     // Display scenario
     const scenarioBox = document.getElementById('scenarioBox');
@@ -188,9 +208,85 @@ function showAnswer(isPositive) {
     }
 }
 
+// Show completion message
+function showCompletionMessage() {
+    if (isComplete) return;
+    isComplete = true;
+    launchConfetti();
+    setTimeout(() => {
+        alert('¡Excelente! You finished all the scenarios. Select another mode to keep practicing.');
+        resetPage();
+    }, 300);
+}
+
+// Reset the page to its initial state
+function resetPage() {
+    selectedMode = null;
+    currentScenario = null;
+    remainingScenarios = [];
+
+    // Deselect all mode buttons
+    document.querySelectorAll('.category-btn').forEach(btn => {
+        btn.classList.remove('selected');
+    });
+
+    // Reset scenario box
+    const scenarioBox = document.getElementById('scenarioBox');
+    if (scenarioBox) {
+        scenarioBox.innerHTML = '<p class="placeholder-text">Once you select a practice mode, a scenario will appear here for you to practice.</p>';
+    }
+
+    // Reset answer box
+    const answerBox = document.getElementById('answerBox');
+    if (answerBox) {
+        answerBox.innerHTML = '<p class="placeholder-text">Once you click a command button, a possible response will appear here.</p>';
+    }
+
+    // Restore Next Scenario button
+    const nextScenarioSection = document.getElementById('nextScenarioSection');
+    if (nextScenarioSection) {
+        nextScenarioSection.style.display = '';
+    }
+}
+
 // Next scenario function
 function nextScenario() {
+    // Restore the Next Scenario button in case it was hidden
+    const nextScenarioSection = document.getElementById('nextScenarioSection');
+    if (nextScenarioSection) {
+        nextScenarioSection.style.display = '';
+    }
     generateScenario();
+}
+
+// Confetti animation
+function launchConfetti() {
+    const duration = 3000;
+    const animationEnd = Date.now() + duration;
+    const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 9999 };
+
+    function randomInRange(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+
+    const interval = setInterval(function() {
+        const timeLeft = animationEnd - Date.now();
+
+        if (timeLeft <= 0) {
+            return clearInterval(interval);
+        }
+
+        const particleCount = 50 * (timeLeft / duration);
+
+        confetti(Object.assign({}, defaults, {
+            particleCount,
+            origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 }
+        }));
+        confetti(Object.assign({}, defaults, {
+            particleCount,
+            origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 }
+        }));
+    }, 250);
 }
 
 // Start loading data when the DOM is ready
