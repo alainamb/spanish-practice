@@ -1,8 +1,8 @@
-// Spanish Commands Practice - Tú & Usted Forms
+// Spanish Commands Practice - Tú, Usted & Ustedes Forms
 
 // Global variables
 let currentScenario = null;
-let selectedMode = null; // 'tu' or 'usted'
+let selectedMode = null; // 'tu', 'usted', or 'ustedes'
 let commandsData = [];
 
 // Load commands data from JSON file
@@ -32,21 +32,27 @@ function useFallbackData() {
             tú_do_command: "sé tranquilo/a",
             tú_dont_command: "no seas nervioso/a",
             usted_do_command: "sea tranquilo/a",
-            usted_dont_command: "no sea nervioso/a"
+            usted_dont_command: "no sea nervioso/a",
+            ustedes_do_command: "sean tranquilos/as",
+            ustedes_dont_command: "no sean nerviosos/as"
         },
         {
             scenario: "A family member is rushing out the door without their phone and keys on the table.",
-            tú_do_command: "trae tu teléfono y tus llaves",
-            tú_dont_command: "no salgas sin tu teléfono y tus llaves",
-            usted_do_command: "traiga su teléfono y sus llaves",
-            usted_dont_command: "no salga sin su teléfono y sus llaves"
+            tú_do_command: "lleva tu teléfono y tus llaves",
+            tú_dont_command: "no olvides tu teléfono y tus llaves",
+            usted_do_command: "lleve su teléfono y sus llaves",
+            usted_dont_command: "no olvide su teléfono y sus llaves",
+            ustedes_do_command: "lleven sus teléfonos y sus llaves",
+            ustedes_dont_command: "no olviden sus teléfonos y sus llaves"
         },
         {
             scenario: "Your roommate is about to put a hot pan directly on the wooden counter.",
             tú_do_command: "pon la sartén en el salvamanteles",
             tú_dont_command: "no pongas la sartén en la mesa",
             usted_do_command: "ponga la sartén en el salvamanteles",
-            usted_dont_command: "no ponga la sartén en la mesa"
+            usted_dont_command: "no ponga la sartén en la mesa",
+            ustedes_do_command: "pongan la sartén en el salvamanteles",
+            ustedes_dont_command: "no pongan la sartén en la mesa"
         }
     ];
 }
@@ -100,9 +106,13 @@ function generateScenario() {
     // Display scenario
     const scenarioBox = document.getElementById('scenarioBox');
     if (scenarioBox) {
+        const scenarioText = (selectedMode === 'ustedes' && currentScenario.ustedes_scenario)
+            ? currentScenario.ustedes_scenario
+            : currentScenario.scenario;
+
         let scenarioHTML = `
             <p style="font-size: 1.2rem; line-height: 1.6; margin: 0;">
-                <strong>${currentScenario.scenario}</strong>
+                <strong>${scenarioText}</strong>
             </p>
         `;
         
@@ -138,18 +148,26 @@ function showAnswer(isPositive) {
     if (selectedMode === 'tu') {
         if (isPositive) {
             commandText = currentScenario.tú_do_command;
-            commandType = 'Tú - Affirmative Command';
+            commandType = 'Tú — Affirmative Command';
         } else {
             commandText = currentScenario.tú_dont_command;
-            commandType = 'Tú - Negative Command';
+            commandType = 'Tú — Negative Command';
         }
-    } else { // usted
+    } else if (selectedMode === 'usted') {
         if (isPositive) {
             commandText = currentScenario.usted_do_command;
-            commandType = 'Usted - Affirmative Command';
+            commandType = 'Usted — Affirmative Command';
         } else {
             commandText = currentScenario.usted_dont_command;
-            commandType = 'Usted - Negative Command';
+            commandType = 'Usted — Negative Command';
+        }
+    } else { // ustedes
+        if (isPositive) {
+            commandText = currentScenario.ustedes_do_command;
+            commandType = 'Ustedes — Affirmative Command';
+        } else {
+            commandText = currentScenario.ustedes_dont_command;
+            commandType = 'Ustedes — Negative Command';
         }
     }
     
