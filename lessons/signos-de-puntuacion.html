@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Practice - Signos de Puntuación</title>
+    <link href="../css/styles-uwm.css" rel="stylesheet">
+    <style>
+        mark {
+            background-color: var(--uwm-gold);
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        .punctuation-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .punctuation-table th,
+        .punctuation-table td {
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .punctuation-table th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+
+        .punctuation-table td:first-child {
+            font-size: 1.25rem;
+            text-align: center;
+            font-family: monospace;
+            width: 3rem;
+        }
+
+        .punctuation-table td:nth-child(2) {
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .section-label {
+            font-weight: bold;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .reading-text {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            font-family: monospace;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 1.25rem 1.5rem;
+        }
+
+        .reading-text p {
+            margin: 0 0 0.75rem 0;
+        }
+
+        .reading-text p:last-child {
+            margin-bottom: 0;
+        }
+
+        .symbol-token {
+            display: inline-block;
+            background-color: #e8e8e8;
+            border: 1px solid #bbb;
+            border-radius: 3px;
+            padding: 0 5px;
+            font-weight: bold;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-title-section">
+                <h1 class="nav-title">Spanish Practice</h1>
+                <p class="nav-tagline">Improve your Spanish with practice activities</p>
+            </div>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Home</a>
+                <a href="../lessons.html" class="nav-item">Lessons</a>
+                <a href="../elements-of-culture.html" class="nav-item">Elements of Culture</a>
+                <a href="../resources.html" class="nav-item">Helpful Resources</a>
+                <a href="../about.html" class="nav-item">About</a>
+                <a href="../contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <div id="home" class="page active">
+                <div class="activity-container">
+                    <h2>Los signos de puntuación</h2>
+
+                    <h3>Introduction</h3>
+                    <div class="introduction-section">
+                        <p>Whether you're reading a technical document, navigating a file path, or working in a code editor, punctuation marks appear everywhere — and in professional and technical contexts, you'll often need to say them out loud in Spanish. This lesson covers the Spanish names for common punctuation marks, with special attention to the ones that appear most often in technology, software, and localization work.</p>
+                        <p>Some marks have one widely used name; others have regional variants or informal nicknames. Where relevant, the most common alternatives are noted.</p>
+                    </div>
+
+                    <h3>Reference Guide</h3>
+                    <div class="instructions-section">
+
+                        <p class="section-label">Signos estándar</p>
+                        <table class="punctuation-table">
+                            <thead>
+                                <tr>
+                                    <th>Símbolo</th>
+                                    <th>Nombre en español</th>
+                                    <th>Notas / Variantes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>.</td><td>punto</td><td>Also: <em>punto final</em> (end of sentence); <em>punto y seguido</em> (mid-paragraph period)</td></tr>
+                                <tr><td>,</td><td>coma</td><td></td></tr>
+                                <tr><td>;</td><td>punto y coma</td><td></td></tr>
+                                <tr><td>:</td><td>dos puntos</td><td></td></tr>
+                                <tr><td>!</td><td>signo de exclamación / cierre</td><td>The closing mark; also called <em>admiración</em></td></tr>
+                                <tr><td>¡</td><td>signo de exclamación / apertura</td><td>Opening mark, unique to Spanish; also called <em>admiración de apertura</em></td></tr>
+                                <tr><td>?</td><td>signo de interrogación / cierre</td><td>The closing mark</td></tr>
+                                <tr><td>¿</td><td>signo de interrogación / apertura</td><td>Opening mark, unique to Spanish</td></tr>
+                                <tr><td>"</td><td>comillas (dobles)</td><td>Also: <em>comillas inglesas</em></td></tr>
+                                <tr><td>'</td><td>comilla simple / apóstrofo</td><td><em>Apóstrofo</em> when used as a contraction/possessive marker</td></tr>
+                                <tr><td>( )</td><td>paréntesis</td><td><em>Paréntesis de apertura / cierre</em> for individual marks</td></tr>
+                                <tr><td>…</td><td>puntos suspensivos</td><td>Always three; also called <em>elipsis</em></td></tr>
+                                <tr><td>—</td><td>raya</td><td>Used for dialogue and parenthetical asides; longer than a hyphen</td></tr>
+                                <tr><td>-</td><td>guion</td><td>Hyphen; shorter than the raya</td></tr>
+                                <tr><td>«»</td><td>comillas angulares / guillemets</td><td>Traditional Spanish quotation marks; also <em>comillas latinas</em></td></tr>
+                            </tbody>
+                        </table>
+
+                        <p class="section-label">Signos técnicos y de programación</p>
+                        <table class="punctuation-table">
+                            <thead>
+                                <tr>
+                                    <th>Símbolo</th>
+                                    <th>Nombre en español</th>
+                                    <th>Notas / Variantes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>[ ]</td><td>corchetes</td><td><em>Corchete de apertura / cierre</em> for individual marks; also <em>paréntesis cuadrados</em> in some regions</td></tr>
+                                <tr><td>{ }</td><td>llaves</td><td>Also: <em>corchetes ondulados / rizados</em>; in code contexts often called <em>llaves</em></td></tr>
+                                <tr><td>/</td><td>barra (oblicua)</td><td>Forward slash; also <em>barra diagonal</em> or <em>slash</em></td></tr>
+                                <tr><td>\</td><td>barra invertida</td><td>Backslash; also <em>contrabarra</em> or <em>barra hacia atrás</em></td></tr>
+                                <tr><td>|</td><td>barra vertical</td><td>Pipe; also <em>pleca</em> or <em>línea vertical</em></td></tr>
+                                <tr><td>~</td><td>tilde</td><td>As a standalone symbol (e.g., in paths or regex); note that the diacritic on <em>ñ</em> is also called <em>tilde</em></td></tr>
+                                <tr><td>@</td><td>arroba</td><td>The <em>at sign</em>; named after a unit of weight historically used in Spain and Latin America</td></tr>
+                                <tr><td>#</td><td>numeral / almohadilla</td><td>Also: <em>signo de número</em>; informally <em>hashtag</em> in social media contexts</td></tr>
+                                <tr><td>*</td><td>asterisco</td><td></td></tr>
+                                <tr><td>&amp;</td><td>ampersand / et</td><td>Also called <em>y comercial</em></td></tr>
+                                <tr><td>%</td><td>porcentaje / por ciento</td><td></td></tr>
+                                <tr><td>$</td><td>signo de dólar / peso</td><td>Also used as a variable marker in some languages; read as <em>dólar</em> or <em>peso</em> by symbol</td></tr>
+                                <tr><td>^</td><td>acento circunflejo / caret</td><td>In code, often called <em>caret</em> (pronounced as in English or as <em>caret</em>)</td></tr>
+                                <tr><td>&lt; &gt;</td><td>signos de mayor y menor / corchetes angulares</td><td>Also: <em>paréntesis angulares</em>; in HTML/XML contexts often called <em>etiquetas</em> (tags)</td></tr>
+                                <tr><td>_</td><td>guion bajo</td><td>Underscore; also <em>subrayado</em> in some regions</td></tr>
+                                <tr><td>=</td><td>signo de igual / igual</td><td></td></tr>
+                                <tr><td>+</td><td>signo más / más</td><td></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h3>Instructions</h3>
+                    <div class="instructions-section">
+                        <p>Below you'll find a simulated work instruction for a software installation procedure. It contains many punctuation marks used as symbols in the text. Read the instruction aloud in Spanish, and when you reach a symbol, say its name in Spanish instead of reading it as a character.</p>
+                        <p>For example, if you see <code>C:\Archivos</code>, you would read: <em>"C, dos puntos, barra invertida, Archivos."</em></p>
+                        <p>When you're ready, click <strong>Reveal</strong> to see the Spanish names for each punctuation mark highlighted inline.</p>
+                    </div>
+
+                    <h3>Instrucción de trabajo: Instalación del sistema</h3>
+                    <div class="instructions-section" id="textBox" data-activity="signos-puntuacion">
+                        <!-- JavaScript will populate this with the text -->
+                    </div>
+
+                    <div class="button-container" style="text-align: center; margin-top: 1.5rem;">
+                        <button id="revealBtn" class="btn btn-primary" onclick="toggleReveal()">Reveal</button>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Developed for the Spanish courses taught at UW-Milwaukee's School of Continuing Education by Alaina Brandt</p>
+        </div>
+    </footer>
+
+    <script src="../js/punctuation-practice.js"></script>
+</body>
+</html>
