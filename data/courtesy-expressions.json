@@ -63,6 +63,10 @@
         {
             "scenario": "You sit down at a table and the people around you are eating.",
             "responses": "Provecho | Buen provecho"
+        },
+        {
+            "scenario": "You couldn't quite hear/understand what someone said.",
+            "responses": "¿Cómo? | Otra vez | Repite/Repita por favor | Mande (used in México) | Anything but ¿Qué?"
         }
     ]
 }
