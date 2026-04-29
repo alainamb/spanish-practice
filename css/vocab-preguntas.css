@@ -1,0 +1,71 @@
+/* vocab-preguntas.css
+   Styles for the vocabulary question activity.
+   Add <link href="../css/vocab-preguntas.css" rel="stylesheet"> to any page using vocab-preguntas.js.
+*/
+
+/* Progress bar */
+.progress-bar-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.progress-bar-track {
+    flex: 1;
+    height: 4px;
+    background-color: var(--uwm-gray-lighter);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: var(--uwm-blue-accessible);
+    border-radius: 2px;
+    transition: width 0.35s ease;
+    width: 0%;
+}
+
+.progress-label {
+    font-size: 0.85rem;
+    color: var(--uwm-black-lighter);
+    white-space: nowrap;
+    min-width: 3rem;
+    text-align: right;
+}
+
+/* Answer textarea */
+.vp-textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: var(--uwm-text);
+    background-color: var(--uwm-bg-white);
+    border: 2px solid var(--uwm-border);
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    resize: vertical;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.vp-textarea:focus {
+    outline: none;
+    border-color: var(--uwm-blue-accessible);
+}
+
+/* Hint text */
+.vp-hint {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--uwm-black-light);
+    margin-bottom: 1rem;
+    min-height: 1.2rem;
+}
+
+/* Feedback answer box */
+#vp-feedback-box {
+    margin-top: 1.5rem;
+}

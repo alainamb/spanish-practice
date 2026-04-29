@@ -1,0 +1,40 @@
+{
+    "preguntas": [
+        {
+            "pregunta": "¿Qué necesitas antes de salir de viaje?",
+            "pista": "Piensa en documentos y preparativos.",
+            "palabras-clave": ["maletas", "equipaje", "hacer las maletas", "pasaporte"],
+            "respuesta-modelo": "Hacer las maletas, equipaje, posiblemente un pasaporte"
+        },
+        {
+            "pregunta": "¿Cómo puedes llegar a otra parte?",
+            "pista": "Piensa en diferentes medios de transporte.",
+            "palabras-clave": ["avión", "barco", "autobús", "coche", "taxi", "bicicleta"],
+            "respuesta-modelo": "En avión, en barco, en autobús, en coche, en taxi, y incluso en bicicleta o caminando"
+        },
+        {
+            "pregunta": "Llegas al aeropuerto o al estación de tren o autobús. <br>¿Qué lugares o acciones importantes hay allí?",
+            "pista": "¿A dónde vas y qué haces al llegar?",
+            "palabras-clave": ["salida", "llegada", "equipaje", "pasaporte", "aduana"],
+            "respuesta-modelo": "La salida, la llegada, recoger el equipaje, y posiblemente la aduana para revisar el pasaporte"
+        },
+        {
+            "pregunta": "Estás de vacaciones en la playa. ¿Qué puedes hacer?",
+            "pista": "¿Qué actividades son posibles cerca de un lago, río y el mar?",
+            "palabras-clave": [ "barco", "ir en barco", "nadar", "pescar", "tomar fotos", "tabla de surf"],
+            "respuesta-modelo": "Usar la tabla de surf, pescar, ir en barco, tomar fotos, nadar"
+        },
+        {
+            "pregunta": "¿Cuál es la diferencia entre el campo y la playa para las vacaciones?",
+            "pista": "Piensa en el paisaje y las actividades de cada lugar.",
+            "palabras-clave": ["campo", "paisaje", "acampar", "playa", "mar", "tabla de surf", "pescar", "montar", "caballo"],
+            "respuesta-modelo": "En el campo puedes acampar, ver el paisaje y montar un caballo. En la playa puedes nadar y usar la tabla de surf."
+        },
+        {
+            "pregunta": "Llegas al alojamiento. ¿Quiénes están allí y qué hay en el edificio?",
+            "pista": "Piensa en las personas y los lugares dentro de un hotel, motel o hostal o en un parque de campamiento.",
+            "palabras-clave": ["huésped", "empleado", "ascensor"],
+            "respuesta-modelo": "Hay huéspedes y empleados. Si estás en un edificio con ascensor, puedes usarlo para subir."
+        }
+    ]
+}
