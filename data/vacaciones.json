@@ -32,7 +32,7 @@
         },
         {
             "pregunta": "Llegas al alojamiento. ¿Quiénes están allí y qué hay en el edificio?",
-            "pista": "Piensa en las personas y los lugares dentro de un hotel, motel o hostal o en un parque de campamiento.",
+            "pista": "Piensa en las personas y los lugares dentro de un hotel, motel o hostal o en un parque de campamento.",
             "palabras-clave": ["huésped", "empleado", "ascensor"],
             "respuesta-modelo": "Hay huéspedes y empleados. Si estás en un edificio con ascensor, puedes usarlo para subir."
         }
