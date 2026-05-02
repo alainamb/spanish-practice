@@ -84,7 +84,8 @@ const CELL_IDS = {
 
 function matchesFilters(form) {
     const dirOk = filters.dir === 'all' || form.dir.includes(filters.dir);
-    const regOk = filters.reg === 'all' || form.reg === filters.reg || form.reg === 'both';
+    const regOk = filters.reg === 'all' || form.reg === filters.reg ||
+                  (form.reg === 'both' && !(filters.rgn === 'spain' && filters.reg === 'informal'));
     const rgnOk = form.rgn.includes(filters.rgn);
     const genOk = filters.gen === 'all' || form.gen.includes(filters.gen);
     return dirOk && regOk && rgnOk && genOk;
@@ -178,11 +179,22 @@ function setFilter(btn) {
         if (value === 'to') {
             rowRegister.style.display = '';
             rowRegion.style.display   = '';
-            rowGender.style.display   = '';
+            // Gender shown only when Spain is subsequently selected
         } else if (value === 'about') {
             rowGender.style.display = '';
         }
         // 'all' — secondary filters stay hidden
+    }
+
+    // When region changes under "Talking to someone", show gender only for Spain
+    if (filterKey === 'rgn' && filters.dir === 'to') {
+        const rowGender = document.getElementById('filter-row-gender');
+        if (value === 'spain') {
+            rowGender.style.display = '';
+        } else {
+            rowGender.style.display = 'none';
+            resetFilterRow('gen');
+        }
     }
 
     renderChart();
