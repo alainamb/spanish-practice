@@ -6,7 +6,7 @@
         },
         {
             "scenario": "You've been offered a cup of tea that you'd like.",
-            "responses": "Sí por favor"
+            "responses": "Sí por favor | Sí gracias"
         },
         {
             "scenario": "Someone thanks you",
@@ -63,6 +63,10 @@
         {
             "scenario": "You sit down at a table and the people around you are eating.",
             "responses": "Provecho | Buen provecho"
+        },
+        {
+            "scenario": "Someone raises a glass and makes a toast.",
+            "responses": "Salud"
         },
         {
             "scenario": "You couldn't quite hear/understand what someone said.",
