@@ -1,0 +1,159 @@
+{
+  "standard": [
+    {
+      "sentence": "___ comida de México es muy famosa.",
+      "english": "Food from Mexico is very famous.",
+      "noun": "comida",
+      "article_needed": true,
+      "article_used": "la",
+      "rewritten": "La comida de México es muy famosa.",
+      "explanation": "Generic or general references to nouns require a definite article in Spanish, unlike in English. Because 'comida' is feminine singular, 'la' is used."
+    },
+    {
+      "sentence": "___ amor es ciego.",
+      "english": "Love is blind.",
+      "noun": "amor",
+      "article_needed": true,
+      "article_used": "el",
+      "rewritten": "El amor es ciego.",
+      "explanation": "Abstract nouns like 'amor' require a definite article in Spanish. 'Amor' is masculine singular, so 'el' is used."
+    },
+        {
+      "sentence": "Lo que dijo es ___ verdad.",
+      "english": "What he said is true.",
+      "noun": "verdad",
+      "article_needed": false,
+      "article_used": "Ø (None)",
+      "rewritten": "Lo que dijo es verdad.",
+      "explanation": "Classifying 'ser' sentences without extra adjectives can omit the article."
+    },
+    {
+      "sentence": "Lo que escribió es ___ mentira más horrible que he leído.",
+      "english": "What he wrote is the worst lie I have ever read.",
+      "noun": "mentira",
+      "article_needed": true,
+      "article_used": "la",
+      "rewritten": "Lo que escribió es la mentira más horrible que he leído.",
+      "explanation": "Superlative constructions use the definite article."
+    },
+    {
+      "sentence": "Lo que dijo es ___ pura verdad.",
+      "english": "What he said is the absolute truth.",
+      "noun": "verdad",
+      "article_needed": true,
+      "article_used": "la",
+      "rewritten": "Lo que dijo es la pura verdad.",
+      "explanation": "While 'es verdad' on its own can omit the definite article, adding a modifying adjective like 'pura' specifies the noun and requires the definite article 'la'."
+    },
+    {
+      "sentence": "Me lavo ___ manos antes de comer.",
+      "english": "I wash my hands before eating.",
+      "noun": "manos",
+      "article_needed": true,
+      "article_used": "las",
+      "rewritten": "Me lavo las manos antes de comer.",
+      "explanation": "Body parts used with reflexive verbs use definite articles ('las') instead of possessive adjectives ('my')."
+    },
+    {
+      "sentence": "Siempre tengo una reunión en la mañana ___ lunes.",
+      "english": "I always have a meeting in the morning on Mondays.",
+      "noun": "lunes",
+      "article_needed": true,
+      "article_used": "los",
+      "rewritten": "Siempre tengo una reunión en la mañana los lunes.",
+      "explanation": "When referring to recurring days of the week, Spanish uses the plural definite article ('los') instead of a preposition like 'on'."
+    },
+    {
+      "sentence": "No puedo creerlo. Ya es ___ viernes.",
+      "english": "I can't believe it. It's already Friday.",
+      "noun": "viernes",
+      "article_needed": false,
+      "article_used": "Ø (None)",
+      "rewritten": "No puedo creerlo. Ya es viernes.",
+      "explanation": "Days of the week stated with ser do not require a definite article."
+    },
+    {
+      "sentence": "Hablo ___ español en el trabajo.",
+      "english": "I speak Spanish at work.",
+      "noun": "español",
+      "article_needed": false,
+      "article_used": "Ø (None)",
+      "rewritten": "Hablo español en el trabajo.",
+      "explanation": "Omit the definite article when languages is used directly as an object of verbs like 'hablar', 'estudiar', or 'aprender'."
+    },
+    {
+      "sentence": "___ maestra Martínez llegó a la aula.",
+      "english": "Professor Martínez arrived to the classroom.",
+      "noun": "maestra Martínez",
+      "article_needed": true,
+      "article_used": "la",
+      "rewritten": "La maestra Martínez llegó a la aula.",
+      "explanation": "Professional titles require a definite article when talking about someone in the third person."
+    },
+    {
+      "sentence": "Buenos días, ___ doctora García.",
+      "english": "Good morning, Doctor García.",
+      "noun": "doctora García",
+      "article_needed": false,
+      "article_used": "Ø (None)",
+      "rewritten": "Buenos días, doctora García.",
+      "explanation": "When addressing someone directly using their title, the definite article is omitted."
+    },
+    {
+      "sentence": "Julio es ___ alcalde del pueblo.",
+      "english": "Julio is the town mayor.",
+      "noun": "alcalde",
+      "article_needed": true,
+      "article_used": "el",
+      "rewritten": "Julio es el alcalde del pueblo.",
+      "explanation": "Identifying sentences with <em>ser</em>, when you say someone is a specific person or something is a specific thing use the definite article."
+    },
+    {
+      "sentence": "Carlos es ___ traductor mexicano que trabaja aquí.",
+      "english": "Carlos is the Mexican translator who works here.",
+      "noun": "traductor mexicano",
+      "article_needed": true,
+      "article_used": "el",
+      "rewritten": "Carlos es el traductor mexicano que trabaja aquí.",
+      "explanation": "Normally classifying professions omit articles ('Carlos es traductor'), but using it together with an adjective ('mexicano') and adding a descriptive clause ('que trabaja aquí') specifies the person and the phrase therefore requires 'el'."
+    }
+  ],
+  "all": [
+    {
+      "sentence": "___ ingeniere Martínez diseñó el puente.",
+      "english": "Engineer Martínez designed the bridge.",
+      "noun": "ingeniere",
+      "article_needed": true,
+      "article_used": "le",
+      "rewritten": "Le ingeniere Martínez diseñó el puente.",
+      "explanation": "Titles when talking about a non-binary individual require the non-binary singular definite article 'le'."
+    },
+    {
+      "sentence": "___ amigues de Álex vienen a la fiesta.",
+      "english": "Álex's friends are coming to the party.",
+      "noun": "amigues",
+      "article_needed": true,
+      "article_used": "les",
+      "rewritten": "Les amigues de Álex vienen a la fiesta.",
+      "explanation": "When referring to a plural group of non-binary or gender non-conforming individuals in the third person, the non-binary plural article 'les' is used."
+    },
+    {
+      "sentence": "___ profesore explica la lección.",
+      "english": "The professor explains the lesson.",
+      "noun": "profesore",
+      "article_needed": true,
+      "article_used": "le",
+      "rewritten": "Le profesore explica la lección.",
+      "explanation": "When referring to a non-binary or gender non-conforming individual in the third person, the non-binary plural article 'le' is used."
+    },
+    {
+      "sentence": "Hola, ___ profesore.",
+      "english": "Hello, professor.",
+      "noun": "profesore",
+      "article_needed": false,
+      "article_used": "Ø (None)",
+      "rewritten": "Hola, profesore.",
+      "explanation": "Direct address omits the article, regardless of whether standard or inclusive terminology is used."
+    }
+  ]
+}

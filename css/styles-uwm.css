@@ -265,6 +265,16 @@ h4 {
     margin-bottom: 1rem;
 }
 
+/* Equal-width columns, for tables like the definite article reference table */
+.equal-width-table {
+    table-layout: fixed;
+}
+
+.equal-width-table th,
+.equal-width-table td {
+    width: 25%;
+}
+
 /* Column width control for 4-column pronoun tables */
 .reference-table .col-person   { width: 28%; }
 .reference-table .col-pronoun  { width: 14%; }
