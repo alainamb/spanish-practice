@@ -52,7 +52,7 @@
       "article_needed": true,
       "article_used": "las",
       "rewritten": "Me lavo las manos antes de comer.",
-      "explanation": "Body parts used with reflexive verbs use definite articles ('las') instead of possessive adjectives ('my')."
+      "explanation": "Body parts used with reflexive verbs use definite articles ('las' here) instead of possessive adjectives ('my')."
     },
     {
       "sentence": "Siempre tengo una reunión en la mañana ___ lunes.",
@@ -135,7 +135,7 @@
       "article_needed": true,
       "article_used": "les",
       "rewritten": "Les amigues de Álex vienen a la fiesta.",
-      "explanation": "When referring to a plural group of non-binary or gender non-conforming individuals in the third person, the non-binary plural article 'les' is used."
+      "explanation": "When referring to a plural group of non-binary or gender non-conforming individuals in the third person, the non-binary plural article 'les' can be used."
     },
     {
       "sentence": "___ profesore explica la lección.",
@@ -153,7 +153,7 @@
       "article_needed": false,
       "article_used": "Ø (None)",
       "rewritten": "Hola, profesore.",
-      "explanation": "Direct address omits the article, regardless of whether standard or inclusive terminology is used."
+      "explanation": "Direct address omits the article, regardless of whether standard or inclusive vocabulary is used."
     }
   ]
 }
