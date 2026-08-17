@@ -19,6 +19,7 @@
       "conjugationsPresent": {
         "yo": "abro",
         "tú": "abres",
+        "vos": "abrís",
         "él": "abre",
         "ella": "abre",
         "elle": "abre",
@@ -35,6 +36,7 @@
       "conjugationsPreterite": {
         "yo": "abrí",
         "tú": "abriste",
+        "vos": "abriste",
         "él": "abrió",
         "ella": "abrió",
         "elle": "abrió",
@@ -51,6 +53,7 @@
       "conjugationsImperfect": {
         "yo": "abría",
         "tú": "abrías",
+        "vos": "abrías",
         "él": "abría",
         "ella": "abría",
         "elle": "abría",
